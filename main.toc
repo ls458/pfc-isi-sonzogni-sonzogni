@@ -1,0 +1,58 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Índice general}{\es@scroman {ii}}{chapter*.1}%
+\contentsline {chapter}{Índice de símbolos}{\es@scroman {iii}}{chapter*.2}%
+\contentsline {chapter}{Índice de figuras}{\es@scroman {v}}{chapter*.3}%
+\contentsline {chapter}{Índice de tablas}{\es@scroman {vii}}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Acerca de la empresa/organización}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Descripción general de la empresa}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Estructura jerárquica de la empresa}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Descripción física de la empresa}{3}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Divisiones espaciales y emplazamiento}{3}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Descripción de los depósitos y composición de inventarios}{4}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Descripción de los procesos de producción}{4}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Descripción del problema}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Control de inventarios}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Control de la producción}{11}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Enfoque de resolución del problema}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Características generales del proyecto}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Modelo de desarrollo del software utilizado}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Metodología de desarrollo y coordinación del equipo}{13}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Descripción general de la solución planteada}{14}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Ejecución del proyecto}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Etapa de análisis inicial}{15}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Requerimientos del sistema e historias de usuario}{15}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Estimación de tiempos y riesgos del proyecto}{16}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Descripción general de usuario y perfiles}{16}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Uso de plataformas del sistema}{17}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Estructura general del sistema (diagrama de clases)}{18}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Estructura de la base de datos}{18}{subsection.5.1.6}%
+\contentsline {section}{\numberline {5.2}Preparación inicial del proyecto}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Iteración I}{19}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Planificación}{19}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Comparación entre estimaciones y tiempos de ejecución}{19}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Iteración II}{21}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Planificación}{21}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Comparación entre estimaciones y tiempos de ejecución}{21}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Iteración III}{23}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Planificación}{23}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Comparación entre estimaciones y tiempos de ejecución}{23}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Iteración IV}{25}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Planificación}{25}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Comparación entre estimaciones y tiempos de ejecución}{25}{subsection.5.6.2}%
+\contentsline {section}{\numberline {5.7}Iteración V}{28}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Planificación}{28}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Comparación entre estimaciones y tiempos de ejecución}{28}{subsection.5.7.2}%
+\contentsline {section}{\numberline {5.8}Modificaciones finales}{29}{section.5.8}%
+\contentsline {chapter}{\numberline {6}Control de calidad}{30}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Comparación entre teoría y práctica}{32}{chapter.7}%
+\contentsline {section}{\numberline {7.1}En la metodología implementada}{32}{section.7.1}%
+\contentsline {section}{\numberline {7.2}En la gestión de riesgos}{32}{section.7.2}%
+\contentsline {section}{\numberline {7.3}En las estimaciones de tiempo y esfuerzo}{32}{section.7.3}%
+\contentsline {section}{\numberline {7.4}En el control de calidad}{32}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Evaluación de la calidad del proyecto}{33}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{34}{chapter.9}%
+\contentsline {chapter}{A. Refinamiento de las US}{35}{chapter*.28}%
+\contentsline {chapter}{B. Mock-ups y pantallas desarrolladas}{63}{chapter*.90}%
+\contentsline {chapter}{C. Plan de gestión de riesgos}{92}{chapter*.161}%
+\contentsline {chapter}{Bibliografía}{100}{chapter*.165}%
