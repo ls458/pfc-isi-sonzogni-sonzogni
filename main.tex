@@ -232,6 +232,7 @@ Luciano Daniel Sonzogni\\
 %numbering style for the following chapters
 
 \chapter{Introducción}
+\indent\colorbox{orange}{Hacer...}
 
 \chapter{Acerca de la empresa/organización}
 \section{Descripción general de la empresa}
@@ -401,9 +402,10 @@ Se considera que, a pesar de haberse optado por la adopción de un método de de
 \indent Las \hyperlink{US}{US} se identifican en base a la importancia de negocio así como a la prioridad de desarrollo con el fin de poder establecer un orden de implementación acorde (aunque finalmente, como se menciona en la subsección \ref{requerimientos_del_sistema_e_historias_de_usuario}, ya que el proyecto consta de un solo release, se optó por una prioridad basada únicamente en la dependencia de desarrollo de las \hyperlink{US}{US}). En relación a esto se seleccionan las \hyperlink{US}{US} a implementar por iteración, teniéndose siempre presente que no será posible seleccionar más \hyperlink{US}{US} que las que puedan implementarse de acuerdo a la velocidad estimada.\\
 \indent Ya que lo que se intenta es que las estimaciones de los points asignados a las \hyperlink{US}{US} guarden una correcta proporción en cuanto a sus complejidades relativas, así como no introducir más errores humanos al añadir otra posible fuente de error debido a otra estimación basada en la subjetividad del equipo de desarrollo, la velocidad de desarrollo del equipo (cantidad de points finalizados/iteración) será tomada en una iteración dada en función de lo evidenciado en la precedente. Es decir, la velocidad del equipo no puede superar a la obtenida en la práctica en la iteración anterior. Esto, claro está, no puede ser aplicado a la iteración I, para lo que no queda alternativa a la de asignar una velocidad inicial basada en la experiencia del equipo de desarrollo.\\
 \indent Luego de planificada la iteración, los miembros del equipo de desarrollo se dividen las \hyperlink{US}{US} (o incluso las tasks) que cada uno desea implementar.\\
-\indent\colorbox{orange}{Seguir kamisama}
+\indent\colorbox{orange}{Seguir...}
 
 \section{Descripción general de la solución planteada}
+\indent\colorbox{orange}{Hacer...}
 
 \chapter{Ejecución del proyecto}
 \section{Etapa de análisis inicial}
@@ -539,6 +541,8 @@ Cabe aclarar que se intentó expresar las historias de usuario basándose en el 
 
 
 \subsection{Estimación de tiempos y riesgos del proyecto}
+\indent\colorbox{orange}{Describir cómo se estiman los tiempos (Story Points, etc.) y los riesgos del proyecto (apéndice C)}
+
 \subsection{Descripción general de usuario y perfiles}
 
 \begin{itemize}
@@ -546,17 +550,20 @@ Cabe aclarar que se intentó expresar las historias de usuario basándose en el 
 \item \textbf{Encargado de producción:} realiza el control de los procesos de producción. Debe contar con autorización sobre los proyectos y tareas de producción registrados.
 \item \textbf{Encargado de mantenimiento:} está encargado del control de stock en los depósitos. Debe tener autorización sobre los valores de inventarios (reducción, aumento, seteo, establecimiento de parámetros como unidades de medida, registro de nuevos insumos, etc.)
 \item \textbf{Encargado de reposición:} registra la entrada de material e instrumentos en los depósitos así como su salida, estas se dan en contexto de adquisición así como de traslado para su uso dentro de la misma sucursal o entre sucursales distintas. Se prevé que solo tenga autorizaciones de modificación de valores en las cantidades almacenadas de los insumos registrados en los inventarios.
-\item \colorbox{orange}{\textbf{Empleado de producción:}}\\
+\item \textbf{Empleado de producción:}
+responsable de ejecutar tareas asignadas dentro de los proyectos de la empresa. Puede registrar información sobre el estado de dichas tareas para el seguimiento y control del proceso productivo.
 \end{itemize}
 
 \subsection{Uso de plataformas del sistema} Por cuestiones de comodidad, se solicitó que al menos el perfil de gerente general pueda acceder a través de PC al sistema, mientras que el resto de los trabajadores con perfil en el sistema tengan la posibilidad de ingresar de manera móvil de modo de poder registrar sus acciones sin necesidad de recurrir al uso de una PC como en el primer caso.\\
 \indent Sin embargo, debido a la posibilidad de un acceso distinto al mencionado, a pesar de tenerse actualmente perfiles asociados con formas tentativas de uso de las plataformas del sistema, los perfiles no deben tener una restricción en cuanto a método de acceso del usuario. Es decir, el usuario independientemente del perfil debe poder ingresar al sistema tanto mediante una PC como mediante el uso de un dispositivo móvil.
 
 \subsection{Estructura general del sistema (diagrama de clases)}
+\colorbox{orange}{Hacer...}
+
 \subsection{Estructura de la base de datos}
-\colorbox{orange}{Mencionar que se planteó una base de datos relacional bla bla}\\
-\colorbox{orange}{Hacer diagrama de entidad relación}\\
-De la estructura dada por el DER (notación de Chen) mostrado \colorbox{orange}{en la fig. n} se obtuvieron las tablas mostradas a continuación:
+\colorbox{orange}{Mencionar que se planteó una base de datos relacional, etc.}\\
+\colorbox{orange}{Agregar diagrama de entidad relación}\\
+De la estructura dada por el DER (notación de Chen) mostrado \colorbox{orange}{en la fig. n} se obtuvieron las tablas listadas a continuación:
 \\\\
 \noindent\textbf{usuario}(\underline{nombre}, contrasenia, tipo, activo, per\_nombre, per\_apellido)
 \\\\
@@ -734,7 +741,7 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 		\hline
 		\textbf{9} & Agregar insumo a proyecto & 8 y 3 \\
 		\hline
-		\textbf{10} & Administrar tipos de proyectos & 1 \\
+		\textbf{10} & Administrar tipos de proyectos & 1 y 23 \\
 		\hline
 		\textbf{11} & Editar tarea & 8 \\
 		\hline
@@ -854,7 +861,7 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 		\hline
 		\textbf{9} & Agregar insumo a proyecto & 8 y 3 \\
 		\hline
-		\textbf{10} & \cellcolor{marca_US_realizada}Administrar tipos de proyectos & 1 \\
+		\textbf{10} & \cellcolor{marca_US_realizada}Administrar tipos de proyectos & 1 y 23 \\
 		\hline
 		\textbf{11} & Editar tarea & 8 \\
 		\hline
@@ -984,7 +991,7 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 		\hline
 		\textbf{9} & \cellcolor{marca_US_realizada}Agregar insumo a proyecto & 8 y 3 \\
 		\hline
-		\textbf{10} & \cellcolor{marca_US_realizada_anterior}Administrar tipos de proyectos & 1 \\
+		\textbf{10} & \cellcolor{marca_US_realizada_anterior}Administrar tipos de proyectos & 1 y 23 \\
 		\hline
 		\textbf{11} & \cellcolor{marca_US_realizada}Editar tarea & 8 \\
 		\hline
@@ -1028,13 +1035,16 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 		\textbf{28} & Eliminar tipo de tarea & 23 
 		\\
 		\hline
+		\textbf{29} & Eliminar proyecto & 8 
+		\\
+		\hline
 	\end{tabular}
 	\caption{Dependencias de desarrollo actualizadas entre las \protect\hyperlink{US}{US} definidas.}
 	\label{tabla_dependencias_us_it4}
 \end{table*}
 
 \subsection{Comparación entre estimaciones y tiempos de ejecución}
-Se muestra en la tabla \ref{tabla_dependencias_us_it4} de forma análoga para este caso las dependencias de las \hyperlink{US}{US} definidas para llevar a cabo la iteración IV. Del mismo modo, las responsabilidades definidas para el equipo de desarrollo pueden verse en la tabla \ref{tabla_desarrollo_iter_4}.\\
+Se muestra en la tabla \ref{tabla_dependencias_us_it4} de forma análoga para este caso las dependencias de las \hyperlink{US}{US} definidas para llevar a cabo la iteración IV. Del mismo modo, las responsabilidades definidas para el equipo de desarrollo pueden verse en la tabla \ref{tabla_desarrollo_iter_4}. En este caso se ha agregado la \hyperlink{US}{US} 29 (Eliminar proyecto), la cual proviene de la \hyperlink{US}{US} 8.\\
 \indent El valor ajustado de velocidad al finalizar la iteración III había sido de 8 horas de trabajo individual por \hyperlink{SP}{SP}. Si se tiene en cuenta que cada integrante del equipo de desarrollo realiza 20 horas de trabajo semanales, y que para cada iteración se ha convenido en emplear un tiempo de tres semanas, se tienen 7,5 \hyperlink{SP}{SP} asignables a cada miembro para esta iteración.
 
 \begin{table*}[h!]
@@ -1097,7 +1107,7 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 
 \begin{table*}[h!]
 	\centering
-	\begin{tabular}{ |p{0.5cm}|p{9cm}|c|  }
+	\begin{tabular}{ |p{0.5cm}|p{10cm}|c|  }
 		\hline
 		\verb|#|& \textbf{Nombre de \hyperlink{US}{US}}& \textbf{Dependencia} \\
 		\hline
@@ -1119,7 +1129,7 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 		\hline
 		\textbf{9} & \cellcolor{marca_US_realizada_anterior}Agregar insumo a proyecto & 8 y 3 \\
 		\hline
-		\textbf{10} & \cellcolor{marca_US_realizada_anterior}Administrar tipos de proyectos & 1 \\
+		\textbf{10} & \cellcolor{marca_US_realizada_anterior}Administrar tipos de proyectos & 1 y 23 \\
 		\hline
 		\textbf{11} & \cellcolor{marca_US_realizada_anterior}Editar tarea & 8 \\
 		\hline
@@ -1163,27 +1173,96 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 		\textbf{28} & \cellcolor{marca_US_realizada}Eliminar tipo de tarea & 23 
 		\\
 		\hline
+		\textbf{29} & \cellcolor{marca_US_realizada}Eliminar proyecto & 8 
+		\\
+		\hline
+		\textbf{30} & \cellcolor{marca_US_realizada}Eliminar tipo de proyecto & 10 
+		\\
+		\hline
+		\textbf{31} & \cellcolor{marca_US_realizada}Generar reporte de insumos disponibles en cada depósito & 5 
+		\\
+		\hline
 	\end{tabular}
 	\caption{Dependencias de desarrollo actualizadas entre las \protect\hyperlink{US}{US} definidas.}
 	\label{tabla_dependencias_us_it5}
 \end{table*}
 
 \subsection{Comparación entre estimaciones y tiempos de ejecución}
-\colorbox{orange}{Seguir kamisama}
+Se muestra en la tabla \ref{tabla_dependencias_us_it5} de forma análoga para este caso las dependencias de las \hyperlink{US}{US} definidas para llevar a cabo la iteración V. Del mismo modo, las responsabilidades definidas para el equipo de desarrollo pueden verse en la tabla \ref{tabla_desarrollo_iter_5}. En este caso se han agregado las \hyperlink{US}{US} 30 (\textit{Eliminar tipo de proyecto}) y 31 (\textit{Generar reporte de insumos disponibles en cada depósito}), las cuales provienen de las \hyperlink{US}{US} 10 y de la necesidad del cliente de generar un registro del estado de los depósitos (algo que se hizo evidente luego de la implementación de las \hyperlink{US}{US} 20 y 21, \textit{Eliminar depósito} y \textit{Eliminar sucursal}) respectivamente.\\
+\indent El valor ajustado de velocidad al finalizar la iteración IV había sido de 8 horas de trabajo individual por \hyperlink{SP}{SP}. Si se tiene en cuenta que cada integrante del equipo de desarrollo realiza 20 horas de trabajo semanales, y que para cada iteración se ha convenido en emplear un tiempo de tres semanas, se tienen 7,5 \hyperlink{SP}{SP} asignables a cada miembro para esta iteración.
+
+\begin{table*}[h!]
+	\centering
+	\begin{tabular}{ |p{0.5cm}|p{6cm}|c|c|c|c| }
+		\hline
+		\verb|#|& \textbf{Nombre de \hyperlink{US}{US}}& \textbf{Encargado} & \textbf{Estimado [\hyperlink{SP}{SP}]} & \textbf{Real [\hyperlink{SP}{SP}]} \\
+		\hline
+		\textbf{19} & Eliminar usuario & \cellcolor{marca_US_emir}Emir S. & 1 & 0,875 \\
+		\hline
+		\textbf{20} & Eliminar depósito & \cellcolor{marca_US_luciano}Luciano S. & 1 & 0,75 \\
+		\hline
+		\textbf{21} & Eliminar sucursal & \cellcolor{marca_US_luciano}Luciano S. & 1 & 0,625 \\
+		\hline
+		\textbf{22} & Eliminar cliente & \cellcolor{marca_US_emir}Emir S. & 0,5 & 0,75 \\
+		\hline
+		\textbf{26} & Eliminar insumo & \cellcolor{marca_US_luciano}Luciano S. & 0,5 & 0,375 \\
+		\hline
+		\textbf{27} & Eliminar tipo de insumo & \cellcolor{marca_US_luciano}Luciano S. & 0,5 & 0,375 \\
+		\hline
+		\textbf{28} & Eliminar tipo de tarea & \cellcolor{marca_US_emir}Emir S. & 1 & 1,25 \\
+		\hline
+		\textbf{29} & Eliminar proyecto & \cellcolor{marca_US_emir}Emir S. & 1 & 1 \\
+		\hline
+		\textbf{30} & Eliminar tipo de proyecto & \cellcolor{marca_US_emir}Emir S. & 0,5 & 0,375 \\
+		\hline
+		\textbf{31} & Generar reporte de insumos disponibles en cada depósito & \cellcolor{marca_US_luciano}Luciano S. & 1 & 1,625 \\
+		\hline
+	\end{tabular}
+	\caption{División de tareas de las \protect\hyperlink{US}{US} desarrolladas en la iteración V.}
+	\label{tabla_desarrollo_iter_5}
+\end{table*}
+
+De acuerdo con los datos mostrados en la tabla \ref{tabla_desarrollo_iter_5}, con el valor de velocidad inicial de 8 horas de trabajo individual por \hyperlink{SP}{SP} (obtenida en base a la práctica de acuerdo a los datos ya abordados en la iteración IV), se infiere que en esta quinta iteración se han realizado 8 \hyperlink{SP}{SP} (estimación inicial) en 64 horas de trabajo individual total real (8 \hyperlink{SP}{SP} reales). Se recalcula por lo tanto la velocidad de desarrollo como el cociente entre la cantidad de horas individuales totales trabajadas y la cantidad de \hyperlink{SP}{SP} estimadas, obteniéndose el nuevo valor de \begin{math}\lceil 8\rceil\end{math} horas (8 horas) de trabajo individual por \hyperlink{SP}{SP}. Es decir que en este caso el valor de la velocidad real fue superior al de la iteración IV, pero sin modificar el valor de cantidad de horas a emplear por \hyperlink{US}{US} en una eventual siguiente iteración (VI), que en tal caso debería ser a su vez de 8 horas.\\
+\indent En la tabla \ref{tabla_dif_horas_estim_iter_5} se muestran los errores de estimación por \hyperlink{US}{US} desarrollada tomando como velocidad inicial de desarrollo la nueva calculada (8 horas).
+
+\begin{table*}[h!]
+	\centering
+	\captionsetup{justification=centering,margin=1.5cm}
+	\begin{tabular}{ |p{0.5cm}|l|c|c|c|c| }
+		\hline
+		\verb|#|& \textbf{Nombre de \hyperlink{US}{US}}& \textbf{Estimado[hs]} & \textbf{Real [hs]} & \textbf{Desviación [hs]} \\
+		\hline
+		\textbf{19} & Eliminar usuario & 8 & 7 & \cellcolor{diferencia_estimacion_positiva}1 \\
+		\hline
+		\textbf{20} & Eliminar depósito & 8 & 6 & \cellcolor{diferencia_estimacion_positiva}2 \\
+		\hline
+		\textbf{21} & Eliminar sucursal & 8 & 5 & \cellcolor{diferencia_estimacion_positiva}3 \\
+		\hline
+		\textbf{22} & Eliminar cliente & 4 & 6 & \cellcolor{diferencia_estimacion_negativa}-2 \\
+		\hline
+		\textbf{26} & Eliminar insumo & 4 & 3 & \cellcolor{diferencia_estimacion_positiva}1 \\
+		\hline
+		\textbf{27} & Eliminar tipo de insumo & 4 & 3 & \cellcolor{diferencia_estimacion_positiva}1 \\
+		\hline
+		\textbf{28} & Eliminar tipo de tarea & 8 & 10 & \cellcolor{diferencia_estimacion_negativa}-2 \\
+		\hline
+		\textbf{29} & Eliminar proyecto & 8 & 8 & \cellcolor{diferencia_estimacion_positiva}0 \\
+		\hline
+		\textbf{30} & Eliminar tipo de proyecto & 4 & 3 & \cellcolor{diferencia_estimacion_positiva}1 \\
+		\hline
+		\textbf{31} & \parbox[c]{6cm}{\vspace{2pt} Generar reporte de insumos disponibles en cada depósito \vspace{2pt}} & 8 & 13 & \cellcolor{diferencia_estimacion_negativa}-5 \\
+		\hline
+	\end{tabular}
+	\caption{Diferencias entre horas estimadas y reales de desarrollo para las \protect\hyperlink{US}{US} pertenecientes a la iteración V con el nuevo valor calculado de velocidad.}
+	\label{tabla_dif_horas_estim_iter_5}
+\end{table*}
+
+\indent Considerando que en ningún caso se obtuvo una desviación de al menos 1 \hyperlink{SP}{SP}, en esta iteración las estimaciones han sido en general bastante aceptables. Asimismo, se debe tener en cuenta que, casi en la totalidad de los casos, las \hyperlink{US}{US} tratadas en la iteración han tenido relación mayormente con eliminaciones en la base de datos. Solo en la \hyperlink{US}{US} 31 las complejidades provinieron de las propias de la actividad de desarrollo, y, en este caso particular, de generar un reporte, para lo que no se tenía hasta el momento ningún antecedente. Es por esto que no es inesperado que ninguna de las estimaciones haya excedido el valor de 1 \hyperlink{SP}{SP}, y, debido a la baja complejidad de las \hyperlink{US}{US}, las estimaciones hayan sido relativamente buenas.\\
+\indent El valor de la velocidad calculada, como ya fuera mencionado, se mantuvo. De hecho, en este caso se obtuvo un valor exacto de 8 horas, dejando a su vez invariante la velocidad práctica, aunque en los anteriores casos se tomara necesariamente el entero superior (techo) del valor calculado. De cualquier modo, no se ha hecho uso en este caso del tiempo total de la iteración, utilizándose solo 64 de las 120 horas disponibles.
 
 \section{Modificaciones finales}
-\colorbox{orange}{Agregar contexto a esto y al final cuánto tiempo tomaron aproximadamente estas modificaciones. Luego compararlas con los tiempos de las historias de usuario hechas y decir algo al respecto.}
-\begin{itemize}
-	\item Verificación del formato de entrada de datos mediante el uso de expresiones regulares.
-	\item Verificación de propiedades deseadas en el ingreso de datos del usuario. Por ejemplo, que en la estructura dada a un tipo de proyecto, los tipos de tarea que la conforman junto con sus interdependencias puedan ser representados en forma de grafo dirigido acíclico (GDA) conexo.
-	\item Adición de modales de confirmación en los casos en que se crea necesario para confirmar modificaciones consideradas más críticas.
-	\item Adición de campos en tablas de la base de datos, para facilitar un manejo más simple y directo de los datos obtenidos en las consultas del sistema.
-	\item Mejoras en la estética de las pantallas así como en la presentación de los datos para lograr homogeneidad en el sistema. Por ejemplo, la señalización con color rojo de los botones que producen la supresión de registros en la base de datos.
-\end{itemize}
+Luego de concluida la iteración V, es posible obtener un diagrama final de dependencias entre las \hyperlink{US}{US} definidas a lo largo del proyecto. Este puede verse en la figura \ref{diagrama_dependencias_US}, y a su vez contrastarse con el previamente realizado con las \hyperlink{US}{US} definidas antes del inicio de la iteración I, mostrado en la figura \ref{diagrama_dependencias_US_final}.
 
-\chapter{Control de calidad}
-
-\colorbox{orange}{Ver dónde poner la siguiente imagen (diagrama de dependencias final)}
 \begin{figure}[h]
 	\begin{center}
 		\setlength{\fboxsep}{10pt} % Ajusta el padding
@@ -1201,41 +1280,43 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 				\Vertex[LabelOut,Lpos=270,L=$us_2$,x=2,y=8]{R2}
 				\Vertex[LabelOut,Lpos=270,L=$us_7$,x=2,y=6]{R7}
 				\Vertex[LabelOut,Lpos=270,L=$us_4$,x=2,y=4]{R4}
-				\Vertex[LabelOut,Lpos=270,L=$us_{10}$,x=2,y=2]{R10}
-				\Vertex[LabelOut,Lpos=270,L=$us_{18}$,x=2,y=0]{R18}
-				\Vertex[LabelOut,Lpos=270,L=$us_{23}$,x=2,y=-2]{R23}
+				\Vertex[LabelOut,Lpos=270,L=$us_{18}$,x=2,y=2]{R18}
+				\Vertex[LabelOut,Lpos=270,L=$us_{23}$,x=2,y=0]{R23}
 				\Vertex[LabelOut,Lpos=270,L=$us_{24}$,x=2,y=-4]{R24}
 				
 				\Vertex[LabelOut,Lpos=270,L=$us_6$,x=4,y=6]{R6}
 				\Vertex[LabelOut,Lpos=270,L=$us_3$,x=4,y=4]{R3}
 				\Vertex[LabelOut,Lpos=270,L=$us_{27}$,x=4,y=3]{R27}
-				\Vertex[LabelOut,Lpos=270,L=$us_8$,x=4,y=1]{R8}
-				\Vertex[LabelOut,Lpos=270,L=$us_{28}$,x=4,y=-2]{R28}
+				\Vertex[LabelOut,Lpos=270,L=$us_{10}$,x=4,y=0]{R10}
+				\Vertex[LabelOut,Lpos=270,L=$us_{28}$,x=4,y=-2]{R28}	\Vertex[LabelOut,Lpos=270,L=$us_{30}$,x=6,y=-1]{R30}
 				
 				\Vertex[LabelOut,Lpos=270,L=$us_{20}$,x=6,y=6]{R20}
 				\Vertex[LabelOut,Lpos=270,L=$us_5$,x=6,y=5]{R5}
 				\Vertex[LabelOut,Lpos=270,L=$us_{26}$,x=6,y=4]{R26}
-				\Vertex[LabelOut,Lpos=270,L=$us_9$,x=6,y=3]{R9}
-				\Vertex[LabelOut,Lpos=270,L=$us_{16}$,x=6,y=2]{R16}
-				\Vertex[LabelOut,Lpos=270,L=$us_{11}$,x=6,y=1]{R11}
-				\Vertex[LabelOut,Lpos=270,L=$us_{15}$,x=6,y=0]{R15}
-				\Vertex[LabelOut,Lpos=270,L=$us_{22}$,x=6,y=-1]{R22}
-				\Vertex[LabelOut,Lpos=270,L=$us_{25}$,x=6,y=-2]{R25}
+				\Vertex[LabelOut,Lpos=270,L=$us_8$,x=6,y=1]{R8}
 				
 				\Vertex[LabelOut,Lpos=270,L=$us_{21}$,x=8,y=6]{R21}
-				\Vertex[LabelOut,Lpos=270,L=$us_{12}$,x=8,y=2]{R12}
-				\Vertex[LabelOut,Lpos=270,L=$us_{14}$,x=8,y=0]{R14}
+				\Vertex[LabelOut,Lpos=270,L=$us_{31}$,x=8,y=5]{R31}
+				\Vertex[LabelOut,Lpos=270,L=$us_9$,x=8,y=3]{R9}
+				\Vertex[LabelOut,Lpos=270,L=$us_{16}$,x=8,y=2]{R16}
+				\Vertex[LabelOut,Lpos=270,L=$us_{11}$,x=8,y=1]{R11}
+				\Vertex[LabelOut,Lpos=270,L=$us_{15}$,x=8,y=0]{R15}
+				\Vertex[LabelOut,Lpos=270,L=$us_{22}$,x=8,y=-1]{R22}
+				\Vertex[LabelOut,Lpos=270,L=$us_{25}$,x=8,y=-2]{R25}
+				\Vertex[LabelOut,Lpos=270,L=$us_{29}$,x=8,y=-3]{R29}
 				
-				\Vertex[LabelOut,Lpos=270,L=$us_{19}$,x=10,y=8]{R19}
-				\Vertex[LabelOut,Lpos=270,L=$us_{13}$,x=10,y=3]{R13}
-				\Vertex[LabelOut,Lpos=270,L=$us_{17}$,x=10,y=1]{R17}
+				\Vertex[LabelOut,Lpos=270,L=$us_{12}$,x=10,y=2]{R12}
+				\Vertex[LabelOut,Lpos=270,L=$us_{14}$,x=10,y=0]{R14}
+				
+				\Vertex[LabelOut,Lpos=270,L=$us_{19}$,x=12,y=8]{R19}
+				\Vertex[LabelOut,Lpos=270,L=$us_{13}$,x=12,y=3]{R13}
+				\Vertex[LabelOut,Lpos=270,L=$us_{17}$,x=12,y=1]{R17}
 				
 				%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 				
 				\Edge (R1)(R2)
-				\Edge (R1)(R4)
 				\Edge (R1)(R7)
-				\Edge (R1)(R10)
+				\Edge (R1)(R4)
 				\Edge (R1)(R18)
 				\Edge (R1)(R23)
 				\Edge (R1)(R24)
@@ -1243,14 +1324,20 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 				\Edge (R7)(R6)
 				\Edge (R4)(R3)
 				\Edge (R4)(R27)
-				\Edge (R10)(R8)
+				\Edge (R1)(R10)
+				\Edge (R23)(R10)
 				\Edge (R23)(R28)
 				
 				\Edge (R6)(R20)
-				\Edge (R3)(R20)
 				\Edge (R6)(R5)
+				\Edge (R3)(R20)
 				\Edge (R3)(R5)
 				\Edge (R3)(R26)
+				\Edge (R10)(R8)
+				\Edge (R10)(R30)
+				
+				\Edge (R20)(R21)
+				\Edge (R5)(R31)
 				\Edge (R3)(R9)
 				\Edge (R8)(R9)
 				\Edge (R8)(R16)
@@ -1258,8 +1345,8 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 				\Edge (R8)(R15)
 				\Edge (R8)(R22)
 				\Edge (R8)(R25)
+				\Edge (R8)(R29)
 				
-				\Edge (R20)(R21)
 				\Edge (R11)(R12)
 				\Edge (R11)(R14)
 				
@@ -1271,9 +1358,21 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 			\end{tikzpicture}
 		}
 		\caption{Diagrama de dependencias entre las \protect\hyperlink{US}{US} definidas hasta la iteración V.}
-		\label{diagrama_dependencias_US}
+		\label{diagrama_dependencias_US_final}
 	\end{center}
 \end{figure}
+
+Asimismo, se realizaron modificaciones que se creyeron pertinentes, las cuales tuvieron mayormente relación con la homogeneidad del formato esperado en el sistema, así como con aspectos tratados de manera laxa al momento de realizarse las iteraciones.
+\begin{itemize}
+	\item Verificación del formato de entrada de datos mediante el uso de expresiones regulares.
+	\item Verificación de propiedades deseadas en el ingreso de datos del usuario. Por ejemplo, que en la estructura dada a un tipo de proyecto, los tipos de tarea que la conforman junto con sus interdependencias puedan ser representados en forma de grafo dirigido acíclico (DAG) conexo.
+	\item Adición de modales de confirmación en los casos en que se crea necesario para confirmar modificaciones consideradas más críticas.
+	\item Adición de campos en tablas de la base de datos, para facilitar un manejo más simple y directo de los datos obtenidos en las consultas del sistema.
+	\item Mejoras en la estética de las pantallas así como en la presentación de los datos para lograr homogeneidad en el sistema. Por ejemplo, la señalización con color rojo de los botones que producen la supresión de registros en la base de datos.
+\end{itemize}
+\colorbox{orange}{Agregar cuánto tiempo tomaron aproximadamente estas modificaciones. Luego compararlas con los tiempos de las historias de usuario hechas y decir algo al respecto.}
+
+\chapter{Control de calidad}
 
 \begin{figure}[H]
 	\centering
@@ -1304,7 +1403,7 @@ Las \hyperlink{US}{US} resultantes de lo descrito para el caso de la iteración 
 			] coordinates {(1,5) (2,3) (3,8) (4,6) (5,3)};
 		\end{axis}
 	\end{tikzpicture}
-	\caption{Gráfico de la cantidad de errores evidenciados en cada iteración.}
+	\caption{Gráfico de la cantidad de errores evidenciados en cada iteración.\newline\colorbox{orange}{(poner valores reales y descipción)}}
 	\label{grafico_errores_iteracion}
 \end{figure}
 
@@ -1320,7 +1419,7 @@ Se considera que, si bien el análisis presentado en la sección \ref{Caracteris
 
 \section{En la gestión de riesgos}
 En el \hyperlink{apendice_c}{Apéndice C} se muestra el \textit{Plan de gestión de riesgos} ya presentado a la cátedra de PFC con anterioridad en el Plan de proyecto.\\
-\colorbox{orange}{Seguir kamisama}\\
+\colorbox{orange}{Seguir...}\\
 \colorbox{orange}{Relacionarlo con el \textit{7.1 En la metodología implementada}}
 
 \section{En las estimaciones de tiempo y esfuerzo}
@@ -1338,6 +1437,7 @@ El PMI\textsuperscript{\tiny\textregistered} (Project Management Institute) ha d
 \colorbox{orange}{Decir respecto a estos dos aspectos si al parecer se puede decir que el proyecto tuvo o no una buena calidad}\\
 
 \chapter{Conclusiones}
+\colorbox{orange}{Hacer...}
 
 
 %%% quitamos el número del capítulo de la cabecera %%%
@@ -2323,7 +2423,7 @@ El encargado de producción y los empleados de producción deben poder visualiza
 
 \section*{Iteración V}
 \subsection*{Eliminar usuario}
-\colorbox{orange}{Completar}
+El gerente general debe poder eliminar usuarios del sistema.
 
 % custom commands
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
@@ -2341,13 +2441,21 @@ El encargado de producción y los empleados de producción deben poder visualiza
 		\hline 
 		\textbf{Número:} 19 & \textbf{Nombre:} Eliminar usuario \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
-		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} \colorbox{orange}{n.} \\ \hline
-		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} \colorbox{orange}{n.} }\\
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 1 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 0,875 }\\
 		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{\colorbox{orange}{lakjsdlkasndlkansldknalsdkn}}\\
+		\multicolumn{2}{| X |}{El gerente general puede eliminar los usuarios del sistema de forma permanente.\newline
+		Se requiere la confirmación del usuario para proceder con la eliminación.\newline
+		Al eliminar un usuario también se eliminan las notificaciones que el usuario haya recibido.\newline
+		Al eliminar un usuario se lo desasigna de las tareas no finalizadas a las que fue asignado. Si alguna de estas tareas asignadas al usuario fueron iniciadas deben marcarse como pendientes.\newline
+		Si se elimina un usuario con tareas asignadas finalizadas, estas deben ser reasignadas al pseudousuario “Usuario\_eliminado”.\newline
+		Si se elimina un usuario que ha realizado comentarios en tareas, estas deben ser marcadas como realizadas por el pseudousuario “Usuario\_eliminado”.\newline
+		No se puede eliminar el pseudousuario “Usuario\_eliminado”.\newline
+		Un usuario no puede eliminarse a sí mismo.
+		}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -2361,10 +2469,11 @@ El encargado de producción y los empleados de producción deben poder visualiza
 %%%%%%%%%%%%%%%
 \indent
 \\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\
 \pagebreak
 
 \subsection*{Eliminar depósito}
-\colorbox{orange}{Completar}
+El encargado de mantenimiento debe poder eliminar depósitos.
 
 % custom commands
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
@@ -2382,13 +2491,18 @@ El encargado de producción y los empleados de producción deben poder visualiza
 		\hline 
 		\textbf{Número:} 20 & \textbf{Nombre:} Eliminar depósito \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
-		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} \colorbox{orange}{n.} \\ \hline
-		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} \colorbox{orange}{n.} }\\
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 1 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 0,75 }\\
 		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{\colorbox{orange}{lakjsdlkasndlkansldknalsdkn}}\\
+		\multicolumn{2}{| X |}{El encargado de mantenimiento puede eliminar los depósitos del sistema de forma permanente.\newline
+		Se requiere la confirmación del usuario para proceder con la eliminación.\newline
+		Se requiere que el usuario seleccione un depósito sustituto para que, al desasignar de un proyecto insumos provenientes del depósito a eliminar, se envíen a tal depósito sustituto.\newline
+		Al eliminar un depósito también se eliminan las provisiones de insumos asociadas al depósito.\newline
+		No es posible eliminar un depósito si este es el único del sistema.
+		}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -2402,10 +2516,12 @@ El encargado de producción y los empleados de producción deben poder visualiza
 %%%%%%%%%%%%%%%
 \indent
 \\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\
+\\
 \pagebreak
 
 \subsection*{Eliminar sucursal}
-\colorbox{orange}{Completar}
+El encargado de mantenimiento debe poder eliminar sucursales.
 
 % custom commands
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
@@ -2423,13 +2539,19 @@ El encargado de producción y los empleados de producción deben poder visualiza
 		\hline 
 		\textbf{Número:} 21 & \textbf{Nombre:} Eliminar sucursal \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
-		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} \colorbox{orange}{n.} \\ \hline
-		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} \colorbox{orange}{n.} }\\
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 1 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 0,625 }\\
 		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{\colorbox{orange}{lakjsdlkasndlkansldknalsdkn}}\\
+		\multicolumn{2}{| X |}{El encargado de mantenimiento puede eliminar las sucursales del sistema de forma permanente.\newline
+		Se requiere la confirmación del usuario para proceder con la eliminación.\newline
+		Se requiere que el usuario seleccione un depósito sustituto para que, al desasignar de un proyecto insumos provenientes de depósitos de la sucursal a eliminar, se envíen a tal depósito sustituto.\newline
+		Al eliminar una sucursal también se eliminan los depósitos asociados.\newline
+		Al eliminar una sucursal también se eliminan las provisiones de insumos asociadas a la sucursal.\newline
+		No es posible eliminar una sucursal si esta acción conlleva la eliminación de todos los depósitos del sistema.
+		}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -2443,10 +2565,11 @@ El encargado de producción y los empleados de producción deben poder visualiza
 %%%%%%%%%%%%%%%
 \indent
 \\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\
 \pagebreak
 
 \subsection*{Eliminar cliente}
-\colorbox{orange}{Completar}
+El gerente general debe poder eliminar clientes registrados en el sistema.
 
 % custom commands
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
@@ -2464,13 +2587,18 @@ El encargado de producción y los empleados de producción deben poder visualiza
 		\hline 
 		\textbf{Número:} 22 & \textbf{Nombre:} Eliminar cliente \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
-		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} \colorbox{orange}{n.} \\ \hline
-		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} \colorbox{orange}{n.} }\\
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 0,5 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 0,75 }\\
 		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{\colorbox{orange}{lakjsdlkasndlkansldknalsdkn}}\\
+		\multicolumn{2}{| X |}{El gerente general puede eliminar clientes.\newline
+		Se requiere la confirmación del usuario para proceder con la eliminación.\newline
+		Al eliminar un cliente se eliminan los proyectos relacionados a este, así como las tareas que los componen y los comentarios relacionados.\newline
+		Al eliminar un cliente se eliminan los insumos de los que es propietario.\newline
+		No es posible eliminar un cliente que tenga proyectos con reservas de insumos propiedad de Imprenta Lux S.A.
+		}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -2484,10 +2612,11 @@ El encargado de producción y los empleados de producción deben poder visualiza
 %%%%%%%%%%%%%%%
 \indent
 \\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\
 \pagebreak
 
 \subsection*{Eliminar insumo}
-\colorbox{orange}{Completar}
+El encargado de mantenimiento debe poder eliminar insumos.
 
 % custom commands
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
@@ -2505,13 +2634,17 @@ El encargado de producción y los empleados de producción deben poder visualiza
 		\hline 
 		\textbf{Número:} 26 & \textbf{Nombre:} Eliminar insumo \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
-		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} \colorbox{orange}{n.} \\ \hline
-		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} \colorbox{orange}{n.} }\\
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 0,5 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 0,375 }\\
 		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{\colorbox{orange}{lakjsdlkasndlkansldknalsdkn}}\\
+		\multicolumn{2}{| X |}{El encargado de mantenimiento puede eliminar los insumos registrados en el sistema de forma permanente.\newline
+		Se requiere la confirmación del usuario para proceder con la eliminación.\newline
+		El sistema advierte si es que hay reservas del insumo a eliminar asociadas a proyectos no finalizados, indicando de qué proyectos se trata antes de proceder con la eliminación.\newline
+		Al eliminar un insumo también se eliminan las reservas de dicho insumo asociadas a proyectos.
+		}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -2525,10 +2658,12 @@ El encargado de producción y los empleados de producción deben poder visualiza
 %%%%%%%%%%%%%%%
 \indent
 \\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\
+\\
 \pagebreak
 
 \subsection*{Eliminar tipo de insumo}
-\colorbox{orange}{Completar}
+El encargado de mantenimiento debe poder eliminar tipos de insumos.
 
 % custom commands
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
@@ -2546,13 +2681,19 @@ El encargado de producción y los empleados de producción deben poder visualiza
 		\hline 
 		\textbf{Número:} 27 & \textbf{Nombre:} Eliminar tipo de insumo \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
-		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} \colorbox{orange}{n.} \\ \hline
-		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} \colorbox{orange}{n.} }\\
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 0,5 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 0,375 }\\
 		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{\colorbox{orange}{lakjsdlkasndlkansldknalsdkn}}\\
+		\multicolumn{2}{| X |}{El encargado de mantenimiento puede eliminar los tipos de insumos registrados en el sistema de forma permanente.\newline
+		Se requiere la confirmación del usuario para proceder con la eliminación.\newline
+		El sistema advierte si es que hay reservas de insumos del tipo de insumo a eliminar asociadas a proyectos no finalizados, indicando de qué proyectos se trata antes de proceder con la eliminación.\newline
+		El sistema indica los insumos que serán eliminados en caso de proceder con la eliminación.\newline
+		Al eliminar un tipo de insumo también se eliminan los insumos de dicho tipo de insumo.\newline
+		Al eliminar un tipo de insumo también se eliminan las reservas de dicho tipo de insumo asociadas a proyectos.
+		}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -2566,10 +2707,11 @@ El encargado de producción y los empleados de producción deben poder visualiza
 %%%%%%%%%%%%%%%
 \indent
 \\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\
 \pagebreak
 
 \subsection*{Eliminar tipo de tarea}
-\colorbox{orange}{Completar}
+El encargado de producción debe poder eliminar los tipos de tareas registrados.
 
 % custom commands
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
@@ -2587,13 +2729,17 @@ El encargado de producción y los empleados de producción deben poder visualiza
 		\hline 
 		\textbf{Número:} 28 & \textbf{Nombre:} Eliminar tipo de tarea \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
-		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} \colorbox{orange}{n.} \\ \hline
-		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} \colorbox{orange}{n.} }\\
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 1 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 1,25 }\\
 		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{\colorbox{orange}{lakjsdlkasndlkansldknalsdkn}}\\
+		\multicolumn{2}{| X |}{El encargado de producción puede eliminar tipos de tareas de forma permanente.\newline
+		Se requiere la confirmación del usuario para proceder con la eliminación.\newline
+		El sistema indica los tipos de proyectos que están relacionados al tipo de tarea a eliminar.\newline
+		No es posible eliminar un tipo de tarea si está siendo usado para definir la secuencia de tareas de un tipo de proyecto.
+		}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -2607,6 +2753,147 @@ El encargado de producción y los empleados de producción deben poder visualiza
 %%%%%%%%%%%%%%%
 \indent
 \\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\
+\\\\
+\pagebreak
+
+\subsection*{Eliminar proyecto}
+El encargado de producción debe poder eliminar proyectos.
+
+% custom commands
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+%%%%%%%%%%%%%%%
+% this line fixes the vertical padding of text inside the cells
+\renewcommand{\arraystretch}{1.4}
+
+\begin{table*}[h!]
+	\centering
+	\begin{tabularx}
+		{\textwidth}{|L{6cm}|L{8cm}|}
+		\hline 
+		\textbf{Número:} 29 & \textbf{Nombre:} Eliminar proyecto \\ \hline
+		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 1 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 1 }\\
+		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
+		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
+		
+		\hline
+		\multicolumn{2}{| X |}{El encargado de producción puede eliminar proyectos.\newline
+		Se requiere la confirmación del usuario para proceder con la eliminación.\newline
+		Si el proyecto tiene reservas de insumos relacionadas, el usuario debe seleccionar a qué depósito/s serán enviadas antes de proceder con la eliminación.\newline
+		Al eliminar un proyecto también se eliminan las tareas y comentarios asociados a este.
+		}\\
+		
+		\hline
+		\multicolumn{2}{| X |}
+		{\textbf{Observaciones:} - }\\
+		
+		\hline
+	\end{tabularx}
+	\caption*{Tabla A.\arabic{counter_tbl_A}: Refinamiento de \hyperlink{US}{US} 29.}
+	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 29.}\stepcounter{counter_tbl_A}
+\end{table*}
+%%%%%%%%%%%%%%%
+\indent
+\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\
+\\\\
+\pagebreak
+
+\subsection*{Eliminar tipo de proyecto}
+El encargado de producción debe poder eliminar tipos de proyecto.
+
+% custom commands
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+%%%%%%%%%%%%%%%
+% this line fixes the vertical padding of text inside the cells
+\renewcommand{\arraystretch}{1.4}
+
+\begin{table*}[h!]
+	\centering
+	\begin{tabularx}
+		{\textwidth}{|L{6cm}|L{8cm}|}
+		\hline 
+		\textbf{Número:} 30 & \textbf{Nombre:} Eliminar tipo de proyecto \\ \hline
+		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 0,5 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 0,375 }\\
+		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
+		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
+		
+		\hline
+		\multicolumn{2}{| X |}{El encargado de producción puede eliminar tipos de proyecto.\newline
+		Se requiere la confirmación del usuario para proceder con la eliminación.
+		}\\
+		
+		\hline
+		\multicolumn{2}{| X |}
+		{\textbf{Observaciones:} - }\\
+		
+		\hline
+	\end{tabularx}
+	\caption*{Tabla A.\arabic{counter_tbl_A}: Refinamiento de \hyperlink{US}{US} 30.}
+	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 30.}\stepcounter{counter_tbl_A}
+\end{table*}
+%%%%%%%%%%%%%%%
+\indent
+\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\
+\pagebreak
+
+\subsection*{Generar reporte de insumos disponibles en cada depósito}
+El encargado de mantenimiento debe poder generar y guardar una copia de la lista de los insumos disponibles actualmente en cada depósito.
+
+% custom commands
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+%%%%%%%%%%%%%%%
+% this line fixes the vertical padding of text inside the cells
+\renewcommand{\arraystretch}{1.4}
+
+\begin{table*}[h!]
+	\centering
+	\begin{tabularx}
+		{\textwidth}{|L{6cm}|L{8cm}|}
+		\hline 
+		\textbf{Número:} 31 & \textbf{Nombre:} Generar reporte de insumos disponibles en cada depósito \\ \hline
+		\multicolumn{2}{| X |}{\textbf{Usuario:} \colorbox{orange}{Todos.} }\\ \hline
+		\textbf{Iteración Asignada:} 5 & \textbf{Puntos Estimados:} 1 \\ \hline
+		\textbf{Prioridad en Negocio:} \colorbox{orange}{Baja} & \multirow{2}{*}{}{\textbf{Puntos Reales:} 1,625 }\\
+		\cline{1-1} \textbf{Riesgo en Desarrollo:} \colorbox{orange}{Bajo} & \\ \hline
+		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
+		
+		\hline
+		\multicolumn{2}{| X |}{El encargado de mantenimiento puede generar una lista indicando, para cada depósito, la cantidad de cada insumo allí disponible.\newline
+		La lista se genera en formato XLSX.\newline
+		La existencia de cada depósito se muestra en hojas de cálculo separadas.\newline
+		Los insumos disponibles se muestran en filas separadas, indicando su nombre/designación, cantidad disponible y la unidad de medida.\newline
+		El usuario puede seleccionar el directorio local donde desea guardar el informe generado.
+		}\\
+		
+		\hline
+		\multicolumn{2}{| X |}
+		{\textbf{Observaciones:} - }\\
+		
+		\hline
+	\end{tabularx}
+	\caption*{Tabla A.\arabic{counter_tbl_A}: Refinamiento de \hyperlink{US}{US} 31.}
+	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 31.}\stepcounter{counter_tbl_A}
+\end{table*}
+%%%%%%%%%%%%%%%
+\indent
+\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\
 \pagebreak
 
 
