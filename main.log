@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.15)  24 MAR 2025 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.15)  24 MAR 2025 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1927,8 +1927,8 @@ Underfull \vbox (badness 2119) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 719.
-LaTeX Info: Redefining \% on input line 719.
+LaTeX Info: Redefining \. on input line 715.
+LaTeX Info: Redefining \% on input line 715.
 [20]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1941,31 +1941,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Info: Redefining \. on input line 811.
 LaTeX Info: Redefining \% on input line 811.
 [21]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 1072) has occurred while \output is active []
+Underfull \vbox (badness 2096) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 835.
-LaTeX Info: Redefining \% on input line 835.
+LaTeX Info: Redefining \. on input line 811.
+LaTeX Info: Redefining \% on input line 811.
 [22]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-
-LaTeX Info: Redefining \. on input line 940.
-LaTeX Info: Redefining \% on input line 940.
+LaTeX Info: Redefining \. on input line 936.
+LaTeX Info: Redefining \% on input line 936.
 [23]
-Underfull \vbox (badness 1484) has occurred while \output is active []
-
-
 
 LaTeX Info: Redefining \. on input line 940.
 LaTeX Info: Redefining \% on input line 940.
@@ -1975,9 +1965,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-LaTeX Info: Redefining \. on input line 1071.
-LaTeX Info: Redefining \% on input line 1071.
+LaTeX Info: Redefining \. on input line 1049.
+LaTeX Info: Redefining \% on input line 1049.
 [25]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 
 LaTeX Info: Redefining \. on input line 1075.
 LaTeX Info: Redefining \% on input line 1075.
@@ -5907,7 +5901,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  40820 strings out of 473535
  922718 string characters out of 5713967
- 1423253 words of memory out of 5000000
+ 1422253 words of memory out of 5000000
  63026 multiletter control sequences out of 15000+600000
  572810 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5931,7 +5925,7 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/L
 uciano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 <C:/Users/Luciano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/lat
 xfont/lasy10.pfb>
-Output written on main.pdf (112 pages, 8488824 bytes).
+Output written on main.pdf (112 pages, 8489194 bytes).
 PDF statistics:
  1942 PDF objects out of 2073 (max. 8388607)
  395 named destinations out of 1000 (max. 500000)
