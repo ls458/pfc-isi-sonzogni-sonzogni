@@ -19,40 +19,47 @@
 \contentsline {section}{\numberline {4.2}Modelo de desarrollo del software utilizado}{12}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Metodología de desarrollo y coordinación del equipo}{13}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Descripción general de la solución planteada}{14}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Ejecución del proyecto}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Etapa de análisis inicial}{15}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Requerimientos del sistema e historias de usuario}{15}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Estimación de tiempos y riesgos del proyecto}{16}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Descripción general de usuario y perfiles}{16}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Uso de plataformas del sistema}{17}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}Estructura general del sistema (diagrama de clases)}{18}{subsection.5.1.5}%
-\contentsline {subsection}{\numberline {5.1.6}Estructura de la base de datos}{18}{subsection.5.1.6}%
-\contentsline {section}{\numberline {5.2}Preparación inicial del proyecto}{19}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Iteración I}{19}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Planificación}{19}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Comparación entre estimaciones y tiempos de ejecución}{19}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Iteración II}{21}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Planificación}{21}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Comparación entre estimaciones y tiempos de ejecución}{21}{subsection.5.4.2}%
-\contentsline {section}{\numberline {5.5}Iteración III}{23}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Planificación}{23}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Comparación entre estimaciones y tiempos de ejecución}{23}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6}Iteración IV}{25}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Planificación}{25}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Comparación entre estimaciones y tiempos de ejecución}{25}{subsection.5.6.2}%
-\contentsline {section}{\numberline {5.7}Iteración V}{28}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Planificación}{28}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}Comparación entre estimaciones y tiempos de ejecución}{28}{subsection.5.7.2}%
-\contentsline {section}{\numberline {5.8}Modificaciones finales}{30}{section.5.8}%
-\contentsline {chapter}{\numberline {6}Control de calidad}{32}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Comparación entre teoría y práctica}{33}{chapter.7}%
-\contentsline {section}{\numberline {7.1}En la metodología implementada}{33}{section.7.1}%
-\contentsline {section}{\numberline {7.2}En la gestión de riesgos}{33}{section.7.2}%
-\contentsline {section}{\numberline {7.3}En las estimaciones de tiempo y esfuerzo}{33}{section.7.3}%
-\contentsline {section}{\numberline {7.4}En el control de calidad}{33}{section.7.4}%
-\contentsline {chapter}{\numberline {8}Evaluación de la calidad del proyecto}{34}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Conclusiones}{35}{chapter.9}%
-\contentsline {chapter}{A. Refinamiento de las US}{36}{chapter*.30}%
-\contentsline {chapter}{B. Mock-ups y pantallas desarrolladas}{67}{chapter*.98}%
-\contentsline {chapter}{C. Plan de gestión de riesgos}{96}{chapter*.169}%
-\contentsline {chapter}{Bibliografía}{104}{chapter*.173}%
+\contentsline {chapter}{\numberline {5}Ejecución del proyecto}{16}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Etapa de análisis inicial}{16}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Requerimientos del sistema e historias de usuario}{16}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Estimación de tiempos y riesgos del proyecto}{17}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Descripción general de usuario y perfiles}{17}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Uso de plataformas del sistema}{18}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Arquitectura del sistema}{19}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Estructura general del sistema (diagrama de clases)}{19}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Estructura de la base de datos}{19}{subsection.5.1.7}%
+\contentsline {section}{\numberline {5.2}Preparación inicial del proyecto}{20}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Iteración I}{21}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Planificación}{21}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Comparación entre estimaciones y tiempos de ejecución}{21}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Iteración II}{22}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Planificación}{22}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Comparación entre estimaciones y tiempos de ejecución}{23}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Iteración III}{25}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Planificación}{25}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Comparación entre estimaciones y tiempos de ejecución}{26}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}Iteración IV}{27}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Planificación}{27}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Comparación entre estimaciones y tiempos de ejecución}{27}{subsection.5.6.2}%
+\contentsline {section}{\numberline {5.7}Iteración V}{29}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Planificación}{29}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Comparación entre estimaciones y tiempos de ejecución}{29}{subsection.5.7.2}%
+\contentsline {section}{\numberline {5.8}Modificaciones finales}{32}{section.5.8}%
+\contentsline {chapter}{\numberline {6}Control de calidad}{34}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Comparación entre teoría y práctica}{36}{chapter.7}%
+\contentsline {section}{\numberline {7.1}En la metodología implementada}{36}{section.7.1}%
+\contentsline {section}{\numberline {7.2}En la gestión de riesgos}{37}{section.7.2}%
+\contentsline {section}{\numberline {7.3}En las estimaciones de tiempo}{38}{section.7.3}%
+\contentsline {section}{\numberline {7.4}En las estimaciones de esfuerzo}{41}{section.7.4}%
+\contentsline {section}{\numberline {7.5}En el control de calidad}{42}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Evaluación de la calidad del proyecto}{43}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{45}{chapter.9}%
+\contentsline {chapter}{A. Refinamiento de las US}{47}{chapter*.33}%
+\contentsline {chapter}{B. Mock-ups y pantallas desarrolladas}{78}{chapter*.101}%
+\contentsline {chapter}{C. Objetivos del proyecto}{107}{chapter*.172}%
+\contentsline {section}{\numberline {C.1}Objetivos generales}{107}{section.Alph0.1}%
+\contentsline {section}{\numberline {C.2}Objetivos específicos}{107}{section.Alph0.2}%
+\contentsline {chapter}{D. Plan de gestión de riesgos}{108}{appendix*.173}%
+\contentsline {chapter}{E. Diagramas de clases y de E-R}{116}{section*.177}%
+\contentsline {chapter}{F. Errores encontrados por iteración}{119}{appendix*.180}%
+\contentsline {chapter}{Bibliografía}{123}{appendix*.181}%

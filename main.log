@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.15)  24 MAR 2025 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.4.8)  31 MAY 2025 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1536,7 +1536,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<Logo.png, id=234, 775.39688pt x 123.46124pt>
+<Logo.png, id=262, 775.39688pt x 123.46124pt>
 File: Logo.png Graphic file (type png)
 <use Logo.png>
 Package pdftex.def Info: Logo.png  used on input line 175.
@@ -1633,7 +1633,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.237 \chapter
+l.241 \chapter
               {Acerca de la empresa/organización} [1
 
 
@@ -1644,103 +1644,93 @@ Cap\'{\i }tulo 2.
 [2
 
 ]
-<Organigrama Imprenta Lux.jpg, id=603, 2710.125pt x 1620.80531pt>
+<Organigrama Imprenta Lux.jpg, id=647, 2710.125pt x 1620.80531pt>
 File: Organigrama Imprenta Lux.jpg Graphic file (type jpg)
 <use Organigrama Imprenta Lux.jpg>
-Package pdftex.def Info: Organigrama Imprenta Lux.jpg  used on input line 268.
+Package pdftex.def Info: Organigrama Imprenta Lux.jpg  used on input line 272.
 (pdftex.def)             Requested size: 487.80145pt x 291.73236pt.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 27
-9.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 28
+4.
  (C:\Users\Luciano\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (623.21603pt too wide) in paragraph at lines 279--281
-[][][][][][] 
- []
 
-
-Overfull \hbox (983.05812pt too wide) in paragraph at lines 281--283
-[][][][][][] 
- []
-
-
-
-LaTeX Info: Redefining \. on input line 289.
-LaTeX Info: Redefining \% on input line 289.
+LaTeX Info: Redefining \. on input line 290.
+LaTeX Info: Redefining \% on input line 290.
 [3 <./Organigrama Imprenta Lux.jpg>]
-<Orden de taller.jpg, id=610, 603.81586pt x 835.80255pt>
+<Orden de taller.jpg, id=654, 603.81586pt x 835.80255pt>
 File: Orden de taller.jpg Graphic file (type jpg)
 <use Orden de taller.jpg>
-Package pdftex.def Info: Orden de taller.jpg  used on input line 300.
+Package pdftex.def Info: Orden de taller.jpg  used on input line 309.
 (pdftex.def)             Requested size: 452.8608pt x 626.85037pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagrama de Actividad Produccion Almanaques.png, id=615, 1716.4125pt x 3309.36
+<Diagrama de Actividad Produccion Almanaques.png, id=659, 1716.4125pt x 3309.36
 375pt>
 File: Diagrama de Actividad Produccion Almanaques.png Graphic file (type png)
 <use Diagrama de Actividad Produccion Almanaques.png>
 Package pdftex.def Info: Diagrama de Actividad Produccion Almanaques.png  used 
-on input line 313.
+on input line 322.
 (pdftex.def)             Requested size: 326.12177pt x 628.78566pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagrama de Actividad Produccion Libros.png, id=616, 3155.79pt x 4821.01125pt>
+<Diagrama de Actividad Produccion Libros.png, id=660, 3155.79pt x 4821.01125pt>
 
 File: Diagrama de Actividad Produccion Libros.png Graphic file (type png)
 <use Diagrama de Actividad Produccion Libros.png>
 Package pdftex.def Info: Diagrama de Actividad Produccion Libros.png  used on i
-nput line 324.
+nput line 333.
 (pdftex.def)             Requested size: 410.2671pt x 626.75348pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagrama de Actividad Produccion Revistas.png, id=617, 3176.86874pt x 4146.491
+<Diagrama de Actividad Produccion Revistas.png, id=661, 3176.86874pt x 4146.491
 26pt>
 File: Diagrama de Actividad Produccion Revistas.png Graphic file (type png)
 <use Diagrama de Actividad Produccion Revistas.png>
 Package pdftex.def Info: Diagrama de Actividad Produccion Revistas.png  used on
- input line 335.
+ input line 344.
 (pdftex.def)             Requested size: 476.50977pt x 621.94687pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Diagrama de Actividad Produccion Volantes.png, id=618, 1782.66pt x 3339.47626p
+<Diagrama de Actividad Produccion Volantes.png, id=662, 1782.66pt x 3339.47626p
 t>
 File: Diagrama de Actividad Produccion Volantes.png Graphic file (type png)
 <use Diagrama de Actividad Produccion Volantes.png>
 Package pdftex.def Info: Diagrama de Actividad Produccion Volantes.png  used on
- input line 346.
+ input line 355.
 (pdftex.def)             Requested size: 329.78694pt x 617.79344pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-LaTeX Info: Redefining \. on input line 352.
-LaTeX Info: Redefining \% on input line 352.
+LaTeX Info: Redefining \. on input line 361.
+LaTeX Info: Redefining \% on input line 361.
 [4]
 
-LaTeX Info: Redefining \. on input line 352.
-LaTeX Info: Redefining \% on input line 352.
+LaTeX Info: Redefining \. on input line 361.
+LaTeX Info: Redefining \% on input line 361.
 [5 <./Orden de taller.jpg>]
 
-LaTeX Info: Redefining \. on input line 352.
-LaTeX Info: Redefining \% on input line 352.
+LaTeX Info: Redefining \. on input line 361.
+LaTeX Info: Redefining \% on input line 361.
 [6 <./Diagrama de Actividad Produccion Almanaques.png>]
 
-LaTeX Info: Redefining \. on input line 352.
-LaTeX Info: Redefining \% on input line 352.
+LaTeX Info: Redefining \. on input line 361.
+LaTeX Info: Redefining \% on input line 361.
 [7 <./Diagrama de Actividad Produccion Libros.png>]
 
-LaTeX Info: Redefining \. on input line 352.
-LaTeX Info: Redefining \% on input line 352.
+LaTeX Info: Redefining \. on input line 361.
+LaTeX Info: Redefining \% on input line 361.
 [8 <./Diagrama de Actividad Produccion Revistas.png>]
 
-LaTeX Info: Redefining \. on input line 352.
-LaTeX Info: Redefining \% on input line 352.
+LaTeX Info: Redefining \. on input line 361.
+LaTeX Info: Redefining \% on input line 361.
 [9 <./Diagrama de Actividad Produccion Volantes.png>]
 Cap\'{\i }tulo 3.
 
@@ -1752,8 +1742,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 
-LaTeX Info: Redefining \. on input line 366.
-LaTeX Info: Redefining \% on input line 366.
+LaTeX Info: Redefining \. on input line 375.
+LaTeX Info: Redefining \% on input line 375.
 [11]
 Cap\'{\i }tulo 4.
 
@@ -1762,13 +1752,17 @@ Cap\'{\i }tulo 4.
 
 ]
 
-LaTeX Info: Redefining \. on input line 406.
-LaTeX Info: Redefining \% on input line 406.
+LaTeX Info: Redefining \. on input line 416.
+LaTeX Info: Redefining \% on input line 416.
 [13]
 
-LaTeX Info: Redefining \. on input line 410.
-LaTeX Info: Redefining \% on input line 410.
+LaTeX Info: Redefining \. on input line 424.
+LaTeX Info: Redefining \% on input line 424.
 [14]
+
+LaTeX Info: Redefining \. on input line 425.
+LaTeX Info: Redefining \% on input line 425.
+[15]
 Cap\'{\i }tulo 5.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1785,222 +1779,208 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[15
+[16
 
 ]
-Overfull \hbox (34.84299pt too wide) in paragraph at lines 544--545
-[][][][][][][] 
- []
 
-
-
-LaTeX Info: Redefining \. on input line 553.
-LaTeX Info: Redefining \% on input line 553.
-[16]
-Underfull \vbox (badness 1675) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 563.
-LaTeX Info: Redefining \% on input line 563.
+LaTeX Info: Redefining \. on input line 569.
+LaTeX Info: Redefining \% on input line 569.
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 564--607
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 607.
-LaTeX Info: Redefining \% on input line 607.
+LaTeX Info: Redefining \. on input line 576.
+LaTeX Info: Redefining \% on input line 576.
 [18]
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
 
-LaTeX Info: Redefining \. on input line 691.
-LaTeX Info: Redefining \% on input line 691.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--628
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 628.
+LaTeX Info: Redefining \% on input line 628.
 [19]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 2119) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 715.
-LaTeX Info: Redefining \% on input line 715.
+LaTeX Info: Redefining \. on input line 638.
+LaTeX Info: Redefining \% on input line 638.
 [20]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+
+LaTeX Info: Redefining \. on input line 713.
+LaTeX Info: Redefining \% on input line 713.
+[21]
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-LaTeX Info: Redefining \. on input line 811.
-LaTeX Info: Redefining \% on input line 811.
-[21]
-Underfull \vbox (badness 2096) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 811.
-LaTeX Info: Redefining \% on input line 811.
+LaTeX Info: Redefining \. on input line 810.
+LaTeX Info: Redefining \% on input line 810.
 [22]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-
-LaTeX Info: Redefining \. on input line 936.
-LaTeX Info: Redefining \% on input line 936.
-[23]
-
-LaTeX Info: Redefining \. on input line 940.
-LaTeX Info: Redefining \% on input line 940.
-[24]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-LaTeX Info: Redefining \. on input line 1049.
-LaTeX Info: Redefining \% on input line 1049.
-[25]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-LaTeX Info: Redefining \. on input line 1075.
-LaTeX Info: Redefining \% on input line 1075.
-[26]
-
-LaTeX Info: Redefining \. on input line 1103.
-LaTeX Info: Redefining \% on input line 1103.
-[27]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-
-LaTeX Info: Redefining \. on input line 1262.
-LaTeX Info: Redefining \% on input line 1262.
-[28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 1265.
-LaTeX Info: Redefining \% on input line 1265.
+LaTeX Info: Redefining \. on input line 834.
+LaTeX Info: Redefining \% on input line 834.
+[23]
+
+LaTeX Info: Redefining \. on input line 859.
+LaTeX Info: Redefining \% on input line 859.
+[24]
+
+LaTeX Info: Redefining \. on input line 940.
+LaTeX Info: Redefining \% on input line 940.
+[25]
+
+LaTeX Info: Redefining \. on input line 989.
+LaTeX Info: Redefining \% on input line 989.
+[26]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+LaTeX Info: Redefining \. on input line 1128.
+LaTeX Info: Redefining \% on input line 1128.
+[27]
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1128.
+LaTeX Info: Redefining \% on input line 1128.
+[28]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+LaTeX Info: Redefining \. on input line 1219.
+LaTeX Info: Redefining \% on input line 1219.
 [29]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+LaTeX Info: Redefining \. on input line 1253.
+LaTeX Info: Redefining \% on input line 1253.
+[30]
+
+LaTeX Info: Redefining \. on input line 1288.
+LaTeX Info: Redefining \% on input line 1288.
+[31]
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2013,18 +1993,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-LaTeX Info: Redefining \. on input line 1370.
-LaTeX Info: Redefining \% on input line 1370.
-[30]
-Overfull \hbox (372.35614pt too wide) in paragraph at lines 1373--1374
-[][][][][][] 
- []
+LaTeX Info: Redefining \. on input line 1400.
+LaTeX Info: Redefining \% on input line 1400.
+[32]
 
-
-
-LaTeX Info: Redefining \. on input line 1375.
-LaTeX Info: Redefining \% on input line 1375.
-[31]
+LaTeX Info: Redefining \. on input line 1400.
+LaTeX Info: Redefining \% on input line 1400.
+[33]
 Cap\'{\i }tulo 6.
 
 ! Package tikz Error: You need to say \usetikzlibrary{patterns}.
@@ -2033,7 +2008,7 @@ See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1404 		\end{axis}
+l.1435 		\end{axis}
                    
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -2047,47 +2022,124 @@ See the tikz package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1404 		\end{axis}
+l.1435 		\end{axis}
                    
 (That was another \errmessage.)
 
 
-
-[32
-
-]
-Cap\'{\i }tulo 7.
-
-
-[33
-
-]
-Cap\'{\i }tulo 8.
-
-Overfull \hbox (88.79659pt too wide) in paragraph at lines 1437--1438
-[][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
-
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [34
 
 ]
-Cap\'{\i }tulo 9.
+
+[35]
+Cap\'{\i }tulo 7.
 
 
-[35
+[36
 
 ]
+
+LaTeX Info: Redefining \. on input line 1466.
+LaTeX Info: Redefining \% on input line 1466.
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1474--1476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1480--1483
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1487--1490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1494--1497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1501--1505
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 1505.
+LaTeX Info: Redefining \% on input line 1505.
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 1509--1512
+
+ []
+
+<Diagrama_Gantt_1.png, id=1105, 651.18282pt x 433.62pt>
+File: Diagrama_Gantt_1.png Graphic file (type png)
+<use Diagrama_Gantt_1.png>
+Package pdftex.def Info: Diagrama_Gantt_1.png  used on input line 1520.
+(pdftex.def)             Requested size: 455.82486pt x 303.53192pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1525.
+LaTeX Info: Redefining \% on input line 1525.
+[39]
+<Diagrama_Gantt_2.png, id=1110, 770.12718pt x 496.85625pt>
+File: Diagrama_Gantt_2.png Graphic file (type png)
+<use Diagrama_Gantt_2.png>
+Package pdftex.def Info: Diagrama_Gantt_2.png  used on input line 1531.
+(pdftex.def)             Requested size: 462.07986pt x 298.11604pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 1536.
+LaTeX Info: Redefining \% on input line 1536.
+[40 <./Diagrama_Gantt_1.png>]
+
+LaTeX Info: Redefining \. on input line 1544.
+LaTeX Info: Redefining \% on input line 1544.
+[41 <./Diagrama_Gantt_2.png>]
+
+LaTeX Info: Redefining \. on input line 1574.
+LaTeX Info: Redefining \% on input line 1574.
+[42]
+Cap\'{\i }tulo 8.
+
+
+[43
+
+]
+
+LaTeX Info: Redefining \. on input line 1593.
+LaTeX Info: Redefining \% on input line 1593.
+[44]
+Cap\'{\i }tulo 9.
+
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+
+
+[45
+
+]
+
+LaTeX Info: Redefining \. on input line 1607.
+LaTeX Info: Redefining \% on input line 1607.
+[46]
 ! Undefined control sequence.
 <argument> ...store@actives \slshape \nouppercase 
                                                   {Apéndice A - Refinamient...
-l.1451 ...rk{Apéndice A - Refinamiento de las US}
+l.1609 ...rk{Apéndice A - Refinamiento de las US}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2098,7 +2150,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...store@actives \slshape \nouppercase 
                                                   {Apéndice A - Refinamient...
-l.1451 ...rk{Apéndice A - Refinamiento de las US}
+l.1609 ...rk{Apéndice A - Refinamiento de las US}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2109,7 +2161,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...store@actives \slshape \nouppercase 
                                                   {Apéndice A - Refinamient...
-l.1451 ...rk{Apéndice A - Refinamiento de las US}
+l.1609 ...rk{Apéndice A - Refinamiento de las US}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2119,2979 +2171,2929 @@ and I'll forget about whatever was undefined.
 
 \c@counter_tbl_A=\count383
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1501
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1659
 
  []
 
 
 
-[36
+[47
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1539
+Underfull \hbox (badness 10000) in paragraph at lines 1694--1697
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1539.
-LaTeX Info: Redefining \% on input line 1539.
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1582--1586
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1586.
-LaTeX Info: Redefining \% on input line 1586.
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1630
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1630.
-LaTeX Info: Redefining \% on input line 1630.
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1673--1677
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1677.
-LaTeX Info: Redefining \% on input line 1677.
-[40]
-
-Package array Warning: Column L is already defined on input line 1683.
-
-
-Package array Warning: Column C is already defined on input line 1684.
-
-
-Package array Warning: Column R is already defined on input line 1685.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1733
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1733.
-LaTeX Info: Redefining \% on input line 1733.
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1776--1779
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1779.
-LaTeX Info: Redefining \% on input line 1779.
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1819
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1819.
-LaTeX Info: Redefining \% on input line 1819.
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1862.
-LaTeX Info: Redefining \% on input line 1862.
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1912
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1912.
-LaTeX Info: Redefining \% on input line 1912.
-[45]
-
-Package array Warning: Column L is already defined on input line 1918.
-
-
-Package array Warning: Column C is already defined on input line 1919.
-
-
-Package array Warning: Column R is already defined on input line 1920.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1966--1969
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1966--1969
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1966--1969
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1966--1969
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1966--1969
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1966--1969
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1966--1969
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 1969.
-LaTeX Info: Redefining \% on input line 1969.
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2015--2018
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 2018.
-LaTeX Info: Redefining \% on input line 2018.
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2055--2060
-
- []
-
-
-
-LaTeX Info: Redefining \. on input line 2060.
-LaTeX Info: Redefining \% on input line 2060.
+LaTeX Info: Redefining \. on input line 1697.
+LaTeX Info: Redefining \% on input line 1697.
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2093--2098
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1744
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2098.
-LaTeX Info: Redefining \% on input line 2098.
+LaTeX Info: Redefining \. on input line 1744.
+LaTeX Info: Redefining \% on input line 1744.
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2140--2144
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1788
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2144.
-LaTeX Info: Redefining \% on input line 2144.
+LaTeX Info: Redefining \. on input line 1788.
+LaTeX Info: Redefining \% on input line 1788.
 [50]
-
-Package array Warning: Column L is already defined on input line 2150.
-
-
-Package array Warning: Column C is already defined on input line 2151.
-
-
-Package array Warning: Column R is already defined on input line 2152.
-
-
-Overfull \hbox (296.12233pt too wide) in paragraph at lines 2182--2182
-[][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2187--2190
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1835
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2190.
-LaTeX Info: Redefining \% on input line 2190.
+LaTeX Info: Redefining \. on input line 1835.
+LaTeX Info: Redefining \% on input line 1835.
 [51]
 
-Package array Warning: Column L is already defined on input line 2195.
+Package array Warning: Column L is already defined on input line 1841.
 
 
-Package array Warning: Column C is already defined on input line 2196.
+Package array Warning: Column C is already defined on input line 1842.
 
 
-Package array Warning: Column R is already defined on input line 2197.
+Package array Warning: Column R is already defined on input line 1843.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2228--2233
+Underfull \hbox (badness 10000) in paragraph at lines 1888--1891
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2233.
-LaTeX Info: Redefining \% on input line 2233.
+LaTeX Info: Redefining \. on input line 1891.
+LaTeX Info: Redefining \% on input line 1891.
 [52]
-
-Package array Warning: Column L is already defined on input line 2238.
-
-
-Package array Warning: Column C is already defined on input line 2239.
-
-
-Package array Warning: Column R is already defined on input line 2240.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2275--2279
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1937
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2279.
-LaTeX Info: Redefining \% on input line 2279.
+LaTeX Info: Redefining \. on input line 1937.
+LaTeX Info: Redefining \% on input line 1937.
 [53]
-
-Package array Warning: Column L is already defined on input line 2284.
-
-
-Package array Warning: Column C is already defined on input line 2285.
-
-
-Package array Warning: Column R is already defined on input line 2286.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2330--2334
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1974--1977
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2334.
-LaTeX Info: Redefining \% on input line 2334.
+LaTeX Info: Redefining \. on input line 1977.
+LaTeX Info: Redefining \% on input line 1977.
 [54]
-
-Package array Warning: Column L is already defined on input line 2339.
-
-
-Package array Warning: Column C is already defined on input line 2340.
-
-
-Package array Warning: Column R is already defined on input line 2341.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2374--2378
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2016--2020
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2378.
-LaTeX Info: Redefining \% on input line 2378.
+LaTeX Info: Redefining \. on input line 2020.
+LaTeX Info: Redefining \% on input line 2020.
 [55]
-
-Package array Warning: Column L is already defined on input line 2383.
-
-
-Package array Warning: Column C is already defined on input line 2384.
-
-
-Package array Warning: Column R is already defined on input line 2385.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2418--2422
+Underfull \hbox (badness 10000) in paragraph at lines 2066--2070
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2422.
-LaTeX Info: Redefining \% on input line 2422.
+LaTeX Info: Redefining \. on input line 2070.
+LaTeX Info: Redefining \% on input line 2070.
 [56]
 
-Package array Warning: Column L is already defined on input line 2429.
+Package array Warning: Column L is already defined on input line 2076.
 
 
-Package array Warning: Column C is already defined on input line 2430.
+Package array Warning: Column C is already defined on input line 2077.
 
 
-Package array Warning: Column R is already defined on input line 2431.
+Package array Warning: Column R is already defined on input line 2078.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2470--2474
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2127
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2474.
-LaTeX Info: Redefining \% on input line 2474.
+LaTeX Info: Redefining \. on input line 2127.
+LaTeX Info: Redefining \% on input line 2127.
 [57]
-
-Package array Warning: Column L is already defined on input line 2479.
-
-
-Package array Warning: Column C is already defined on input line 2480.
-
-
-Package array Warning: Column R is already defined on input line 2481.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2517--2522
+Underfull \hbox (badness 10000) in paragraph at lines 2173--2176
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2522.
-LaTeX Info: Redefining \% on input line 2522.
+LaTeX Info: Redefining \. on input line 2176.
+LaTeX Info: Redefining \% on input line 2176.
 [58]
-
-Package array Warning: Column L is already defined on input line 2527.
-
-
-Package array Warning: Column C is already defined on input line 2528.
-
-
-Package array Warning: Column R is already defined on input line 2529.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2566--2570
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2213--2218
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2570.
-LaTeX Info: Redefining \% on input line 2570.
+LaTeX Info: Redefining \. on input line 2218.
+LaTeX Info: Redefining \% on input line 2218.
 [59]
-
-Package array Warning: Column L is already defined on input line 2575.
-
-
-Package array Warning: Column C is already defined on input line 2576.
-
-
-Package array Warning: Column R is already defined on input line 2577.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2613--2617
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2251--2256
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2617.
-LaTeX Info: Redefining \% on input line 2617.
+LaTeX Info: Redefining \. on input line 2256.
+LaTeX Info: Redefining \% on input line 2256.
 [60]
-
-Package array Warning: Column L is already defined on input line 2622.
-
-
-Package array Warning: Column C is already defined on input line 2623.
-
-
-Package array Warning: Column R is already defined on input line 2624.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2659--2664
+Underfull \hbox (badness 10000) in paragraph at lines 2298--2302
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2664.
-LaTeX Info: Redefining \% on input line 2664.
+LaTeX Info: Redefining \. on input line 2302.
+LaTeX Info: Redefining \% on input line 2302.
 [61]
 
-Package array Warning: Column L is already defined on input line 2669.
+Package array Warning: Column L is already defined on input line 2308.
 
 
-Package array Warning: Column C is already defined on input line 2670.
+Package array Warning: Column C is already defined on input line 2309.
 
 
-Package array Warning: Column R is already defined on input line 2671.
+Package array Warning: Column R is already defined on input line 2310.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2708--2712
+Underfull \hbox (badness 10000) in paragraph at lines 2345--2348
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2712.
-LaTeX Info: Redefining \% on input line 2712.
+LaTeX Info: Redefining \. on input line 2348.
+LaTeX Info: Redefining \% on input line 2348.
 [62]
 
-Package array Warning: Column L is already defined on input line 2717.
+Package array Warning: Column L is already defined on input line 2353.
 
 
-Package array Warning: Column C is already defined on input line 2718.
+Package array Warning: Column C is already defined on input line 2354.
 
 
-Package array Warning: Column R is already defined on input line 2719.
+Package array Warning: Column R is already defined on input line 2355.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2754--2759
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2391
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2759.
-LaTeX Info: Redefining \% on input line 2759.
+LaTeX Info: Redefining \. on input line 2391.
+LaTeX Info: Redefining \% on input line 2391.
 [63]
 
-Package array Warning: Column L is already defined on input line 2764.
+Package array Warning: Column L is already defined on input line 2396.
 
 
-Package array Warning: Column C is already defined on input line 2765.
+Package array Warning: Column C is already defined on input line 2397.
 
 
-Package array Warning: Column R is already defined on input line 2766.
+Package array Warning: Column R is already defined on input line 2398.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2801--2806
+Underfull \hbox (badness 10000) in paragraph at lines 2433--2437
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2806.
-LaTeX Info: Redefining \% on input line 2806.
+LaTeX Info: Redefining \. on input line 2437.
+LaTeX Info: Redefining \% on input line 2437.
 [64]
 
-Package array Warning: Column L is already defined on input line 2811.
+Package array Warning: Column L is already defined on input line 2442.
 
 
-Package array Warning: Column C is already defined on input line 2812.
+Package array Warning: Column C is already defined on input line 2443.
 
 
-Package array Warning: Column R is already defined on input line 2813.
+Package array Warning: Column R is already defined on input line 2444.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2846--2851
+Underfull \hbox (badness 10000) in paragraph at lines 2488--2492
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2851.
-LaTeX Info: Redefining \% on input line 2851.
+LaTeX Info: Redefining \. on input line 2492.
+LaTeX Info: Redefining \% on input line 2492.
 [65]
 
-Package array Warning: Column L is already defined on input line 2856.
+Package array Warning: Column L is already defined on input line 2497.
 
 
-Package array Warning: Column C is already defined on input line 2857.
+Package array Warning: Column C is already defined on input line 2498.
 
 
-Package array Warning: Column R is already defined on input line 2858.
+Package array Warning: Column R is already defined on input line 2499.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2894--2898
+Underfull \hbox (badness 10000) in paragraph at lines 2532--2536
 
  []
 
 
 
-LaTeX Info: Redefining \. on input line 2898.
-LaTeX Info: Redefining \% on input line 2898.
+LaTeX Info: Redefining \. on input line 2536.
+LaTeX Info: Redefining \% on input line 2536.
 [66]
+
+Package array Warning: Column L is already defined on input line 2541.
+
+
+Package array Warning: Column C is already defined on input line 2542.
+
+
+Package array Warning: Column R is already defined on input line 2543.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2576--2580
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 2580.
+LaTeX Info: Redefining \% on input line 2580.
+[67]
+
+Package array Warning: Column L is already defined on input line 2587.
+
+
+Package array Warning: Column C is already defined on input line 2588.
+
+
+Package array Warning: Column R is already defined on input line 2589.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2628--2632
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 2632.
+LaTeX Info: Redefining \% on input line 2632.
+[68]
+
+Package array Warning: Column L is already defined on input line 2637.
+
+
+Package array Warning: Column C is already defined on input line 2638.
+
+
+Package array Warning: Column R is already defined on input line 2639.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2675--2679
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 2679.
+LaTeX Info: Redefining \% on input line 2679.
+[69]
+
+Package array Warning: Column L is already defined on input line 2684.
+
+
+Package array Warning: Column C is already defined on input line 2685.
+
+
+Package array Warning: Column R is already defined on input line 2686.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2723--2727
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 2727.
+LaTeX Info: Redefining \% on input line 2727.
+[70]
+
+Package array Warning: Column L is already defined on input line 2732.
+
+
+Package array Warning: Column C is already defined on input line 2733.
+
+
+Package array Warning: Column R is already defined on input line 2734.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2770--2774
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 2774.
+LaTeX Info: Redefining \% on input line 2774.
+[71]
+
+Package array Warning: Column L is already defined on input line 2779.
+
+
+Package array Warning: Column C is already defined on input line 2780.
+
+
+Package array Warning: Column R is already defined on input line 2781.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2817--2821
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 2821.
+LaTeX Info: Redefining \% on input line 2821.
+[72]
+
+Package array Warning: Column L is already defined on input line 2826.
+
+
+Package array Warning: Column C is already defined on input line 2827.
+
+
+Package array Warning: Column R is already defined on input line 2828.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2865--2869
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 2869.
+LaTeX Info: Redefining \% on input line 2869.
+[73]
+
+Package array Warning: Column L is already defined on input line 2874.
+
+
+Package array Warning: Column C is already defined on input line 2875.
+
+
+Package array Warning: Column R is already defined on input line 2876.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2911--2916
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 2916.
+LaTeX Info: Redefining \% on input line 2916.
+[74]
+
+Package array Warning: Column L is already defined on input line 2921.
+
+
+Package array Warning: Column C is already defined on input line 2922.
+
+
+Package array Warning: Column R is already defined on input line 2923.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2958--2963
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 2963.
+LaTeX Info: Redefining \% on input line 2963.
+[75]
+
+Package array Warning: Column L is already defined on input line 2968.
+
+
+Package array Warning: Column C is already defined on input line 2969.
+
+
+Package array Warning: Column R is already defined on input line 2970.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3003--3008
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 3008.
+LaTeX Info: Redefining \% on input line 3008.
+[76]
+
+Package array Warning: Column L is already defined on input line 3013.
+
+
+Package array Warning: Column C is already defined on input line 3014.
+
+
+Package array Warning: Column R is already defined on input line 3015.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3051--3055
+
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 3055.
+LaTeX Info: Redefining \% on input line 3055.
+[77]
 ! Undefined control sequence.
 <argument> ...store@actives \slshape \nouppercase 
                                                   {Apéndice B - Mock-ups y ...
-l.2902 ... B - Mock-ups y pantallas desarrolladas}
+l.3059 ... B - Mock-ups y pantallas desarrolladas}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5102,7 +5104,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...store@actives \slshape \nouppercase 
                                                   {Apéndice B - Mock-ups y ...
-l.2902 ... B - Mock-ups y pantallas desarrolladas}
+l.3059 ... B - Mock-ups y pantallas desarrolladas}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5113,7 +5115,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...store@actives \slshape \nouppercase 
                                                   {Apéndice B - Mock-ups y ...
-l.2902 ... B - Mock-ups y pantallas desarrolladas}
+l.3059 ... B - Mock-ups y pantallas desarrolladas}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5122,659 +5124,659 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \c@counter_img_B=\count384
-<pantallas/us01_mockup.jpg, id=1250, 602.25pt x 602.25pt>
+<pantallas/us01_mockup.jpg, id=1399, 602.25pt x 602.25pt>
 File: pantallas/us01_mockup.jpg Graphic file (type jpg)
 <use pantallas/us01_mockup.jpg>
-Package pdftex.def Info: pantallas/us01_mockup.jpg  used on input line 2919.
+Package pdftex.def Info: pantallas/us01_mockup.jpg  used on input line 3076.
 (pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
-<pantallas/us01_desktop.jpg, id=1253, 463.7325pt x 329.73187pt>
+<pantallas/us01_desktop.jpg, id=1402, 463.7325pt x 329.73187pt>
 File: pantallas/us01_desktop.jpg Graphic file (type jpg)
 <use pantallas/us01_desktop.jpg>
-Package pdftex.def Info: pantallas/us01_desktop.jpg  used on input line 2932.
+Package pdftex.def Info: pantallas/us01_desktop.jpg  used on input line 3089.
 (pdftex.def)             Requested size: 357.25096pt x 254.02512pt.
-<pantallas/us01_mobile.jpg, id=1256, 722.7pt x 1525.7pt>
+<pantallas/us01_mobile.jpg, id=1405, 722.7pt x 1525.7pt>
 File: pantallas/us01_mobile.jpg Graphic file (type jpg)
 <use pantallas/us01_mobile.jpg>
-Package pdftex.def Info: pantallas/us01_mobile.jpg  used on input line 2939.
+Package pdftex.def Info: pantallas/us01_mobile.jpg  used on input line 3096.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[67
+[78
 
  <./pantallas/us01_mockup.jpg>]
-<pantallas/us02_mockup_new.png, id=1269, 602.25pt x 603.25375pt>
+<pantallas/us02_mockup_new.png, id=1418, 602.25pt x 603.25375pt>
 File: pantallas/us02_mockup_new.png Graphic file (type png)
 <use pantallas/us02_mockup_new.png>
-Package pdftex.def Info: pantallas/us02_mockup_new.png  used on input line 2953
+Package pdftex.def Info: pantallas/us02_mockup_new.png  used on input line 3110
 .
 (pdftex.def)             Requested size: 283.05753pt x 283.5293pt.
-<pantallas/us02_desktop_new.jpg, id=1272, 493.845pt x 359.84438pt>
+<pantallas/us02_desktop_new.jpg, id=1421, 493.845pt x 359.84438pt>
 File: pantallas/us02_desktop_new.jpg Graphic file (type jpg)
 <use pantallas/us02_desktop_new.jpg>
-Package pdftex.def Info: pantallas/us02_desktop_new.jpg  used on input line 296
-6.
+Package pdftex.def Info: pantallas/us02_desktop_new.jpg  used on input line 312
+3.
 (pdftex.def)             Requested size: 357.25096pt x 260.3122pt.
-<pantallas/us02_mobile_new.jpg, id=1275, 722.7pt x 1525.7pt>
+<pantallas/us02_mobile_new.jpg, id=1424, 722.7pt x 1525.7pt>
 File: pantallas/us02_mobile_new.jpg Graphic file (type jpg)
 <use pantallas/us02_mobile_new.jpg>
-Package pdftex.def Info: pantallas/us02_mobile_new.jpg  used on input line 2973
+Package pdftex.def Info: pantallas/us02_mobile_new.jpg  used on input line 3130
 .
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 
-LaTeX Info: Redefining \. on input line 2978.
-LaTeX Info: Redefining \% on input line 2978.
-[68 <./pantallas/us01_desktop.jpg> <./pantallas/us01_mobile.jpg> <./pantallas/u
+LaTeX Info: Redefining \. on input line 3135.
+LaTeX Info: Redefining \% on input line 3135.
+[79 <./pantallas/us01_desktop.jpg> <./pantallas/us01_mobile.jpg> <./pantallas/u
 s02_mockup_new.png>]
-<pantallas/us02_mockup_edit.jpg, id=1286, 602.25pt x 602.25pt>
+<pantallas/us02_mockup_edit.jpg, id=1435, 602.25pt x 602.25pt>
 File: pantallas/us02_mockup_edit.jpg Graphic file (type jpg)
 <use pantallas/us02_mockup_edit.jpg>
-Package pdftex.def Info: pantallas/us02_mockup_edit.jpg  used on input line 298
-4.
+Package pdftex.def Info: pantallas/us02_mockup_edit.jpg  used on input line 314
+1.
 (pdftex.def)             Requested size: 283.05753pt x 283.05753pt.
-<pantallas/us02_desktop_edit.jpg, id=1289, 493.845pt x 359.84438pt>
+<pantallas/us02_desktop_edit.jpg, id=1438, 493.845pt x 359.84438pt>
 File: pantallas/us02_desktop_edit.jpg Graphic file (type jpg)
 <use pantallas/us02_desktop_edit.jpg>
-Package pdftex.def Info: pantallas/us02_desktop_edit.jpg  used on input line 29
-97.
+Package pdftex.def Info: pantallas/us02_desktop_edit.jpg  used on input line 31
+54.
 (pdftex.def)             Requested size: 357.25096pt x 260.3122pt.
-<pantallas/us02_mobile_edit.jpg, id=1292, 722.7pt x 1525.7pt>
+<pantallas/us02_mobile_edit.jpg, id=1441, 722.7pt x 1525.7pt>
 File: pantallas/us02_mobile_edit.jpg Graphic file (type jpg)
 <use pantallas/us02_mobile_edit.jpg>
-Package pdftex.def Info: pantallas/us02_mobile_edit.jpg  used on input line 300
-4.
+Package pdftex.def Info: pantallas/us02_mobile_edit.jpg  used on input line 316
+1.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 3009.
-LaTeX Info: Redefining \% on input line 3009.
-[69 <./pantallas/us02_desktop_new.jpg> <./pantallas/us02_mobile_new.jpg> <./pan
+LaTeX Info: Redefining \. on input line 3166.
+LaTeX Info: Redefining \% on input line 3166.
+[80 <./pantallas/us02_desktop_new.jpg> <./pantallas/us02_mobile_new.jpg> <./pan
 tallas/us02_mockup_edit.jpg>]
-<pantallas/us06_mockup_new.jpg, id=1302, 602.25pt x 602.25pt>
+<pantallas/us06_mockup_new.jpg, id=1451, 602.25pt x 602.25pt>
 File: pantallas/us06_mockup_new.jpg Graphic file (type jpg)
 <use pantallas/us06_mockup_new.jpg>
-Package pdftex.def Info: pantallas/us06_mockup_new.jpg  used on input line 3018
+Package pdftex.def Info: pantallas/us06_mockup_new.jpg  used on input line 3175
 .
 (pdftex.def)             Requested size: 283.05753pt x 283.05753pt.
-<pantallas/us06_desktop_new.jpg, id=1305, 493.845pt x 359.84438pt>
+<pantallas/us06_desktop_new.jpg, id=1454, 493.845pt x 359.84438pt>
 File: pantallas/us06_desktop_new.jpg Graphic file (type jpg)
 <use pantallas/us06_desktop_new.jpg>
-Package pdftex.def Info: pantallas/us06_desktop_new.jpg  used on input line 303
-1.
+Package pdftex.def Info: pantallas/us06_desktop_new.jpg  used on input line 318
+8.
 (pdftex.def)             Requested size: 357.25096pt x 260.3122pt.
-<pantallas/us06_mobile_new.jpg, id=1308, 722.7pt x 1525.7pt>
+<pantallas/us06_mobile_new.jpg, id=1457, 722.7pt x 1525.7pt>
 File: pantallas/us06_mobile_new.jpg Graphic file (type jpg)
 <use pantallas/us06_mobile_new.jpg>
-Package pdftex.def Info: pantallas/us06_mobile_new.jpg  used on input line 3038
+Package pdftex.def Info: pantallas/us06_mobile_new.jpg  used on input line 3195
 .
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 
-LaTeX Info: Redefining \. on input line 3043.
-LaTeX Info: Redefining \% on input line 3043.
-[70 <./pantallas/us02_desktop_edit.jpg> <./pantallas/us02_mobile_edit.jpg> <./p
+LaTeX Info: Redefining \. on input line 3200.
+LaTeX Info: Redefining \% on input line 3200.
+[81 <./pantallas/us02_desktop_edit.jpg> <./pantallas/us02_mobile_edit.jpg> <./p
 antallas/us06_mockup_new.jpg>]
-<pantallas/us06_mockup_edit.jpg, id=1318, 602.25pt x 602.25pt>
+<pantallas/us06_mockup_edit.jpg, id=1467, 602.25pt x 602.25pt>
 File: pantallas/us06_mockup_edit.jpg Graphic file (type jpg)
 <use pantallas/us06_mockup_edit.jpg>
-Package pdftex.def Info: pantallas/us06_mockup_edit.jpg  used on input line 304
-9.
+Package pdftex.def Info: pantallas/us06_mockup_edit.jpg  used on input line 320
+6.
 (pdftex.def)             Requested size: 283.05753pt x 283.05753pt.
-<pantallas/us06_desktop_edit.jpg, id=1321, 493.845pt x 359.84438pt>
+<pantallas/us06_desktop_edit.jpg, id=1470, 493.845pt x 359.84438pt>
 File: pantallas/us06_desktop_edit.jpg Graphic file (type jpg)
 <use pantallas/us06_desktop_edit.jpg>
-Package pdftex.def Info: pantallas/us06_desktop_edit.jpg  used on input line 30
-62.
+Package pdftex.def Info: pantallas/us06_desktop_edit.jpg  used on input line 32
+19.
 (pdftex.def)             Requested size: 357.25096pt x 260.3122pt.
-<pantallas/us06_mobile_edit.jpg, id=1324, 722.7pt x 1525.7pt>
+<pantallas/us06_mobile_edit.jpg, id=1473, 722.7pt x 1525.7pt>
 File: pantallas/us06_mobile_edit.jpg Graphic file (type jpg)
 <use pantallas/us06_mobile_edit.jpg>
-Package pdftex.def Info: pantallas/us06_mobile_edit.jpg  used on input line 306
-9.
+Package pdftex.def Info: pantallas/us06_mobile_edit.jpg  used on input line 322
+6.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 3074.
-LaTeX Info: Redefining \% on input line 3074.
-[71 <./pantallas/us06_desktop_new.jpg> <./pantallas/us06_mobile_new.jpg> <./pan
+LaTeX Info: Redefining \. on input line 3231.
+LaTeX Info: Redefining \% on input line 3231.
+[82 <./pantallas/us06_desktop_new.jpg> <./pantallas/us06_mobile_new.jpg> <./pan
 tallas/us06_mockup_edit.jpg>]
-<pantallas/us07_mockup_new.jpg, id=1335, 602.25pt x 602.25pt>
+<pantallas/us07_mockup_new.jpg, id=1483, 602.25pt x 602.25pt>
 File: pantallas/us07_mockup_new.jpg Graphic file (type jpg)
 <use pantallas/us07_mockup_new.jpg>
-Package pdftex.def Info: pantallas/us07_mockup_new.jpg  used on input line 3083
+Package pdftex.def Info: pantallas/us07_mockup_new.jpg  used on input line 3240
 .
 (pdftex.def)             Requested size: 283.05753pt x 283.05753pt.
-<pantallas/us07_desktop_new.jpg, id=1338, 493.845pt x 359.84438pt>
+<pantallas/us07_desktop_new.jpg, id=1486, 493.845pt x 359.84438pt>
 File: pantallas/us07_desktop_new.jpg Graphic file (type jpg)
 <use pantallas/us07_desktop_new.jpg>
-Package pdftex.def Info: pantallas/us07_desktop_new.jpg  used on input line 309
-6.
+Package pdftex.def Info: pantallas/us07_desktop_new.jpg  used on input line 325
+3.
 (pdftex.def)             Requested size: 357.25096pt x 260.3122pt.
-<pantallas/us07_mobile_new.jpg, id=1341, 722.7pt x 1525.7pt>
+<pantallas/us07_mobile_new.jpg, id=1489, 722.7pt x 1525.7pt>
 File: pantallas/us07_mobile_new.jpg Graphic file (type jpg)
 <use pantallas/us07_mobile_new.jpg>
-Package pdftex.def Info: pantallas/us07_mobile_new.jpg  used on input line 3103
+Package pdftex.def Info: pantallas/us07_mobile_new.jpg  used on input line 3260
 .
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 
-LaTeX Info: Redefining \. on input line 3108.
-LaTeX Info: Redefining \% on input line 3108.
-[72 <./pantallas/us06_desktop_edit.jpg> <./pantallas/us06_mobile_edit.jpg> <./p
+LaTeX Info: Redefining \. on input line 3265.
+LaTeX Info: Redefining \% on input line 3265.
+[83 <./pantallas/us06_desktop_edit.jpg> <./pantallas/us06_mobile_edit.jpg> <./p
 antallas/us07_mockup_new.jpg>]
-<pantallas/us07_mockup_edit.jpg, id=1351, 602.25pt x 602.25pt>
+<pantallas/us07_mockup_edit.jpg, id=1500, 602.25pt x 602.25pt>
 File: pantallas/us07_mockup_edit.jpg Graphic file (type jpg)
 <use pantallas/us07_mockup_edit.jpg>
-Package pdftex.def Info: pantallas/us07_mockup_edit.jpg  used on input line 311
-4.
+Package pdftex.def Info: pantallas/us07_mockup_edit.jpg  used on input line 327
+1.
 (pdftex.def)             Requested size: 283.05753pt x 283.05753pt.
-<pantallas/us07_desktop_edit.jpg, id=1354, 493.845pt x 359.84438pt>
+<pantallas/us07_desktop_edit.jpg, id=1503, 493.845pt x 359.84438pt>
 File: pantallas/us07_desktop_edit.jpg Graphic file (type jpg)
 <use pantallas/us07_desktop_edit.jpg>
-Package pdftex.def Info: pantallas/us07_desktop_edit.jpg  used on input line 31
-27.
+Package pdftex.def Info: pantallas/us07_desktop_edit.jpg  used on input line 32
+84.
 (pdftex.def)             Requested size: 357.25096pt x 260.3122pt.
-<pantallas/us07_mobile_edit.jpg, id=1357, 722.7pt x 1525.7pt>
+<pantallas/us07_mobile_edit.jpg, id=1506, 722.7pt x 1525.7pt>
 File: pantallas/us07_mobile_edit.jpg Graphic file (type jpg)
 <use pantallas/us07_mobile_edit.jpg>
-Package pdftex.def Info: pantallas/us07_mobile_edit.jpg  used on input line 313
-4.
+Package pdftex.def Info: pantallas/us07_mobile_edit.jpg  used on input line 329
+1.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 3139.
-LaTeX Info: Redefining \% on input line 3139.
-[73 <./pantallas/us07_desktop_new.jpg> <./pantallas/us07_mobile_new.jpg> <./pan
+LaTeX Info: Redefining \. on input line 3296.
+LaTeX Info: Redefining \% on input line 3296.
+[84 <./pantallas/us07_desktop_new.jpg> <./pantallas/us07_mobile_new.jpg> <./pan
 tallas/us07_mockup_edit.jpg>]
-<pantallas/us18_mockup_new.jpg, id=1367, 602.25pt x 602.25pt>
+<pantallas/us18_mockup_new.jpg, id=1516, 602.25pt x 602.25pt>
 File: pantallas/us18_mockup_new.jpg Graphic file (type jpg)
 <use pantallas/us18_mockup_new.jpg>
-Package pdftex.def Info: pantallas/us18_mockup_new.jpg  used on input line 3148
+Package pdftex.def Info: pantallas/us18_mockup_new.jpg  used on input line 3305
 .
 (pdftex.def)             Requested size: 283.05753pt x 283.05753pt.
-<pantallas/us18_desktop_new.jpg, id=1370, 493.845pt x 359.84438pt>
+<pantallas/us18_desktop_new.jpg, id=1519, 493.845pt x 359.84438pt>
 File: pantallas/us18_desktop_new.jpg Graphic file (type jpg)
 <use pantallas/us18_desktop_new.jpg>
-Package pdftex.def Info: pantallas/us18_desktop_new.jpg  used on input line 316
-1.
+Package pdftex.def Info: pantallas/us18_desktop_new.jpg  used on input line 331
+8.
 (pdftex.def)             Requested size: 357.25096pt x 260.3122pt.
-<pantallas/us18_mobile_new.jpg, id=1373, 722.7pt x 1525.7pt>
+<pantallas/us18_mobile_new.jpg, id=1522, 722.7pt x 1525.7pt>
 File: pantallas/us18_mobile_new.jpg Graphic file (type jpg)
 <use pantallas/us18_mobile_new.jpg>
-Package pdftex.def Info: pantallas/us18_mobile_new.jpg  used on input line 3168
+Package pdftex.def Info: pantallas/us18_mobile_new.jpg  used on input line 3325
 .
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 
-LaTeX Info: Redefining \. on input line 3173.
-LaTeX Info: Redefining \% on input line 3173.
-[74 <./pantallas/us07_desktop_edit.jpg> <./pantallas/us07_mobile_edit.jpg> <./p
+LaTeX Info: Redefining \. on input line 3330.
+LaTeX Info: Redefining \% on input line 3330.
+[85 <./pantallas/us07_desktop_edit.jpg> <./pantallas/us07_mobile_edit.jpg> <./p
 antallas/us18_mockup_new.jpg>]
-<pantallas/us18_mockup_edit.jpg, id=1383, 602.25pt x 602.25pt>
+<pantallas/us18_mockup_edit.jpg, id=1532, 602.25pt x 602.25pt>
 File: pantallas/us18_mockup_edit.jpg Graphic file (type jpg)
 <use pantallas/us18_mockup_edit.jpg>
-Package pdftex.def Info: pantallas/us18_mockup_edit.jpg  used on input line 317
-9.
+Package pdftex.def Info: pantallas/us18_mockup_edit.jpg  used on input line 333
+6.
 (pdftex.def)             Requested size: 283.05753pt x 283.05753pt.
-<pantallas/us18_desktop_edit.jpg, id=1386, 493.845pt x 359.84438pt>
+<pantallas/us18_desktop_edit.jpg, id=1535, 493.845pt x 359.84438pt>
 File: pantallas/us18_desktop_edit.jpg Graphic file (type jpg)
 <use pantallas/us18_desktop_edit.jpg>
-Package pdftex.def Info: pantallas/us18_desktop_edit.jpg  used on input line 31
-92.
+Package pdftex.def Info: pantallas/us18_desktop_edit.jpg  used on input line 33
+49.
 (pdftex.def)             Requested size: 357.25096pt x 260.3122pt.
-<pantallas/us18_mobile_edit.jpg, id=1389, 722.7pt x 1525.7pt>
+<pantallas/us18_mobile_edit.jpg, id=1538, 722.7pt x 1525.7pt>
 File: pantallas/us18_mobile_edit.jpg Graphic file (type jpg)
 <use pantallas/us18_mobile_edit.jpg>
-Package pdftex.def Info: pantallas/us18_mobile_edit.jpg  used on input line 319
-9.
+Package pdftex.def Info: pantallas/us18_mobile_edit.jpg  used on input line 335
+6.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 Underfull \vbox (badness 3701) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 3205.
-LaTeX Info: Redefining \% on input line 3205.
-[75 <./pantallas/us18_desktop_new.jpg> <./pantallas/us18_mobile_new.jpg> <./pan
+LaTeX Info: Redefining \. on input line 3362.
+LaTeX Info: Redefining \% on input line 3362.
+[86 <./pantallas/us18_desktop_new.jpg> <./pantallas/us18_mobile_new.jpg> <./pan
 tallas/us18_mockup_edit.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 3205.
-LaTeX Info: Redefining \% on input line 3205.
-[76 <./pantallas/us18_desktop_edit.jpg> <./pantallas/us18_mobile_edit.jpg>]
-<pantallas/us03_mockup_new.jpg, id=1403, 602.25pt x 603.25375pt>
+LaTeX Info: Redefining \. on input line 3362.
+LaTeX Info: Redefining \% on input line 3362.
+[87 <./pantallas/us18_desktop_edit.jpg> <./pantallas/us18_mobile_edit.jpg>]
+<pantallas/us03_mockup_new.jpg, id=1552, 602.25pt x 603.25375pt>
 File: pantallas/us03_mockup_new.jpg Graphic file (type jpg)
 <use pantallas/us03_mockup_new.jpg>
-Package pdftex.def Info: pantallas/us03_mockup_new.jpg  used on input line 3215
+Package pdftex.def Info: pantallas/us03_mockup_new.jpg  used on input line 3372
 .
 (pdftex.def)             Requested size: 240.89572pt x 241.29723pt.
-<pantallas/us03_desktop_new.jpg, id=1406, 614.295pt x 442.65375pt>
+<pantallas/us03_desktop_new.jpg, id=1555, 614.295pt x 442.65375pt>
 File: pantallas/us03_desktop_new.jpg Graphic file (type jpg)
 <use pantallas/us03_desktop_new.jpg>
-Package pdftex.def Info: pantallas/us03_desktop_new.jpg  used on input line 322
-9.
+Package pdftex.def Info: pantallas/us03_desktop_new.jpg  used on input line 338
+6.
 (pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us03_mobile_new.jpg, id=1409, 722.7pt x 1525.7pt>
+<pantallas/us03_mobile_new.jpg, id=1558, 722.7pt x 1525.7pt>
 File: pantallas/us03_mobile_new.jpg Graphic file (type jpg)
 <use pantallas/us03_mobile_new.jpg>
-Package pdftex.def Info: pantallas/us03_mobile_new.jpg  used on input line 3236
+Package pdftex.def Info: pantallas/us03_mobile_new.jpg  used on input line 3393
 .
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us03_mockup_edit.jpg, id=1414, 602.25pt x 603.25375pt>
+<pantallas/us03_mockup_edit.jpg, id=1563, 602.25pt x 603.25375pt>
 File: pantallas/us03_mockup_edit.jpg Graphic file (type jpg)
 <use pantallas/us03_mockup_edit.jpg>
-Package pdftex.def Info: pantallas/us03_mockup_edit.jpg  used on input line 324
-7.
+Package pdftex.def Info: pantallas/us03_mockup_edit.jpg  used on input line 340
+4.
 (pdftex.def)             Requested size: 301.12425pt x 301.62613pt.
 
 
-LaTeX Info: Redefining \. on input line 3254.
-LaTeX Info: Redefining \% on input line 3254.
-[77 <./pantallas/us03_mockup_new.jpg> <./pantallas/us03_desktop_new.jpg> <./pan
+LaTeX Info: Redefining \. on input line 3411.
+LaTeX Info: Redefining \% on input line 3411.
+[88 <./pantallas/us03_mockup_new.jpg> <./pantallas/us03_desktop_new.jpg> <./pan
 tallas/us03_mobile_new.jpg>]
-<pantallas/us03_desktop_edit.jpg, id=1424, 614.295pt x 442.65375pt>
+<pantallas/us03_desktop_edit.jpg, id=1572, 614.295pt x 442.65375pt>
 File: pantallas/us03_desktop_edit.jpg Graphic file (type jpg)
 <use pantallas/us03_desktop_edit.jpg>
-Package pdftex.def Info: pantallas/us03_desktop_edit.jpg  used on input line 32
-60.
+Package pdftex.def Info: pantallas/us03_desktop_edit.jpg  used on input line 34
+17.
 (pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us03_mobile_edit.jpg, id=1427, 722.7pt x 1525.7pt>
+<pantallas/us03_mobile_edit.jpg, id=1575, 722.7pt x 1525.7pt>
 File: pantallas/us03_mobile_edit.jpg Graphic file (type jpg)
 <use pantallas/us03_mobile_edit.jpg>
-Package pdftex.def Info: pantallas/us03_mobile_edit.jpg  used on input line 326
-7.
+Package pdftex.def Info: pantallas/us03_mobile_edit.jpg  used on input line 342
+4.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us04_mockup_new.jpg, id=1433, 602.25pt x 603.25375pt>
+<pantallas/us04_mockup_new.jpg, id=1581, 602.25pt x 603.25375pt>
 File: pantallas/us04_mockup_new.jpg Graphic file (type jpg)
 <use pantallas/us04_mockup_new.jpg>
-Package pdftex.def Info: pantallas/us04_mockup_new.jpg  used on input line 3281
+Package pdftex.def Info: pantallas/us04_mockup_new.jpg  used on input line 3438
 .
 (pdftex.def)             Requested size: 258.96245pt x 259.39406pt.
 
 
-LaTeX Info: Redefining \. on input line 3288.
-LaTeX Info: Redefining \% on input line 3288.
-[78 <./pantallas/us03_mockup_edit.jpg> <./pantallas/us03_desktop_edit.jpg> <./p
+LaTeX Info: Redefining \. on input line 3445.
+LaTeX Info: Redefining \% on input line 3445.
+[89 <./pantallas/us03_mockup_edit.jpg> <./pantallas/us03_desktop_edit.jpg> <./p
 antallas/us03_mobile_edit.jpg>]
-<pantallas/us04_desktop_new.jpg, id=1440, 614.295pt x 442.65375pt>
+<pantallas/us04_desktop_new.jpg, id=1589, 614.295pt x 442.65375pt>
 File: pantallas/us04_desktop_new.jpg Graphic file (type jpg)
 <use pantallas/us04_desktop_new.jpg>
-Package pdftex.def Info: pantallas/us04_desktop_new.jpg  used on input line 329
-4.
+Package pdftex.def Info: pantallas/us04_desktop_new.jpg  used on input line 345
+1.
 (pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us04_mobile_new.jpg, id=1443, 722.7pt x 1525.7pt>
+<pantallas/us04_mobile_new.jpg, id=1592, 722.7pt x 1525.7pt>
 File: pantallas/us04_mobile_new.jpg Graphic file (type jpg)
 <use pantallas/us04_mobile_new.jpg>
-Package pdftex.def Info: pantallas/us04_mobile_new.jpg  used on input line 3301
+Package pdftex.def Info: pantallas/us04_mobile_new.jpg  used on input line 3458
 .
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us04_mockup_edit.jpg, id=1448, 602.25pt x 603.25375pt>
+<pantallas/us04_mockup_edit.jpg, id=1597, 602.25pt x 603.25375pt>
 File: pantallas/us04_mockup_edit.jpg Graphic file (type jpg)
 <use pantallas/us04_mockup_edit.jpg>
-Package pdftex.def Info: pantallas/us04_mockup_edit.jpg  used on input line 331
-2.
+Package pdftex.def Info: pantallas/us04_mockup_edit.jpg  used on input line 346
+9.
 (pdftex.def)             Requested size: 283.05753pt x 283.5293pt.
 
 
-LaTeX Info: Redefining \. on input line 3319.
-LaTeX Info: Redefining \% on input line 3319.
-[79 <./pantallas/us04_mockup_new.jpg> <./pantallas/us04_desktop_new.jpg> <./pan
+LaTeX Info: Redefining \. on input line 3476.
+LaTeX Info: Redefining \% on input line 3476.
+[90 <./pantallas/us04_mockup_new.jpg> <./pantallas/us04_desktop_new.jpg> <./pan
 tallas/us04_mobile_new.jpg>]
-<pantallas/us04_desktop_edit.jpg, id=1456, 614.295pt x 442.65375pt>
+<pantallas/us04_desktop_edit.jpg, id=1605, 614.295pt x 442.65375pt>
 File: pantallas/us04_desktop_edit.jpg Graphic file (type jpg)
 <use pantallas/us04_desktop_edit.jpg>
-Package pdftex.def Info: pantallas/us04_desktop_edit.jpg  used on input line 33
-25.
+Package pdftex.def Info: pantallas/us04_desktop_edit.jpg  used on input line 34
+82.
 (pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us04_mobile_edit.jpg, id=1459, 722.7pt x 1525.7pt>
+<pantallas/us04_mobile_edit.jpg, id=1608, 722.7pt x 1525.7pt>
 File: pantallas/us04_mobile_edit.jpg Graphic file (type jpg)
 <use pantallas/us04_mobile_edit.jpg>
-Package pdftex.def Info: pantallas/us04_mobile_edit.jpg  used on input line 333
-2.
+Package pdftex.def Info: pantallas/us04_mobile_edit.jpg  used on input line 348
+9.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us05_mockup_new.jpg, id=1465, 603.25375pt x 603.25375pt>
+<pantallas/us05_mockup_new.jpg, id=1614, 603.25375pt x 603.25375pt>
 File: pantallas/us05_mockup_new.jpg Graphic file (type jpg)
 <use pantallas/us05_mockup_new.jpg>
-Package pdftex.def Info: pantallas/us05_mockup_new.jpg  used on input line 3346
+Package pdftex.def Info: pantallas/us05_mockup_new.jpg  used on input line 3503
 .
 (pdftex.def)             Requested size: 271.46167pt x 271.46167pt.
 
 
-LaTeX Info: Redefining \. on input line 3353.
-LaTeX Info: Redefining \% on input line 3353.
-[80 <./pantallas/us04_mockup_edit.jpg> <./pantallas/us04_desktop_edit.jpg> <./p
+LaTeX Info: Redefining \. on input line 3510.
+LaTeX Info: Redefining \% on input line 3510.
+[91 <./pantallas/us04_mockup_edit.jpg> <./pantallas/us04_desktop_edit.jpg> <./p
 antallas/us04_mobile_edit.jpg>]
-<pantallas/us05_desktop_new.jpg, id=1472, 614.295pt x 442.65375pt>
+<pantallas/us05_desktop_new.jpg, id=1621, 614.295pt x 442.65375pt>
 File: pantallas/us05_desktop_new.jpg Graphic file (type jpg)
 <use pantallas/us05_desktop_new.jpg>
-Package pdftex.def Info: pantallas/us05_desktop_new.jpg  used on input line 335
-9.
+Package pdftex.def Info: pantallas/us05_desktop_new.jpg  used on input line 351
+6.
 (pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us05_mobile_new.jpg, id=1475, 722.7pt x 1525.7pt>
+<pantallas/us05_mobile_new.jpg, id=1624, 722.7pt x 1525.7pt>
 File: pantallas/us05_mobile_new.jpg Graphic file (type jpg)
 <use pantallas/us05_mobile_new.jpg>
-Package pdftex.def Info: pantallas/us05_mobile_new.jpg  used on input line 3366
+Package pdftex.def Info: pantallas/us05_mobile_new.jpg  used on input line 3523
 .
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us05_mockup_edit.jpg, id=1480, 603.25375pt x 603.25375pt>
+<pantallas/us05_mockup_edit.jpg, id=1629, 603.25375pt x 603.25375pt>
 File: pantallas/us05_mockup_edit.jpg Graphic file (type jpg)
 <use pantallas/us05_mockup_edit.jpg>
-Package pdftex.def Info: pantallas/us05_mockup_edit.jpg  used on input line 337
-7.
+Package pdftex.def Info: pantallas/us05_mockup_edit.jpg  used on input line 353
+4.
 (pdftex.def)             Requested size: 283.5293pt x 283.5293pt.
 
 
-LaTeX Info: Redefining \. on input line 3384.
-LaTeX Info: Redefining \% on input line 3384.
-[81 <./pantallas/us05_mockup_new.jpg> <./pantallas/us05_desktop_new.jpg> <./pan
+LaTeX Info: Redefining \. on input line 3541.
+LaTeX Info: Redefining \% on input line 3541.
+[92 <./pantallas/us05_mockup_new.jpg> <./pantallas/us05_desktop_new.jpg> <./pan
 tallas/us05_mobile_new.jpg>]
-<pantallas/us05_desktop_edit.jpg, id=1488, 614.295pt x 442.65375pt>
+<pantallas/us05_desktop_edit.jpg, id=1637, 614.295pt x 442.65375pt>
 File: pantallas/us05_desktop_edit.jpg Graphic file (type jpg)
 <use pantallas/us05_desktop_edit.jpg>
-Package pdftex.def Info: pantallas/us05_desktop_edit.jpg  used on input line 33
-87.
+Package pdftex.def Info: pantallas/us05_desktop_edit.jpg  used on input line 35
+44.
 (pdftex.def)             Requested size: 399.287pt x 287.72151pt.
-<pantallas/us23_mockup_new.jpg, id=1492, 602.25pt x 603.25375pt>
+<pantallas/us23_mockup_new.jpg, id=1641, 602.25pt x 603.25375pt>
 File: pantallas/us23_mockup_new.jpg Graphic file (type jpg)
 <use pantallas/us23_mockup_new.jpg>
-Package pdftex.def Info: pantallas/us23_mockup_new.jpg  used on input line 3403
+Package pdftex.def Info: pantallas/us23_mockup_new.jpg  used on input line 3560
 .
 (pdftex.def)             Requested size: 271.01pt x 271.46167pt.
 
 
-LaTeX Info: Redefining \. on input line 3410.
-LaTeX Info: Redefining \% on input line 3410.
-[82 <./pantallas/us05_mockup_edit.jpg> <./pantallas/us05_desktop_edit.jpg>]
-<pantallas/us23_desktop_new.jpg, id=1499, 614.295pt x 442.65375pt>
+LaTeX Info: Redefining \. on input line 3567.
+LaTeX Info: Redefining \% on input line 3567.
+[93 <./pantallas/us05_mockup_edit.jpg> <./pantallas/us05_desktop_edit.jpg>]
+<pantallas/us23_desktop_new.jpg, id=1648, 614.295pt x 442.65375pt>
 File: pantallas/us23_desktop_new.jpg Graphic file (type jpg)
 <use pantallas/us23_desktop_new.jpg>
-Package pdftex.def Info: pantallas/us23_desktop_new.jpg  used on input line 341
-3.
+Package pdftex.def Info: pantallas/us23_desktop_new.jpg  used on input line 357
+0.
 (pdftex.def)             Requested size: 368.57983pt x 265.59428pt.
-<pantallas/us23_mockup_list.jpg, id=1502, 602.25pt x 603.25375pt>
+<pantallas/us23_mockup_list.jpg, id=1651, 602.25pt x 603.25375pt>
 File: pantallas/us23_mockup_list.jpg Graphic file (type jpg)
 <use pantallas/us23_mockup_list.jpg>
-Package pdftex.def Info: pantallas/us23_mockup_list.jpg  used on input line 342
-6.
-(pdftex.def)             Requested size: 283.05753pt x 283.5293pt.
-
-
-LaTeX Info: Redefining \. on input line 3433.
-LaTeX Info: Redefining \% on input line 3433.
-[83 <./pantallas/us23_mockup_new.jpg> <./pantallas/us23_desktop_new.jpg>]
-<pantallas/us23_desktop_list.jpg, id=1511, 614.295pt x 442.65375pt>
-File: pantallas/us23_desktop_list.jpg Graphic file (type jpg)
-<use pantallas/us23_desktop_list.jpg>
-Package pdftex.def Info: pantallas/us23_desktop_list.jpg  used on input line 34
-39.
-(pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us23_mobile_list.jpg, id=1514, 722.7pt x 1525.7pt>
-File: pantallas/us23_mobile_list.jpg Graphic file (type jpg)
-<use pantallas/us23_mobile_list.jpg>
-Package pdftex.def Info: pantallas/us23_mobile_list.jpg  used on input line 344
-6.
-(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us23_mobile_edit_1.jpg, id=1519, 722.7pt x 1525.7pt>
-File: pantallas/us23_mobile_edit_1.jpg Graphic file (type jpg)
-<use pantallas/us23_mobile_edit_1.jpg>
-Package pdftex.def Info: pantallas/us23_mobile_edit_1.jpg  used on input line 3
-459.
-(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us23_mobile_edit_2.jpg, id=1522, 722.7pt x 1525.7pt>
-File: pantallas/us23_mobile_edit_2.jpg Graphic file (type jpg)
-<use pantallas/us23_mobile_edit_2.jpg>
-Package pdftex.def Info: pantallas/us23_mobile_edit_2.jpg  used on input line 3
-466.
-(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-
-
-LaTeX Info: Redefining \. on input line 3471.
-LaTeX Info: Redefining \% on input line 3471.
-[84 <./pantallas/us23_mockup_list.jpg> <./pantallas/us23_desktop_list.jpg> <./p
-antallas/us23_mobile_list.jpg>]
-<pantallas/us24_mockup_list.jpg, id=1532, 602.25pt x 603.25375pt>
-File: pantallas/us24_mockup_list.jpg Graphic file (type jpg)
-<use pantallas/us24_mockup_list.jpg>
-Package pdftex.def Info: pantallas/us24_mockup_list.jpg  used on input line 347
-9.
-(pdftex.def)             Requested size: 283.05753pt x 283.5293pt.
-<pantallas/us24_desktop_list.jpg, id=1535, 614.295pt x 442.65375pt>
-File: pantallas/us24_desktop_list.jpg Graphic file (type jpg)
-<use pantallas/us24_desktop_list.jpg>
-Package pdftex.def Info: pantallas/us24_desktop_list.jpg  used on input line 34
-92.
-(pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us24_mobile_list.jpg, id=1538, 722.7pt x 1525.7pt>
-File: pantallas/us24_mobile_list.jpg Graphic file (type jpg)
-<use pantallas/us24_mobile_list.jpg>
-Package pdftex.def Info: pantallas/us24_mobile_list.jpg  used on input line 349
-9.
-(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-
-
-LaTeX Info: Redefining \. on input line 3504.
-LaTeX Info: Redefining \% on input line 3504.
-[85 <./pantallas/us23_mobile_edit_1.jpg> <./pantallas/us23_mobile_edit_2.jpg> <
-./pantallas/us24_mockup_list.jpg>]
-<pantallas/us08_mockup_new_1.jpg, id=1549, 602.25pt x 603.25375pt>
-File: pantallas/us08_mockup_new_1.jpg Graphic file (type jpg)
-<use pantallas/us08_mockup_new_1.jpg>
-Package pdftex.def Info: pantallas/us08_mockup_new_1.jpg  used on input line 35
-17.
-(pdftex.def)             Requested size: 259.37491pt x 259.81747pt.
-<pantallas/us08_mockup_new_2.jpg, id=1552, 602.25pt x 603.25375pt>
-File: pantallas/us08_mockup_new_2.jpg Graphic file (type jpg)
-<use pantallas/us08_mockup_new_2.jpg>
-Package pdftex.def Info: pantallas/us08_mockup_new_2.jpg  used on input line 35
-25.
-(pdftex.def)             Requested size: 259.37491pt x 259.81747pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 3530.
-LaTeX Info: Redefining \% on input line 3530.
-[86 <./pantallas/us24_desktop_list.jpg> <./pantallas/us24_mobile_list.jpg>]
-<pantallas/us08_desktop_new_1.jpg, id=1561, 614.295pt x 442.65375pt>
-File: pantallas/us08_desktop_new_1.jpg Graphic file (type jpg)
-<use pantallas/us08_desktop_new_1.jpg>
-Package pdftex.def Info: pantallas/us08_desktop_new_1.jpg  used on input line 3
-536.
-(pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us08_desktop_new_2.jpg, id=1564, 614.295pt x 442.65375pt>
-File: pantallas/us08_desktop_new_2.jpg Graphic file (type jpg)
-<use pantallas/us08_desktop_new_2.jpg>
-Package pdftex.def Info: pantallas/us08_desktop_new_2.jpg  used on input line 3
-542.
-(pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-
-
-LaTeX Info: Redefining \. on input line 3547.
-LaTeX Info: Redefining \% on input line 3547.
-[87 <./pantallas/us08_mockup_new_1.jpg> <./pantallas/us08_mockup_new_2.jpg>]
-<pantallas/us08_mobile_new_1.jpg, id=1575, 722.7pt x 1525.7pt>
-File: pantallas/us08_mobile_new_1.jpg Graphic file (type jpg)
-<use pantallas/us08_mobile_new_1.jpg>
-Package pdftex.def Info: pantallas/us08_mobile_new_1.jpg  used on input line 35
-53.
-(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us08_mobile_new_2.jpg, id=1578, 722.7pt x 1525.7pt>
-File: pantallas/us08_mobile_new_2.jpg Graphic file (type jpg)
-<use pantallas/us08_mobile_new_2.jpg>
-Package pdftex.def Info: pantallas/us08_mobile_new_2.jpg  used on input line 35
-59.
-(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 3564.
-LaTeX Info: Redefining \% on input line 3564.
-[88 <./pantallas/us08_desktop_new_1.jpg> <./pantallas/us08_desktop_new_2.jpg>]
-<pantallas/us10_mockup_new.jpg, id=1588, 602.25pt x 603.25375pt>
-File: pantallas/us10_mockup_new.jpg Graphic file (type jpg)
-<use pantallas/us10_mockup_new.jpg>
-Package pdftex.def Info: pantallas/us10_mockup_new.jpg  used on input line 3573
-.
-(pdftex.def)             Requested size: 271.01pt x 271.46167pt.
-<pantallas/us10_desktop_new.jpg, id=1591, 614.295pt x 442.65375pt>
-File: pantallas/us10_desktop_new.jpg Graphic file (type jpg)
-<use pantallas/us10_desktop_new.jpg>
-Package pdftex.def Info: pantallas/us10_desktop_new.jpg  used on input line 358
+Package pdftex.def Info: pantallas/us23_mockup_list.jpg  used on input line 358
 3.
-(pdftex.def)             Requested size: 368.57983pt x 265.59428pt.
+(pdftex.def)             Requested size: 283.05753pt x 283.5293pt.
 
 
 LaTeX Info: Redefining \. on input line 3590.
 LaTeX Info: Redefining \% on input line 3590.
-[89 <./pantallas/us08_mobile_new_1.jpg> <./pantallas/us08_mobile_new_2.jpg> <./
-pantallas/us10_mockup_new.jpg>]
-<pantallas/us10_mockup_list.jpg, id=1600, 602.25pt x 603.25375pt>
+[94 <./pantallas/us23_mockup_new.jpg> <./pantallas/us23_desktop_new.jpg>]
+<pantallas/us23_desktop_list.jpg, id=1659, 614.295pt x 442.65375pt>
+File: pantallas/us23_desktop_list.jpg Graphic file (type jpg)
+<use pantallas/us23_desktop_list.jpg>
+Package pdftex.def Info: pantallas/us23_desktop_list.jpg  used on input line 35
+96.
+(pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
+<pantallas/us23_mobile_list.jpg, id=1662, 722.7pt x 1525.7pt>
+File: pantallas/us23_mobile_list.jpg Graphic file (type jpg)
+<use pantallas/us23_mobile_list.jpg>
+Package pdftex.def Info: pantallas/us23_mobile_list.jpg  used on input line 360
+3.
+(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
+<pantallas/us23_mobile_edit_1.jpg, id=1667, 722.7pt x 1525.7pt>
+File: pantallas/us23_mobile_edit_1.jpg Graphic file (type jpg)
+<use pantallas/us23_mobile_edit_1.jpg>
+Package pdftex.def Info: pantallas/us23_mobile_edit_1.jpg  used on input line 3
+616.
+(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
+<pantallas/us23_mobile_edit_2.jpg, id=1670, 722.7pt x 1525.7pt>
+File: pantallas/us23_mobile_edit_2.jpg Graphic file (type jpg)
+<use pantallas/us23_mobile_edit_2.jpg>
+Package pdftex.def Info: pantallas/us23_mobile_edit_2.jpg  used on input line 3
+623.
+(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
+
+
+LaTeX Info: Redefining \. on input line 3628.
+LaTeX Info: Redefining \% on input line 3628.
+[95 <./pantallas/us23_mockup_list.jpg> <./pantallas/us23_desktop_list.jpg> <./p
+antallas/us23_mobile_list.jpg>]
+<pantallas/us24_mockup_list.jpg, id=1681, 602.25pt x 603.25375pt>
+File: pantallas/us24_mockup_list.jpg Graphic file (type jpg)
+<use pantallas/us24_mockup_list.jpg>
+Package pdftex.def Info: pantallas/us24_mockup_list.jpg  used on input line 363
+6.
+(pdftex.def)             Requested size: 283.05753pt x 283.5293pt.
+<pantallas/us24_desktop_list.jpg, id=1684, 614.295pt x 442.65375pt>
+File: pantallas/us24_desktop_list.jpg Graphic file (type jpg)
+<use pantallas/us24_desktop_list.jpg>
+Package pdftex.def Info: pantallas/us24_desktop_list.jpg  used on input line 36
+49.
+(pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
+<pantallas/us24_mobile_list.jpg, id=1687, 722.7pt x 1525.7pt>
+File: pantallas/us24_mobile_list.jpg Graphic file (type jpg)
+<use pantallas/us24_mobile_list.jpg>
+Package pdftex.def Info: pantallas/us24_mobile_list.jpg  used on input line 365
+6.
+(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
+
+
+LaTeX Info: Redefining \. on input line 3661.
+LaTeX Info: Redefining \% on input line 3661.
+[96 <./pantallas/us23_mobile_edit_1.jpg> <./pantallas/us23_mobile_edit_2.jpg> <
+./pantallas/us24_mockup_list.jpg>]
+<pantallas/us08_mockup_new_1.jpg, id=1698, 602.25pt x 603.25375pt>
+File: pantallas/us08_mockup_new_1.jpg Graphic file (type jpg)
+<use pantallas/us08_mockup_new_1.jpg>
+Package pdftex.def Info: pantallas/us08_mockup_new_1.jpg  used on input line 36
+74.
+(pdftex.def)             Requested size: 259.37491pt x 259.81747pt.
+<pantallas/us08_mockup_new_2.jpg, id=1701, 602.25pt x 603.25375pt>
+File: pantallas/us08_mockup_new_2.jpg Graphic file (type jpg)
+<use pantallas/us08_mockup_new_2.jpg>
+Package pdftex.def Info: pantallas/us08_mockup_new_2.jpg  used on input line 36
+82.
+(pdftex.def)             Requested size: 259.37491pt x 259.81747pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 3687.
+LaTeX Info: Redefining \% on input line 3687.
+[97 <./pantallas/us24_desktop_list.jpg> <./pantallas/us24_mobile_list.jpg>]
+<pantallas/us08_desktop_new_1.jpg, id=1710, 614.295pt x 442.65375pt>
+File: pantallas/us08_desktop_new_1.jpg Graphic file (type jpg)
+<use pantallas/us08_desktop_new_1.jpg>
+Package pdftex.def Info: pantallas/us08_desktop_new_1.jpg  used on input line 3
+693.
+(pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
+<pantallas/us08_desktop_new_2.jpg, id=1713, 614.295pt x 442.65375pt>
+File: pantallas/us08_desktop_new_2.jpg Graphic file (type jpg)
+<use pantallas/us08_desktop_new_2.jpg>
+Package pdftex.def Info: pantallas/us08_desktop_new_2.jpg  used on input line 3
+699.
+(pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
+
+
+LaTeX Info: Redefining \. on input line 3704.
+LaTeX Info: Redefining \% on input line 3704.
+[98 <./pantallas/us08_mockup_new_1.jpg> <./pantallas/us08_mockup_new_2.jpg>]
+<pantallas/us08_mobile_new_1.jpg, id=1724, 722.7pt x 1525.7pt>
+File: pantallas/us08_mobile_new_1.jpg Graphic file (type jpg)
+<use pantallas/us08_mobile_new_1.jpg>
+Package pdftex.def Info: pantallas/us08_mobile_new_1.jpg  used on input line 37
+10.
+(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
+<pantallas/us08_mobile_new_2.jpg, id=1727, 722.7pt x 1525.7pt>
+File: pantallas/us08_mobile_new_2.jpg Graphic file (type jpg)
+<use pantallas/us08_mobile_new_2.jpg>
+Package pdftex.def Info: pantallas/us08_mobile_new_2.jpg  used on input line 37
+16.
+(pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 3721.
+LaTeX Info: Redefining \% on input line 3721.
+[99 <./pantallas/us08_desktop_new_1.jpg> <./pantallas/us08_desktop_new_2.jpg>]
+<pantallas/us10_mockup_new.jpg, id=1737, 602.25pt x 603.25375pt>
+File: pantallas/us10_mockup_new.jpg Graphic file (type jpg)
+<use pantallas/us10_mockup_new.jpg>
+Package pdftex.def Info: pantallas/us10_mockup_new.jpg  used on input line 3730
+.
+(pdftex.def)             Requested size: 271.01pt x 271.46167pt.
+<pantallas/us10_desktop_new.jpg, id=1740, 614.295pt x 442.65375pt>
+File: pantallas/us10_desktop_new.jpg Graphic file (type jpg)
+<use pantallas/us10_desktop_new.jpg>
+Package pdftex.def Info: pantallas/us10_desktop_new.jpg  used on input line 374
+0.
+(pdftex.def)             Requested size: 368.57983pt x 265.59428pt.
+
+
+LaTeX Info: Redefining \. on input line 3747.
+LaTeX Info: Redefining \% on input line 3747.
+[100 <./pantallas/us08_mobile_new_1.jpg> <./pantallas/us08_mobile_new_2.jpg> <.
+/pantallas/us10_mockup_new.jpg>]
+<pantallas/us10_mockup_list.jpg, id=1748, 602.25pt x 603.25375pt>
 File: pantallas/us10_mockup_list.jpg Graphic file (type jpg)
 <use pantallas/us10_mockup_list.jpg>
-Package pdftex.def Info: pantallas/us10_mockup_list.jpg  used on input line 359
-6.
+Package pdftex.def Info: pantallas/us10_mockup_list.jpg  used on input line 375
+3.
 (pdftex.def)             Requested size: 301.12425pt x 301.62613pt.
-<pantallas/us10_desktop_list.jpg, id=1603, 614.295pt x 442.65375pt>
+<pantallas/us10_desktop_list.jpg, id=1751, 614.295pt x 442.65375pt>
 File: pantallas/us10_desktop_list.jpg Graphic file (type jpg)
 <use pantallas/us10_desktop_list.jpg>
-Package pdftex.def Info: pantallas/us10_desktop_list.jpg  used on input line 36
-06.
+Package pdftex.def Info: pantallas/us10_desktop_list.jpg  used on input line 37
+63.
 (pdftex.def)             Requested size: 368.57983pt x 265.59428pt.
 
 Underfull \vbox (badness 2197) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 3613.
-LaTeX Info: Redefining \% on input line 3613.
-[90 <./pantallas/us10_desktop_new.jpg> <./pantallas/us10_mockup_list.jpg>]
-<pantallas/us12_mockup_list.jpg, id=1611, 602.25pt x 603.25375pt>
+LaTeX Info: Redefining \. on input line 3770.
+LaTeX Info: Redefining \% on input line 3770.
+[101 <./pantallas/us10_desktop_new.jpg> <./pantallas/us10_mockup_list.jpg>]
+<pantallas/us12_mockup_list.jpg, id=1760, 602.25pt x 603.25375pt>
 File: pantallas/us12_mockup_list.jpg Graphic file (type jpg)
 <use pantallas/us12_mockup_list.jpg>
-Package pdftex.def Info: pantallas/us12_mockup_list.jpg  used on input line 362
-2.
+Package pdftex.def Info: pantallas/us12_mockup_list.jpg  used on input line 377
+9.
 (pdftex.def)             Requested size: 301.12425pt x 301.62613pt.
-<pantallas/us12_desktop_list.jpg, id=1614, 614.295pt x 442.65375pt>
+<pantallas/us12_desktop_list.jpg, id=1763, 614.295pt x 442.65375pt>
 File: pantallas/us12_desktop_list.jpg Graphic file (type jpg)
 <use pantallas/us12_desktop_list.jpg>
-Package pdftex.def Info: pantallas/us12_desktop_list.jpg  used on input line 36
-35.
+Package pdftex.def Info: pantallas/us12_desktop_list.jpg  used on input line 37
+92.
 (pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us12_mobile_list.jpg, id=1617, 722.7pt x 1525.7pt>
+<pantallas/us12_mobile_list.jpg, id=1766, 722.7pt x 1525.7pt>
 File: pantallas/us12_mobile_list.jpg Graphic file (type jpg)
 <use pantallas/us12_mobile_list.jpg>
-Package pdftex.def Info: pantallas/us12_mobile_list.jpg  used on input line 364
-2.
+Package pdftex.def Info: pantallas/us12_mobile_list.jpg  used on input line 379
+9.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 
-LaTeX Info: Redefining \. on input line 3647.
-LaTeX Info: Redefining \% on input line 3647.
-[91 <./pantallas/us10_desktop_list.jpg> <./pantallas/us12_mockup_list.jpg>]
-<pantallas/us16_mockup.jpg, id=1628, 603.25375pt x 603.25375pt>
+LaTeX Info: Redefining \. on input line 3804.
+LaTeX Info: Redefining \% on input line 3804.
+[102 <./pantallas/us10_desktop_list.jpg> <./pantallas/us12_mockup_list.jpg>]
+<pantallas/us16_mockup.jpg, id=1777, 603.25375pt x 603.25375pt>
 File: pantallas/us16_mockup.jpg Graphic file (type jpg)
 <use pantallas/us16_mockup.jpg>
-Package pdftex.def Info: pantallas/us16_mockup.jpg  used on input line 3656.
+Package pdftex.def Info: pantallas/us16_mockup.jpg  used on input line 3813.
 (pdftex.def)             Requested size: 271.46167pt x 271.46167pt.
-<pantallas/us16_desktop.jpg, id=1631, 614.295pt x 442.65375pt>
+<pantallas/us16_desktop.jpg, id=1780, 614.295pt x 442.65375pt>
 File: pantallas/us16_desktop.jpg Graphic file (type jpg)
 <use pantallas/us16_desktop.jpg>
-Package pdftex.def Info: pantallas/us16_desktop.jpg  used on input line 3669.
+Package pdftex.def Info: pantallas/us16_desktop.jpg  used on input line 3826.
 (pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us16_mobile_1.jpg, id=1634, 722.7pt x 1525.7pt>
+<pantallas/us16_mobile_1.jpg, id=1783, 722.7pt x 1525.7pt>
 File: pantallas/us16_mobile_1.jpg Graphic file (type jpg)
 <use pantallas/us16_mobile_1.jpg>
-Package pdftex.def Info: pantallas/us16_mobile_1.jpg  used on input line 3676.
+Package pdftex.def Info: pantallas/us16_mobile_1.jpg  used on input line 3833.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us16_mobile_2.jpg, id=1637, 722.7pt x 1525.7pt>
+<pantallas/us16_mobile_2.jpg, id=1786, 722.7pt x 1525.7pt>
 File: pantallas/us16_mobile_2.jpg Graphic file (type jpg)
 <use pantallas/us16_mobile_2.jpg>
-Package pdftex.def Info: pantallas/us16_mobile_2.jpg  used on input line 3683.
+Package pdftex.def Info: pantallas/us16_mobile_2.jpg  used on input line 3840.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 
-LaTeX Info: Redefining \. on input line 3688.
-LaTeX Info: Redefining \% on input line 3688.
-[92 <./pantallas/us12_desktop_list.jpg> <./pantallas/us12_mobile_list.jpg> <./p
-antallas/us16_mockup.jpg>]
-<pantallas/us17_mockup_list.jpg, id=1648, 602.25pt x 603.25375pt>
+LaTeX Info: Redefining \. on input line 3845.
+LaTeX Info: Redefining \% on input line 3845.
+[103 <./pantallas/us12_desktop_list.jpg> <./pantallas/us12_mobile_list.jpg> <./
+pantallas/us16_mockup.jpg>]
+<pantallas/us17_mockup_list.jpg, id=1797, 602.25pt x 603.25375pt>
 File: pantallas/us17_mockup_list.jpg Graphic file (type jpg)
 <use pantallas/us17_mockup_list.jpg>
-Package pdftex.def Info: pantallas/us17_mockup_list.jpg  used on input line 369
-6.
+Package pdftex.def Info: pantallas/us17_mockup_list.jpg  used on input line 385
+3.
 (pdftex.def)             Requested size: 271.01pt x 271.46167pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 3703.
-LaTeX Info: Redefining \% on input line 3703.
-[93 <./pantallas/us16_desktop.jpg> <./pantallas/us16_mobile_1.jpg> <./pantallas
-/us16_mobile_2.jpg>]
-<pantallas/us17_desktop_list.jpg, id=1655, 614.295pt x 442.65375pt>
+LaTeX Info: Redefining \. on input line 3860.
+LaTeX Info: Redefining \% on input line 3860.
+[104 <./pantallas/us16_desktop.jpg> <./pantallas/us16_mobile_1.jpg> <./pantalla
+s/us16_mobile_2.jpg>]
+<pantallas/us17_desktop_list.jpg, id=1804, 614.295pt x 442.65375pt>
 File: pantallas/us17_desktop_list.jpg Graphic file (type jpg)
 <use pantallas/us17_desktop_list.jpg>
-Package pdftex.def Info: pantallas/us17_desktop_list.jpg  used on input line 37
-09.
+Package pdftex.def Info: pantallas/us17_desktop_list.jpg  used on input line 38
+66.
 (pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us17_mobile_list.jpg, id=1658, 722.7pt x 1525.7pt>
+<pantallas/us17_mobile_list.jpg, id=1807, 722.7pt x 1525.7pt>
 File: pantallas/us17_mobile_list.jpg Graphic file (type jpg)
 <use pantallas/us17_mobile_list.jpg>
-Package pdftex.def Info: pantallas/us17_mobile_list.jpg  used on input line 371
-6.
+Package pdftex.def Info: pantallas/us17_mobile_list.jpg  used on input line 387
+3.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
-<pantallas/us17_mockup_detail.jpg, id=1663, 603.25375pt x 603.25375pt>
+<pantallas/us17_mockup_detail.jpg, id=1812, 603.25375pt x 603.25375pt>
 File: pantallas/us17_mockup_detail.jpg Graphic file (type jpg)
 <use pantallas/us17_mockup_detail.jpg>
 Package pdftex.def Info: pantallas/us17_mockup_detail.jpg  used on input line 3
-727.
+884.
 (pdftex.def)             Requested size: 301.62613pt x 301.62613pt.
 
 
-LaTeX Info: Redefining \. on input line 3734.
-LaTeX Info: Redefining \% on input line 3734.
-[94 <./pantallas/us17_mockup_list.jpg> <./pantallas/us17_desktop_list.jpg> <./p
-antallas/us17_mobile_list.jpg>]
-<pantallas/us17_desktop_detail.jpg, id=1671, 614.295pt x 442.65375pt>
+LaTeX Info: Redefining \. on input line 3891.
+LaTeX Info: Redefining \% on input line 3891.
+[105 <./pantallas/us17_mockup_list.jpg> <./pantallas/us17_desktop_list.jpg> <./
+pantallas/us17_mobile_list.jpg>]
+<pantallas/us17_desktop_detail.jpg, id=1820, 614.295pt x 442.65375pt>
 File: pantallas/us17_desktop_detail.jpg Graphic file (type jpg)
 <use pantallas/us17_desktop_detail.jpg>
 Package pdftex.def Info: pantallas/us17_desktop_detail.jpg  used on input line 
-3740.
+3897.
 (pdftex.def)             Requested size: 357.25096pt x 257.43504pt.
-<pantallas/us17_mobile_detail.jpg, id=1674, 722.7pt x 1525.7pt>
+<pantallas/us17_mobile_detail.jpg, id=1823, 722.7pt x 1525.7pt>
 File: pantallas/us17_mobile_detail.jpg Graphic file (type jpg)
 <use pantallas/us17_mobile_detail.jpg>
 Package pdftex.def Info: pantallas/us17_mobile_detail.jpg  used on input line 3
-747.
+904.
 (pdftex.def)             Requested size: 117.45575pt x 247.95824pt.
 
 
-LaTeX Info: Redefining \. on input line 3753.
-LaTeX Info: Redefining \% on input line 3753.
-[95 <./pantallas/us17_mockup_detail.jpg> <./pantallas/us17_desktop_detail.jpg> 
-<./pantallas/us17_mobile_detail.jpg>]
+LaTeX Info: Redefining \. on input line 3910.
+LaTeX Info: Redefining \% on input line 3910.
+[106 <./pantallas/us17_mockup_detail.jpg> <./pantallas/us17_desktop_detail.jpg>
+ <./pantallas/us17_mobile_detail.jpg>]
 ! Undefined control sequence.
 <argument> ...store@actives \slshape \nouppercase 
-                                                  {Apéndice C - Plan de ges...
-l.3758 ...éndice C - Plan de gestión de riesgos}
+                                                  {Apéndice C - Objetivos d...
+l.3915 ...rk{Apéndice C - Objetivos del proyecto}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5784,8 +5786,8 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 <argument> ...store@actives \slshape \nouppercase 
-                                                  {Apéndice C - Plan de ges...
-l.3758 ...éndice C - Plan de gestión de riesgos}
+                                                  {Apéndice C - Objetivos d...
+l.3915 ...rk{Apéndice C - Objetivos del proyecto}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5795,8 +5797,8 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 <argument> ...store@actives \slshape \nouppercase 
-                                                  {Apéndice C - Plan de ges...
-l.3758 ...éndice C - Plan de gestión de riesgos}
+                                                  {Apéndice C - Objetivos d...
+l.3915 ...rk{Apéndice C - Objetivos del proyecto}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5804,30 +5806,147 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\c@counter_img_C=\count385
-\c@counter_tbl_C=\count386
-<Relaciones de variables del proyecto.png, id=1685, 357.58594pt x 286.06876pt>
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Objetivos generales}}
+l.3922 \section{Objetivos generales}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Objetivos generales}}}\__...
+l.3922 \section{Objetivos generales}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Objetivos generales}}}\__...
+l.3922 \section{Objetivos generales}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Objetivos específicos}}
+l.3926 \section{Objetivos específicos}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Objetivos específicos}}}...
+l.3926 \section{Objetivos específicos}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Objetivos específicos}}}...
+l.3926 \section{Objetivos específicos}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[107
+
+]
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Apéndice D - Plan de ges...
+l.3940 ...éndice D - Plan de gestión de riesgos}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Apéndice D - Plan de ges...
+l.3940 ...éndice D - Plan de gestión de riesgos}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Apéndice D - Plan de ges...
+l.3940 ...éndice D - Plan de gestión de riesgos}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\c@counter_img_D=\count385
+\c@counter_tbl_D=\count386
+<Relaciones de variables del proyecto.png, id=1838, 357.58594pt x 286.06876pt>
 File: Relaciones de variables del proyecto.png Graphic file (type png)
 <use Relaciones de variables del proyecto.png>
 Package pdftex.def Info: Relaciones de variables del proyecto.png  used on inpu
-t line 3780.
+t line 3962.
 (pdftex.def)             Requested size: 178.79253pt x 143.03403pt.
 
 
-[96
+[108
 
  <./Relaciones de variables del proyecto.png>]
-Overfull \hbox (1.8838pt too wide) in paragraph at lines 3808--3808
+Overfull \hbox (1.8838pt too wide) in paragraph at lines 3990--3990
 []|\OT1/cmr/bx/sc/12 Probabilidad| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3829--3830
+! LaTeX Error: No counter 'counter_tbl_C' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4007 ...d e Impacto.}\stepcounter{counter_tbl_C}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4011--4012
 
  []
 
 
-Overfull \hbox (1.8838pt too wide) in paragraph at lines 3836--3836
+Overfull \hbox (1.8838pt too wide) in paragraph at lines 4018--4018
 []|\OT1/cmr/bx/sc/12 Probabilidad| 
  []
 
@@ -5848,37 +5967,204 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-LaTeX Info: Redefining \. on input line 3869.
-LaTeX Info: Redefining \% on input line 3869.
-[97]
+LaTeX Info: Redefining \. on input line 4051.
+LaTeX Info: Redefining \% on input line 4051.
+[109]
 
-LaTeX Info: Redefining \. on input line 3879.
-LaTeX Info: Redefining \% on input line 3879.
-[98]
+LaTeX Info: Redefining \. on input line 4061.
+LaTeX Info: Redefining \% on input line 4061.
+[110]
 
-LaTeX Info: Redefining \. on input line 3899.
-LaTeX Info: Redefining \% on input line 3899.
-[99]
+LaTeX Info: Redefining \. on input line 4081.
+LaTeX Info: Redefining \% on input line 4081.
+[111]
 
-LaTeX Info: Redefining \. on input line 3914.
-LaTeX Info: Redefining \% on input line 3914.
-[100]
+LaTeX Info: Redefining \. on input line 4096.
+LaTeX Info: Redefining \% on input line 4096.
+[112]
 
-LaTeX Info: Redefining \. on input line 3930.
-LaTeX Info: Redefining \% on input line 3930.
-[101]
+LaTeX Info: Redefining \. on input line 4112.
+LaTeX Info: Redefining \% on input line 4112.
+[113]
 
-LaTeX Info: Redefining \. on input line 3940.
-LaTeX Info: Redefining \% on input line 3940.
-[102]
+LaTeX Info: Redefining \. on input line 4122.
+LaTeX Info: Redefining \% on input line 4122.
+[114]
 
-LaTeX Info: Redefining \. on input line 3946.
-LaTeX Info: Redefining \% on input line 3946.
-[103]
+LaTeX Info: Redefining \. on input line 4127.
+LaTeX Info: Redefining \% on input line 4127.
+[115]
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Apéndice E - Diagramas d...
+l.4141 ...�ndice E - Diagramas de clases y de E-R}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Apéndice E - Diagramas d...
+l.4141 ...�ndice E - Diagramas de clases y de E-R}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Apéndice E - Diagramas d...
+l.4141 ...�ndice E - Diagramas de clases y de E-R}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment landscape undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4150 \begin{landscape}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Diagrama de Clases.png, id=1927, 2520.41624pt x 1409.265pt>
+File: Diagrama de Clases.png Graphic file (type png)
+<use Diagrama de Clases.png>
+Package pdftex.def Info: Diagrama de Clases.png  used on input line 4153.
+(pdftex.def)             Requested size: 668.63986pt x 373.86201pt.
+
+! LaTeX Error: \begin{document} ended by \end{landscape}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4157 \end{landscape}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+LaTeX Info: Redefining \. on input line 4158.
+LaTeX Info: Redefining \% on input line 4158.
+[116
+
+]
+Overfull \vbox (24.49998pt too high) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 4158.
+LaTeX Info: Redefining \% on input line 4158.
+[117 <./Diagrama de Clases.png>]
+
+! LaTeX Error: Environment landscape undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4159 \begin{landscape}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Diagrama E-R.png, id=1937, 1549.79pt x 804.00375pt>
+File: Diagrama E-R.png Graphic file (type png)
+<use Diagrama E-R.png>
+Package pdftex.def Info: Diagrama E-R.png  used on input line 4162.
+(pdftex.def)             Requested size: 668.63986pt x 346.88034pt.
+
+! LaTeX Error: \begin{document} ended by \end{landscape}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4166 \end{landscape}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \vbox (24.49998pt too high) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 4167.
+LaTeX Info: Redefining \% on input line 4167.
+[118 <./Diagrama E-R.png>]
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Apéndice F - Errores enc...
+l.4172 ... F - Errores encontrados por iteración}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Apéndice F - Errores enc...
+l.4172 ... F - Errores encontrados por iteración}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...store@actives \slshape \nouppercase 
+                                                  {Apéndice F - Errores enc...
+l.4172 ... F - Errores encontrados por iteración}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+
+[119
+
+]
+
+LaTeX Info: Redefining \. on input line 4214.
+LaTeX Info: Redefining \% on input line 4214.
+[120]
+
+LaTeX Info: Redefining \. on input line 4236.
+LaTeX Info: Redefining \% on input line 4236.
+[121]
+
+LaTeX Info: Redefining \. on input line 4236.
+LaTeX Info: Redefining \% on input line 4236.
+[122]
 *********************************************************************
 
 
-[104
+[123
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -5896,16 +6182,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7B5B887C277D606259087D373F0D3426;12223.
+(rerunfilecheck)             Checksum: ABCB06EFDE805A72C68E0F8B56CB7483;13552.
  ) 
 Here is how much of TeX's memory you used:
- 40820 strings out of 473535
- 922718 string characters out of 5713967
- 1422253 words of memory out of 5000000
- 63026 multiletter control sequences out of 15000+600000
+ 40916 strings out of 473535
+ 924602 string characters out of 5713968
+ 1415539 words of memory out of 5000000
+ 63083 multiletter control sequences out of 15000+600000
  572810 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,101p,1904b,2357s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,13n,101p,1904b,2355s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Luciano\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm0600.pk><C:/Users/Luciano/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb><C:/Users/Luciano/AppData/Local/Programs/MiKTeX/fonts/type
@@ -5925,9 +6211,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/L
 uciano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 <C:/Users/Luciano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/lat
 xfont/lasy10.pfb>
-Output written on main.pdf (112 pages, 8489194 bytes).
+Output written on main.pdf (131 pages, 8871863 bytes).
 PDF statistics:
- 1942 PDF objects out of 2073 (max. 8388607)
- 395 named destinations out of 1000 (max. 500000)
- 894 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2139 PDF objects out of 2487 (max. 8388607)
+ 434 named destinations out of 1000 (max. 500000)
+ 970 words of extra memory for PDF output out of 10000 (max. 10000000)
 
