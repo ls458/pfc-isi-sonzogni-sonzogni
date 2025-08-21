@@ -11,66 +11,79 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de dependencias entre las \hyperlink {US}{US} definidas.}}{18}{figure.caption.12}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de dependencias entre las \hyperlink {US}{US} definidas hasta la iteración V.}}{33}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Diagrama de la arquitectura cliente-servidor.}}{19}{figure.caption.13}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de dependencias entre las \hyperlink {US}{US} definidas hasta la iteración V.}}{32}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Gráfico de la cantidad de errores evidenciados en cada iteración.}}{35}{figure.caption.29}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Gráfico de la cantidad de errores evidenciados en cada iteración.}}{35}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de Gantt del proyecto presentado en la etapa de Plan de Proyecto.}}{40}{figure.caption.30}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Diagrama de Gantt del proyecto obtenido empíricamente.}}{41}{figure.caption.31}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de Gantt del proyecto propuesto inicialmente.}}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Diagrama de Gantt del proyecto obtenido empíricamente.}}{40}{figure.caption.32}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{B.1: Mock-up US 1.}{78}{figure.caption.104}%
-\contentsline {figure}{B.2: Versiones de escritorio y móvil de pantalla correspondiente a US 1.}{79}{figure.caption.105}%
-\contentsline {figure}{B.3: Mock-up US 2 (nuevo usuario).}{79}{figure.caption.107}%
-\contentsline {figure}{B.4: Versiones de escritorio y móvil de pantalla correspondiente a US 2 (nuevo usuario).}{80}{figure.caption.108}%
-\contentsline {figure}{B.5: Mock-up US 2 (editar usuario).}{80}{figure.caption.109}%
-\contentsline {figure}{B.6: Versiones de escritorio y móvil de pantalla correspondiente a US 2 (editar usuario).}{81}{figure.caption.110}%
-\contentsline {figure}{B.7: Mock-up US 6 (nuevo depósito).}{81}{figure.caption.112}%
-\contentsline {figure}{B.8: Versiones de escritorio y móvil de pantalla correspondiente a US 6 (nuevo depósito).}{82}{figure.caption.113}%
-\contentsline {figure}{B.9: Mock-up US 6 (editar depósito).}{82}{figure.caption.114}%
-\contentsline {figure}{B.10: Versiones de escritorio y móvil de pantalla correspondiente a US 6 (editar depósito).}{83}{figure.caption.115}%
-\contentsline {figure}{B.11: Mock-up US 7 (nueva sucursal).}{83}{figure.caption.117}%
-\contentsline {figure}{B.12: Versiones de escritorio y móvil de pantalla correspondiente a US 7 (nueva sucursal).}{84}{figure.caption.118}%
-\contentsline {figure}{B.13: Mock-up US 7 (editar sucursal).}{84}{figure.caption.119}%
-\contentsline {figure}{B.14: Versiones de escritorio y móvil de pantalla correspondiente a US 7 (editar sucursal).}{85}{figure.caption.120}%
-\contentsline {figure}{B.15: Mock-up US 18 (nuevo cliente).}{85}{figure.caption.122}%
-\contentsline {figure}{B.16: Versiones de escritorio y móvil de pantalla correspondiente a US 18 (nuevo cliente).}{86}{figure.caption.123}%
-\contentsline {figure}{B.17: Mock-up US 18 (editar cliente).}{86}{figure.caption.124}%
-\contentsline {figure}{B.18: Versiones de escritorio y móvil de pantalla correspondiente a US 18 (editar cliente).}{87}{figure.caption.125}%
-\contentsline {figure}{B.19: Mock-up US 3 (nuevo insumo).}{88}{figure.caption.128}%
-\contentsline {figure}{B.20: Versiones de escritorio y móvil de pantalla correspondiente a US 3 (nuevo insumo).}{88}{figure.caption.129}%
-\contentsline {figure}{B.21: Mock-up US 3 (editar insumo).}{89}{figure.caption.130}%
-\contentsline {figure}{B.22: Versiones de escritorio y móvil de pantalla correspondiente a US 3 (editar insumo).}{89}{figure.caption.131}%
-\contentsline {figure}{B.23: Mock-up US 4 (nuevo tipo de insumo).}{90}{figure.caption.133}%
-\contentsline {figure}{B.24: Versiones de escritorio y móvil de pantalla correspondiente a US 4 (nuevo tipo de insumo).}{90}{figure.caption.134}%
-\contentsline {figure}{B.25: Mock-up US 4 (editar tipo de insumo).}{91}{figure.caption.135}%
-\contentsline {figure}{B.26: Versiones de escritorio y móvil de pantalla correspondiente a US 4 (editar tipo de insumo).}{91}{figure.caption.136}%
-\contentsline {figure}{B.27: Mock-up US 5 (nuevo insumo en depósito).}{92}{figure.caption.138}%
-\contentsline {figure}{B.28: Versiones de escritorio y móvil de pantalla correspondiente a US 5 (nuevo insumo en depósito).}{92}{figure.caption.139}%
-\contentsline {figure}{B.29: Mock-up US 5 (editar cantidad de insumo en depósito).}{93}{figure.caption.140}%
-\contentsline {figure}{B.30: Versión de escritorio de pantalla correspondiente a US 5 (editar cantidad de insumo en depósito).}{93}{figure.caption.141}%
-\contentsline {figure}{B.31: Mock-up US 23 (nuevo tipo de tarea).}{94}{figure.caption.143}%
-\contentsline {figure}{B.32: Versión de escritorio de pantalla correspondiente a US 23 (nuevo tipo de tarea).}{94}{figure.caption.144}%
-\contentsline {figure}{B.33: Mock-up US 23 (lista de tipos de tarea).}{95}{figure.caption.145}%
-\contentsline {figure}{B.34: Versiones de escritorio y móvil de pantalla correspondiente a US 23 (lista de tipos de tarea).}{95}{figure.caption.146}%
-\contentsline {figure}{B.35: Versión móvil de pantalla correspondiente a US 23 (editar tipo de tarea).}{96}{figure.caption.147}%
-\contentsline {figure}{B.36: Mock-up US 24.}{96}{figure.caption.149}%
-\contentsline {figure}{B.37: Versiones de escritorio y móvil de pantalla correspondiente a US 24.}{97}{figure.caption.150}%
-\contentsline {figure}{B.38: Mock-ups correspondientes a US 8 (nuevo proyecto).}{98}{figure.caption.153}%
-\contentsline {figure}{B.39: Versión de escritorio de pantallas correspondientes a US 8 (nuevo proyecto).}{99}{figure.caption.154}%
-\contentsline {figure}{B.40: Versión móvil de pantallas correspondientes a US 8 (nuevo proyecto).}{100}{figure.caption.155}%
-\contentsline {figure}{B.41: Mock-up US 10 (nuevo tipo de proyecto).}{100}{figure.caption.157}%
-\contentsline {figure}{B.42: Versión de escritorio de pantalla correspondiente a US 10 (nuevo tipo de proyecto).}{101}{figure.caption.158}%
-\contentsline {figure}{B.43: Mock-up US 10 (lista de tipos de proyecto).}{101}{figure.caption.159}%
-\contentsline {figure}{B.44: Versión de escritorio de pantalla correspondiente a US 10 (lista de tipos de proyecto).}{102}{figure.caption.160}%
-\contentsline {figure}{B.45: Mock-up US 12.}{102}{figure.caption.162}%
-\contentsline {figure}{B.46: Versiones de escritorio y móvil de pantalla correspondiente a US 12.}{103}{figure.caption.163}%
-\contentsline {figure}{B.47: Mock-up US 16.}{103}{figure.caption.165}%
-\contentsline {figure}{B.48: Versiones de escritorio y móvil de pantallas correspondientes a US 16.}{104}{figure.caption.166}%
-\contentsline {figure}{B.49: Mock-up US 17 (lista de tareas asignadas).}{105}{figure.caption.168}%
-\contentsline {figure}{B.50: Versiones de escritorio y móvil de pantalla correspondiente a US 17 (lista de tareas asignadas).}{105}{figure.caption.169}%
-\contentsline {figure}{B.51: Mock-up US 17 (detalle de tarea asignada).}{106}{figure.caption.170}%
-\contentsline {figure}{B.52: Versiones de escritorio y móvil de pantalla correspondiente a US 17 (detalle de tarea asignada).}{106}{figure.caption.171}%
-\contentsline {figure}{D.1: Relación entre las variables costo, calidad y alcance con la variable tiempo.}{108}{figure.caption.174}%
-\contentsline {figure}{\numberline {E.1}{\ignorespaces Diagrama de clases del sistema.}}{117}{figure.caption.178}%
-\contentsline {figure}{\numberline {E.2}{\ignorespaces Diagrama de entidad-relación.}}{118}{figure.caption.179}%
+\contentsline {figure}{B.1: Mock-up US 1.}{78}{figure.caption.105}%
+\contentsline {figure}{B.2: Versiones de escritorio y móvil de pantalla correspondiente a US 1.}{79}{figure.caption.106}%
+\contentsline {figure}{B.3: Mock-up US 2 (nuevo usuario).}{79}{figure.caption.108}%
+\contentsline {figure}{B.4: Versiones de escritorio y móvil de pantalla correspondiente a US 2 (nuevo usuario).}{80}{figure.caption.109}%
+\contentsline {figure}{B.5: Mock-up US 2 (editar usuario).}{80}{figure.caption.110}%
+\contentsline {figure}{B.6: Versiones de escritorio y móvil de pantalla correspondiente a US 2 (editar usuario).}{81}{figure.caption.111}%
+\contentsline {figure}{B.7: Mock-up US 6 (nuevo depósito).}{81}{figure.caption.113}%
+\contentsline {figure}{B.8: Versiones de escritorio y móvil de pantalla correspondiente a US 6 (nuevo depósito).}{82}{figure.caption.114}%
+\contentsline {figure}{B.9: Mock-up US 6 (editar depósito).}{82}{figure.caption.115}%
+\contentsline {figure}{B.10: Versiones de escritorio y móvil de pantalla correspondiente a US 6 (editar depósito).}{83}{figure.caption.116}%
+\contentsline {figure}{B.11: Mock-up US 7 (nueva sucursal).}{83}{figure.caption.118}%
+\contentsline {figure}{B.12: Versiones de escritorio y móvil de pantalla correspondiente a US 7 (nueva sucursal).}{84}{figure.caption.119}%
+\contentsline {figure}{B.13: Mock-up US 7 (editar sucursal).}{84}{figure.caption.120}%
+\contentsline {figure}{B.14: Versiones de escritorio y móvil de pantalla correspondiente a US 7 (editar sucursal).}{85}{figure.caption.121}%
+\contentsline {figure}{B.15: Mock-up US 18 (nuevo cliente).}{85}{figure.caption.123}%
+\contentsline {figure}{B.16: Versiones de escritorio y móvil de pantalla correspondiente a US 18 (nuevo cliente).}{86}{figure.caption.124}%
+\contentsline {figure}{B.17: Mock-up US 18 (editar cliente).}{86}{figure.caption.125}%
+\contentsline {figure}{B.18: Versiones de escritorio y móvil de pantalla correspondiente a US 18 (editar cliente).}{87}{figure.caption.126}%
+\contentsline {figure}{B.19: Mock-up US 3 (nuevo insumo).}{88}{figure.caption.129}%
+\contentsline {figure}{B.20: Versiones de escritorio y móvil de pantalla correspondiente a US 3 (nuevo insumo).}{88}{figure.caption.130}%
+\contentsline {figure}{B.21: Mock-up US 3 (editar insumo).}{89}{figure.caption.131}%
+\contentsline {figure}{B.22: Versiones de escritorio y móvil de pantalla correspondiente a US 3 (editar insumo).}{89}{figure.caption.132}%
+\contentsline {figure}{B.23: Mock-up US 4 (nuevo tipo de insumo).}{90}{figure.caption.134}%
+\contentsline {figure}{B.24: Versiones de escritorio y móvil de pantalla correspondiente a US 4 (nuevo tipo de insumo).}{90}{figure.caption.135}%
+\contentsline {figure}{B.25: Mock-up US 4 (editar tipo de insumo).}{91}{figure.caption.136}%
+\contentsline {figure}{B.26: Versiones de escritorio y móvil de pantalla correspondiente a US 4 (editar tipo de insumo).}{91}{figure.caption.137}%
+\contentsline {figure}{B.27: Mock-up US 5 (nuevo insumo en depósito).}{92}{figure.caption.139}%
+\contentsline {figure}{B.28: Versiones de escritorio y móvil de pantalla correspondiente a US 5 (nuevo insumo en depósito).}{92}{figure.caption.140}%
+\contentsline {figure}{B.29: Mock-up US 5 (editar cantidad de insumo en depósito).}{93}{figure.caption.141}%
+\contentsline {figure}{B.30: Versión de escritorio de pantalla correspondiente a US 5 (editar cantidad de insumo en depósito).}{93}{figure.caption.142}%
+\contentsline {figure}{B.31: Mock-up US 23 (nuevo tipo de tarea).}{94}{figure.caption.144}%
+\contentsline {figure}{B.32: Versión de escritorio de pantalla correspondiente a US 23 (nuevo tipo de tarea).}{94}{figure.caption.145}%
+\contentsline {figure}{B.33: Mock-up US 23 (lista de tipos de tarea).}{95}{figure.caption.146}%
+\contentsline {figure}{B.34: Versiones de escritorio y móvil de pantalla correspondiente a US 23 (lista de tipos de tarea).}{95}{figure.caption.147}%
+\contentsline {figure}{B.35: Versión móvil de pantalla correspondiente a US 23 (editar tipo de tarea).}{96}{figure.caption.148}%
+\contentsline {figure}{B.36: Mock-up US 24.}{96}{figure.caption.150}%
+\contentsline {figure}{B.37: Versiones de escritorio y móvil de pantalla correspondiente a US 24.}{97}{figure.caption.151}%
+\contentsline {figure}{B.38: Mock-ups correspondientes a US 8 (nuevo proyecto).}{98}{figure.caption.154}%
+\contentsline {figure}{B.39: Versión de escritorio de pantallas correspondientes a US 8 (nuevo proyecto).}{99}{figure.caption.155}%
+\contentsline {figure}{B.40: Versión móvil de pantallas correspondientes a US 8 (nuevo proyecto).}{100}{figure.caption.156}%
+\contentsline {figure}{B.41: Mock-up US 10 (nuevo tipo de proyecto).}{100}{figure.caption.158}%
+\contentsline {figure}{B.42: Versión de escritorio de pantalla correspondiente a US 10 (nuevo tipo de proyecto).}{101}{figure.caption.159}%
+\contentsline {figure}{B.43: Mock-up US 10 (lista de tipos de proyecto).}{101}{figure.caption.160}%
+\contentsline {figure}{B.44: Versión de escritorio de pantalla correspondiente a US 10 (lista de tipos de proyecto).}{102}{figure.caption.161}%
+\contentsline {figure}{B.45: Mock-up US 12.}{102}{figure.caption.163}%
+\contentsline {figure}{B.46: Versiones de escritorio y móvil de pantalla correspondiente a US 12.}{103}{figure.caption.164}%
+\contentsline {figure}{B.47: Mock-up US 16.}{103}{figure.caption.166}%
+\contentsline {figure}{B.48: Versiones de escritorio y móvil de pantallas correspondientes a US 16.}{104}{figure.caption.167}%
+\contentsline {figure}{B.49: Mock-up US 17 (lista de tareas asignadas).}{105}{figure.caption.169}%
+\contentsline {figure}{B.50: Versiones de escritorio y móvil de pantalla correspondiente a US 17 (lista de tareas asignadas).}{105}{figure.caption.170}%
+\contentsline {figure}{B.51: Mock-up US 17 (detalle de tarea asignada).}{106}{figure.caption.171}%
+\contentsline {figure}{B.52: Versiones de escritorio y móvil de pantalla correspondiente a US 17 (detalle de tarea asignada).}{106}{figure.caption.172}%
+\contentsline {figure}{B.53: Mock-up US 9 (agregar insumo a proyecto).}{107}{figure.caption.175}%
+\contentsline {figure}{B.54: Versión de escritorio de pantalla correspondiente a US 9.}{107}{figure.caption.176}%
+\contentsline {figure}{B.55: Versión móvil de pantallas correspondientes a US 9.}{108}{figure.caption.177}%
+\contentsline {figure}{B.56: Mock-up US 11 (editar tarea).}{108}{figure.caption.179}%
+\contentsline {figure}{B.57: Versiones de escritorio y móvil de pantalla correspondiente a US 11.}{109}{figure.caption.180}%
+\contentsline {figure}{B.58: Mock-ups correspondientes a US 13.}{109}{figure.caption.182}%
+\contentsline {figure}{B.59: Versiones de escritorio y móvil de pantalla correspondiente a US 13.}{110}{figure.caption.185}%
+\contentsline {figure}{B.60: Versión de escritorio de pantallas correspondientes a US 14.}{111}{figure.caption.187}%
+\contentsline {figure}{B.61: Versión móvil de pantallas correspondientes a US 14.}{112}{figure.caption.188}%
+\contentsline {figure}{B.62: Mock-up US 15 y 25.}{112}{figure.caption.190}%
+\contentsline {figure}{B.63: Versión de escritorio de pantallas correspondientes a US 15 y 25.}{113}{figure.caption.191}%
+\contentsline {figure}{B.64: Versión móvil de pantallas correspondientes a US 15 y 25.}{114}{figure.caption.192}%
+\contentsline {figure}{D.1: Relación entre las variables costo, calidad y alcance con la variable tiempo.}{116}{figure.caption.196}%
+\contentsline {figure}{\numberline {G.1}{\ignorespaces Diagrama de clases del sistema.}}{130}{figure.caption.202}%
+\contentsline {figure}{\numberline {G.2}{\ignorespaces Diagrama de entidad-relación del sistema.}}{133}{figure.caption.203}%
