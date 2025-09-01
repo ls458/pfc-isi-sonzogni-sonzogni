@@ -1,8 +1,8 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Índice general}{\es@scroman {iii}}{chapter*.1}%
-\contentsline {chapter}{Índice de símbolos}{\es@scroman {iv}}{chapter*.2}%
-\contentsline {chapter}{Índice de figuras}{\es@scroman {vii}}{chapter*.3}%
-\contentsline {chapter}{Índice de tablas}{\es@scroman {ix}}{chapter*.4}%
+\contentsline {chapter}{Índice general}{\es@scroman {i}}{section*.1}%
+\contentsline {chapter}{Índice de símbolos}{\es@scroman {iv}}{section*.3}%
+\contentsline {chapter}{Índice de figuras}{\es@scroman {v}}{section*.5}%
+\contentsline {chapter}{Índice de tablas}{\es@scroman {viii}}{section*.7}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Acerca de la empresa/organización}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Descripción general de la empresa}{2}{section.2.1}%
@@ -55,14 +55,14 @@
 \contentsline {section}{\numberline {7.5}En el control de calidad}{42}{section.7.5}%
 \contentsline {chapter}{\numberline {8}Evaluación de la calidad del proyecto}{43}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Conclusiones}{45}{chapter.9}%
-\contentsline {chapter}{A. Refinamiento de las US}{47}{chapter*.34}%
-\contentsline {chapter}{B. Mock-ups y pantallas desarrolladas}{78}{chapter*.102}%
-\contentsline {chapter}{C. Objetivos del proyecto}{115}{chapter*.194}%
+\contentsline {chapter}{A. Refinamiento de las US}{47}{chapter*.38}%
+\contentsline {chapter}{B. Mock-ups y pantallas desarrolladas}{78}{chapter*.106}%
+\contentsline {chapter}{C. Objetivos del proyecto}{115}{chapter*.198}%
 \contentsline {section}{\numberline {C.1}Objetivos generales}{115}{section.Alph0.1}%
 \contentsline {section}{\numberline {C.2}Objetivos específicos}{115}{section.Alph0.2}%
-\contentsline {chapter}{D. Plan de gestión de riesgos}{116}{appendix*.195}%
-\contentsline {chapter}{E. Requerimientos definidos inicialmente}{124}{appendix*.199}%
-\contentsline {chapter}{F. Ambiente de desarrollo de software, tecnologías y plataformas}{127}{appendix*.200}%
-\contentsline {chapter}{G. Diagramas de clases y de E-R}{129}{section*.201}%
-\contentsline {chapter}{H. Errores encontrados por iteración}{137}{appendix*.204}%
-\contentsline {chapter}{Bibliografía}{141}{appendix*.205}%
+\contentsline {chapter}{D. Plan de gestión de riesgos}{116}{appendix*.199}%
+\contentsline {chapter}{E. Requerimientos definidos inicialmente}{124}{appendix*.203}%
+\contentsline {chapter}{F. Ambiente de desarrollo de software, tecnologías y plataformas}{127}{appendix*.204}%
+\contentsline {chapter}{G. Diagramas de clases y de E-R}{129}{section*.205}%
+\contentsline {chapter}{H. Errores encontrados por iteración}{137}{appendix*.208}%
+\contentsline {chapter}{Bibliografía}{141}{appendix*.209}%

@@ -198,17 +198,21 @@ Luciano Daniel Sonzogni\\
 %\counterwithout{section}{chapter}
 %No tener en cuenta número de capítulo
 
-\pagenumbering{roman}
-%for the first part of the document
+\pagenumbering{roman} % para la primera parte
 
-\tableofcontents
-%Crea índice
-
+% Índice general
+\clearpage
+\phantomsection
 \addcontentsline{toc}{chapter}{Índice general}
+\tableofcontents
 
+% Índice de símbolos
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Índice de símbolos}
 \chapter*{Índice de símbolos}
 \markboth{Índice de símbolos}{Índice de símbolos}
-\addcontentsline{toc}{chapter}{Índice de símbolos}
+
 \begin{itemize}
 \item \hypertarget{INVEST}{INVEST}: bajo el criterio \hyperlink{INVEST}{INVEST}, buenas historias de usuario (\hyperlink{US}{US}) tienen las características: Independiente, Negociable, Valuable, Estimable, Pequeña (Small), Testeable.
 \item \hypertarget{MRO}{MRO}: Mantenimiento, reparación y operaciones (Maintenance, repair, and operations).
@@ -218,18 +222,26 @@ Luciano Daniel Sonzogni\\
 \item \hypertarget{WIP}{WIP}: Trabajo en proceso (Work In Process).
 \end{itemize}
 
+% Índice de figuras
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Índice de figuras}
 \renewcommand{\listfigurename}{Índice de figuras}
 \listoffigures
-\addcontentsline{toc}{chapter}{Índice de figuras}
 
+% Índice de tablas
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Índice de tablas}
 \renewcommand{\listtablename}{Índice de tablas}
 \listoftables
-\addcontentsline{toc}{chapter}{Índice de tablas}
 
 \clearpage
-%(\cleardoublepage si se quiere formato de doble página)
 \pagenumbering{arabic}
 %numbering style for the following chapters
+
+\raggedbottom
+%No estira el contenido. Deja espacio en blanco al final si no hay suficiente contenido. Resulta en páginas de altura variable.
 
 \chapter{Introducción}
 \indent Imprenta Lux S.A. es una empresa del sector gráfico, especializada en la producción de diversos materiales impresos, tales como libros, revistas, almanaques, volantes y afiches. Tiene su sede principal en Hipólito Yrigoyen 2463 (Santa Fe, Argentina), aunque también cuenta con una sede secundaria dedicada exclusivamente a tareas de producción. Sin embargo, en las dos instalaciones se llevan a cabo procesos productivos, y, a su vez, en ambas existen sectores destinados al depósito de insumos.\\
@@ -240,27 +252,27 @@ Luciano Daniel Sonzogni\\
 \chapter{Acerca de la empresa/organización}
 \section{Descripción general de la empresa}
 
-La empresa interesada en la realización de este proyecto es Imprenta Lux S.A. Esta pertenece al rubro de la industria gráfica, por lo que en sus labores principales se encuentran la impresión de libros, folletos, catálogos, etc. Cuenta con alrededor de 30
+La empresa interesada en la realización de este proyecto es Imprenta Lux S.A. Esta pertenece a la industria gráfica, por lo que en sus labores principales se encuentran la impresión de libros, folletos, catálogos, etc. Cuenta con alrededor de 30
 empleados y se ubica en Hipólito Yrigoyen 2463 (Santa Fe, Argentina).\\
-\indent La empresa es una sociedad anónima, la cual consta de un Directorio conformado por sus
-accionistas y cuyo presidente (Presidente del Directorio) es quien posee más acciones de la
-misma. El Presidente del Directorio es quien toma las decisiones organizativas de la empresa, pero para cuestiones de mayor peso las decisiones se disponen a votación de los miembros del Directorio.
+\indent La empresa es una sociedad anónima, la cual consta de un directorio conformado por sus
+accionistas y cuyo presidente es quien posee más acciones de la
+misma. El presidente del directorio es quien toma las decisiones organizativas de la empresa, pero para cuestiones de mayor peso las decisiones se disponen a votación de los miembros del directorio.
 
 \section{Estructura jerárquica de la empresa}
 
 Imprenta Lux S.A. está dividida en 6 sectores de trabajo:
 \begin{itemize}
-\item \underline{Pre-\smash{p}rensa:} se encarga de todos los preparativos y especificaciones de los pedidos que luego pasarán a producción, así como de la interacción con el cliente.
+\item \underline{Pre\smash{p}rensa:} se encarga de todos los preparativos y especificaciones de los pedidos que luego pasarán a producción, así como de la interacción con el cliente.
 \item \underline{Im\smash{p}resión:} se encarga de imprimir los pedidos según las especificaciones de preprensa.
 \item \underline{Encuadernación:} da el formato final a los libros (laminar/barnizar tapas, coser hojas, prensar libros y embalarlos).
-\item \underline{Mantenimiento:} que se encarga de la reparación de máquinas, control de insumos y otras fallas en la empresa.
+\item \underline{Mantenimiento:} se encarga de la reparación de máquinas, del control de insumos y de la resolución de otras fallas de carácter técnico en la empresa.
 \item \underline{Ex\smash{p}edición:} entrega de pedidos y transporte de insumos.
 \item \underline{Contabilidad:} está compuesta por un único contador, que es el tesorero del Directorio y es elegido mediante votación en el mismo. Lleva cuenta de las transacciones de la empresa, pagos a empleados y compra de suministros.
 \end{itemize}
 \indent La empresa también cuenta con encargados de preprensa, producción y mantenimiento que se
-encargan de monitorear los respectivos sectores. A su vez, estos actúan bajo las órdenes del
+encargan de monitorear los respectivos sectores. A su vez, estos actúan bajo la supervisión del
 Gerente general de la empresa, quien actúa como nexo entre los distintos sectores y controla las
-distintas etapas del proceso.\\
+distintas etapas de los procesos de producción.\\
 \indent En la figura \ref{organigrama} se muestra el organigrama de la empresa que resume la estructura jerárquica descrita anteriormente.
 
 \begin{figure}[h!]
@@ -280,7 +292,7 @@ distintas etapas del proceso.\\
 
 La empresa cuenta con dos establecimientos diferenciados y separados geográficamente. Ambos cuentan con un depósito cada uno donde se almacenan materiales a cuya gestión será destinado el sistema a desarrollar en el proyecto.
 \begin{itemize}
-\item El primer establecimiento, al cual se denominará <<principal>>, tiene fines de gestión así como es donde se realizan algunas tareas sencillas como diagramación, composición, copia de planchas (preimpresión), corte y terminación (su depósito correspondiente será denominado <<depósito principal>>). Es a su vez donde se encuentra el sector de administración y los talleres de mantenimiento.\\
+\item El primer establecimiento, al cual se denominará <<principal>>, tiene fines de gestión así como es donde se realizan algunas tareas sencillas como diagramación y composición\renewcommand*{\thefootnote}{\fnsymbol{footnote}}\footnote[1]{La diagramación y composición se refiere a la adaptación de los archivos digitales para que las hojas del libro queden en el orden correcto una vez finalizado, y que sean compatibles con el software de las respectivas máquinas de copiado de planchas y de impresión.}\renewcommand*{\thefootnote}{\arabic{footnote}}, copia de planchas (preprensa), corte y terminación (su depósito correspondiente será denominado <<depósito principal>>). Es a su vez donde se encuentra el sector de administración y los talleres de mantenimiento.\\
 El depósito en este caso contiene tintas, reveladores y otros insumos.\\
 En este lugar hay máquinas de impresión, guillotinas y una alzadora de revistas.
 \item El establecimiento restante, al cual denominaremos como <<secundario>>, es el relativo a la impresión de los trabajos y donde se realiza la mayor parte del proceso de producción (bajo el mismo lineamiento, su depósito correspondiente será denominado <<depósito secundario>>).\\
@@ -291,14 +303,14 @@ En este lugar hay máquinas de impresión, dobladoras, una alzadora de libros, g
  \subsection{Descripción de los depósitos y composición de inventarios}
 
  \begin{itemize}
- \item Depósito principal: el material en él a su vez se encuentra diferenciado en dos subsectores separados geográficamente en cuartos separados. En el primer cuarto se encuentra el material a ser tenido en cuenta para la gestión de inventario, mientras que el que se encuentra en el segundo cuarto solo tiene fines de picking y sus ingresos y egresos no serán registrados en el sistema, por lo que este segundo subsector puede ser obviado a fines prácticos. El material que se encuentra en ambos cuartos tiene relación con cuestiones de mantenimiento o con impresión, como tintas, planchas y reveladores.
+ \item Depósito principal: el material en él a su vez se encuentra diferenciado en dos subsectores separados físicamente en cuartos separados. En el primer cuarto se encuentra el material a ser tenido en cuenta para la gestión de inventario, mientras que el que se encuentra en el segundo cuarto solo tiene fines de picking, y sus ingresos y egresos no serán registrados en el sistema, por lo que este segundo subsector puede ser obviado a fines prácticos. El material que se encuentra en ambos cuartos tiene relación con cuestiones de mantenimiento o con impresión, como tintas, planchas y reveladores.
 \item Depósito secundario: como ya se dijo, en este espacio se almacena papel de distintos formatos y gramajes, el cual tiene relación con las actividades directas de producción de la empresa.
  \end{itemize}
 
  \section{Descripción de los procesos de producción}
  \label{Descripción de los procesos de producción}
  Las tareas que componen los procesos productivos realizados en la empresa difieren en función de los bienes finales, en particular, en base a la producción de cuatro bienes genéricos cuyas secuencias de tareas están mayormente estandarizadas, a saber: libro, revista, almanaque, volante (y afiche).\\
- \indent El proceso de producción inicia cuando los archivos del cliente son recibidos por preimpresión donde se realiza la diagramación, de donde se copian las planchas y se envían a las máquinas de impresión con sus respectivas órdenes (véase fig. \ref{orden taller}) así como a la parte de guillotinado para que el cortador sepa qué material debe cortar, en qué cantidad, tamaño y para qué máquina de impresión. En la medida en que se corta el material, el encargado de impresión carga el papel cortado para realizar su trabajo. Una vez culminada la etapa de impresión, dependiendo del tipo de producto, el material puede ser doblado (por ejemplo en la producción del libro). Luego se intercala, se abrocha o cose si es que correspondiera. En caso de producirse una revista la tapa se intercala y abrocha junto con los pliegos interiores; posteriormente se hace el refilado (guillotinado final para alcanzar el tamaño del producto final). De ser un libro debe prensarse y entaparse para luego pasar por una guillotina trilateral donde se le da el tamaño final. En último término se empaqueta el producto y se deposita en bolsas o cajas según las especificaciones del cliente.
+ \indent El proceso de producción inicia cuando los archivos del cliente son recibidos por preprensa donde se realiza la diagramación, de donde se copian las planchas y se envían a las máquinas de impresión con sus respectivas órdenes (véase fig. \ref{orden taller}), así como a la parte de guillotinado para que el cortador sepa qué material debe cortar, en qué cantidad, tamaño y para qué máquina de impresión. En la medida en que se corta el material, el encargado de impresión carga el papel cortado para realizar su trabajo. Una vez culminada la etapa de impresión, dependiendo del tipo de producto, el material puede ser doblado (por ejemplo en la producción del libro). Luego se intercala, se abrocha o cose si es que correspondiera. En caso de producirse una revista, la tapa se intercala y abrocha junto con los pliegos interiores; posteriormente se hace el refilado (guillotinado final para alcanzar el tamaño del producto terminado). De ser un libro, debe prensarse y entaparse para luego pasar por una guillotina trilateral donde se le da el tamaño final. En último término se empaqueta el producto y se deposita en bolsas o cajas según las especificaciones del cliente.
 
 \begin{figure}[h!]
 \centering
@@ -307,7 +319,7 @@ En este lugar hay máquinas de impresión, dobladoras, una alzadora de libros, g
 \setlength{\fboxrule}{0.5pt}%
 \fbox{\includegraphics[scale = 0.75]{Orden de taller.jpg}}%
 }%
-\caption{Orden de taller.}
+\caption{Ejemplo de orden de taller.}
 \label{orden taller}
 \end{figure}
 
@@ -363,24 +375,25 @@ Podemos dividir el problema general que mediante el proyecto se plantea resolver
 
 \section{Control de inventarios}
 
-Actualmente al control de insumos\renewcommand*{\thefootnote}{\fnsymbol{footnote}}\footnote[1]{Solo teniendo en cuenta materias primas y materiales de mantenimiento (\hyperlink{MRO}{MRO}: Maintenance, repair, and operations), ya que tanto el inventario de trabajo en proceso (\hyperlink{WIP}{WIP}: Work In Process) como el de bienes finales no forman parte del problema.}\renewcommand*{\thefootnote}{\arabic{footnote}} y relevamiento de depósitos lo realiza el encargado de mantenimiento, sin embargo, no se cuenta con un registro centralizado de los mismos, por lo que es común que se experimenten retrasos en la producción, así como en la toma de decisiones ante el requerimiento de presupuestos y tiempos por parte del cliente, lo cual termina por afectar el trabajo del gerente general. Este último en varias ocasiones no puede estar seguro de las estimaciones de tiempos para los trabajos requeridos ya que para hacerlo debería tener un registro actualizado de los insumos con el que se cuenta en los depósitos, y aún de tenerlo, debería ser posible establecer si dichos insumos, aún disponibles físicamente, no se encuentran ya reservados para ser usados en otros trabajos y se encuentran a la espera de ser utilizados en producción.\\
-\indent Además de esto, de no haber una revisión periódica de los inventarios (lo cual parece ser habitual), suele presentarse incluso faltantes de elementos de producción, o no ser posible emitir una orden de compra a tiempo cuando se llegue al \hyperlink{Pp}{Pp} (punto de pedido) de un insumo, lo cual pueden llegar a traducirse en retrasos en los plazos pactados con el cliente para la entrega de determinados trabajos.\\
+Actualmente al control de insumos\renewcommand*{\thefootnote}{\fnsymbol{footnote}}\footnote[1]{Solo teniendo en cuenta materias primas y materiales de mantenimiento (\hyperlink{MRO}{MRO}: Maintenance, repair, and operations), ya que tanto el inventario de trabajo en proceso (\hyperlink{WIP}{WIP}: Work In Process) como el de bienes finales no forman parte del problema.}\renewcommand*{\thefootnote}{\arabic{footnote}} y relevamiento de depósitos los realiza el encargado de mantenimiento, sin embargo, no se cuenta con un registro centralizado de los mismos, por lo que es común que se experimenten retrasos en la producción, así como en la toma de decisiones ante el requerimiento de presupuestos y tiempos por parte del cliente, lo cual termina por afectar el trabajo del gerente general. Este último en varias ocasiones no puede estar seguro de las estimaciones de tiempos para los trabajos requeridos ya que para hacerlo debería tener un registro actualizado de los insumos con el que se cuenta en los depósitos, y aún de tenerlo, debería ser posible establecer si dichos insumos, aún disponibles físicamente, no se encuentran ya reservados para ser usados en otros trabajos y se encuentran a la espera de ser utilizados en producción.\\
+\indent Además de esto, de no haber una revisión periódica de los inventarios (lo cual parece ser habitual), suelen presentarse incluso faltantes de elementos de producción, o no ser posible emitir una orden de compra a tiempo cuando se llegue al \hyperlink{Pp}{Pp} (punto de pedido) de un insumo, lo cual pueden llegar a traducirse en retrasos en los plazos pactados con el cliente para la entrega de determinados trabajos.\\
 \indent El control periódico por parte del encargado de mantenimiento, parecería ser la única medida para recabar la información de disponibilidad actualmente debido a que el ingreso de insumos está a cargo del encargado de reposición, quien, como se mencionó, no es quien se encarga del relevamiento de los depósitos.
+\\\\\\\\\\
 
 \section{Control de la producción}
 
-Debido a la separación geográfica de los talleres pertenecientes a la empresa, el encargado de producción debe estar constantemente desplazándose o en contacto con los empleados de producción con el fin de diagramar los trabajos planeados. Del mismo modo, la falta de centralización de la información provoca que, de haber un inconveniente con una máquina de modo que deba pasar a control del equipo de mantenimiento, esto o los retrasos no sean informados sino hasta que fueron resueltos, lo cual termina por dificultar del mismo modo la diagramación de trabajos por parte de los empleados de jerarquías superiores (el mismo encargado de producción o el gerente general). Claramente estas dificultades mencionadas se incrementan en tanto mayor sea el número de trabajos que se estén realizando de manera simultánea.
+Debido a la separación geográfica de los talleres pertenecientes a la empresa, el encargado de producción debe estar constantemente desplazándose o en contacto permanente con los empleados de producción con el fin de diagramar los trabajos planeados. Del mismo modo, la falta de centralización de la información provoca que, de haber un inconveniente con una máquina de modo que deba pasar a control del equipo de mantenimiento, esto o los retrasos no sean informados sino hasta que fueron resueltos, lo cual termina por dificultar del mismo modo la diagramación de trabajos por parte de los empleados de jerarquías superiores (el mismo encargado de producción o el gerente general). Claramente, estas dificultades se incrementan a medida que aumenta el número de trabajos realizados de manera simultánea.
 
 \chapter{Enfoque de resolución del problema}
 
 Habiendo descrito el problema (véase capítulo \ref{Descripción del problema}), es posible tratar el enfoque de resolución del mismo.\\
-\indent Se describirán las características del proyecto así como la metodología de trabajo propuesta para su resolución.
+\indent Se describirán las características del proyecto así como la metodología de trabajo propuesta para llevarlo a cabo.
 
 \section{Características generales del proyecto}
 \label{Caracteristicas_generales_del_proyecto}
-Se tiene una serie de características en la que es posible basarse para la elección de un modelo de procesos adecuado para el software a desarrollar. Se puede mencionar:
+Se tiene una serie de características en las que es posible basarse para la elección de un modelo de procesos adecuado para el software a desarrollar. Entre ellas, se pueden mencionar:
 \begin{itemize}
-	\item Baja cantidad de usuarios y stakeholders en general debido a que se trata de una empresa de un tamaño relativamente pequeño (alrededor de 30 empleados).
+	\item Baja cantidad de usuarios y stakeholders en general, debido a que se trata de una empresa de un tamaño relativamente pequeño (alrededor de 30 empleados).
 	\item El alcance es reducido en relación a otros sistemas empresariales (integra solamente los procesos de control de la producción e inventarios de la empresa).
 	\item Requisitos no absolutamente definidos desde el inicio, ya que la empresa no ha trabajado con un sistema de alcance similar al pretendido para el presente sistema.
 	\item Equipo de desarrollo pequeño (dos integrantes).
@@ -389,13 +402,13 @@ Se tiene una serie de características en la que es posible basarse para la elec
 
 \section{Modelo de desarrollo del software utilizado}
 \label{Modelo de desarrollo del software utilizado}
-En base a las características del proyecto mencionadas (principalmente la probabilidad alta de cambios y la posibilidad de comunicación constante con el cliente), se decidió implementar un modelo de desarrollo de software basado en principios generales de las metodologías ágiles conocidas con el fin de obtener los beneficios que de la utilización de estas se desprenden. En relación a lo anterior, se considera que en este caso no es posible la adopción plena de una metodología ágil predefinida a causa del bajo número con el que cuenta el equipo de desarrollo; esto afecta directamente características con la que cuentan metodologías como Scrum, la cual define distintos roles, o por ejemplo la práctica de \textit{Pair Programming} originaria de XP, la cual de aplicarse aumentaría considerablemente el tiempo necesario de trabajo para finalizar las tareas previstas.\\
+En base a las características del proyecto mencionadas (principalmente la probabilidad alta de cambios y la posibilidad de comunicación constante con el cliente), se decidió implementar un modelo de desarrollo de software basado en principios generales de las metodologías ágiles conocidas con el fin de obtener los beneficios que de la utilización de estas se desprenden. En relación a lo anterior, se considera que en este caso no es posible la adopción plena de una metodología ágil predefinida a causa del bajo número con el que cuenta el equipo de desarrollo; esto afecta directamente características con las que cuentan metodologías como Scrum, la cual define distintos roles, o por ejemplo la práctica de \textit{Pair Programming} originaria de XP, la cual de aplicarse aumentaría considerablemente el tiempo necesario de trabajo para finalizar las tareas previstas.\\
 \indent Las premisas, por lo tanto, en las que se decidió basarse (determinadas directamente como base de las metodologías ágiles o que vienen como consecuencias de estas) para la realización del presente proyecto son las mencionadas a continuación\footnote{Estos principios se basan en las descripciones presentadas en:\\ \indent <<\textit{Manifesto for Agile Software Development}>> de Agile Manifesto, \url{http://agilemanifesto.org/}. Consultado el 11/04/2024;\\ \indent <<\textit{The 12 Principles behind the Agile Manifesto}>> de Agile Alliance, \url{https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/}. Consultado el 11/04/2024;\\
 	\indent Kumar, Gaurav - Bhatia, Pradeep K. \textit{<<Impact of Agile Methodology on Software Development Process>>}. International Journal of Computer Technology and Electronics Engineering (IJCTEE)
 	Volume 2, Issue 4, Agosto 2012. Págs. 46-47.}:
 \begin{itemize}
-	\item \underline{Comunicación constante con el cliente:} para una mejor comprensión del problema así como en pos de no incurrir en asunciones erróneas que puedan traducirse en futuros cambios que produzcan pérdidas de tiempo que podrían utilizarse en aumentar la calidad final del producto, así como en adiciones involuntarias de fallos técnicos (ya sea de funciones particulares o, peor aún, estructurales del sistema) por modificaciones del código.
-	\item \underline{Im\smash{p}lementación de \smash{p}rácticas de forma iterativa:} la adaptabilidad del software a modificaciones imprevistas por parte del cliente permite que estas últimas puedan ser realizadas en un plazo corto (estipulado de entre algunas semanas a algunos meses) sin extender las consecuencias de una implementación que no se condiga con lo esperado. Esto es relativo tanto a requerimientos adicionales como a modificaciones de los requerimientos del software producido o a producir. Al mismo tiempo, debido a que no se espera hasta el final de la implementación para validar el producto, de acuerdo a las modificaciones propuestas en cada etapa/iteración, se adquiere una mejor perspectiva en cuanto a las expectativas del proyecto, así como una medición constante del progreso y aceptación de los desarrollos parciales.
+	\item \underline{Comunicación constante con el cliente:} para una mejor comprensión del problema, así como en pos de no incurrir en asunciones erróneas que puedan traducirse en futuros cambios que produzcan pérdidas de tiempo, el que podría utilizarse en aumentar la calidad final del producto, así como en adiciones involuntarias de fallos técnicos (ya sea de funciones particulares o, peor aún, estructurales del sistema) por modificaciones del código.
+	\item \underline{Im\smash{p}lementación de \smash{p}rácticas de forma iterativa:} la adaptabilidad del software a modificaciones imprevistas por parte del cliente permite que estas últimas puedan ser realizadas en un plazo corto (de entre algunas semanas a algunos meses), sin extender las consecuencias de una implementación que no se condiga con lo esperado. Esto es relativo tanto a requerimientos adicionales como a modificaciones de los requerimientos del software producido o a producir. Al mismo tiempo, debido a que no se espera hasta el final de la implementación para validar el producto, de acuerdo a las modificaciones propuestas en cada etapa/iteración, se adquiere una mejor perspectiva en cuanto a las expectativas del proyecto, así como una medición constante del progreso y aceptación de los desarrollos parciales.
 	\item \underline{Reducida documentación con ma\smash{y}or atención a la calidad del software:} la reducida documentación motiva a los miembros del equipo de trabajo a enfocarse en la calidad del producto, reduciendo al mismo tiempo las cargas producidas por excesivas actividades de documentación. De cualquier modo, es importante destacar que, a pesar de esto, no se está sugiriendo una ausencia total de documentación, sino de evitar realizar excesiva documentación para dar prioridad a la calidad del software implementado.
 \end{itemize}
 
@@ -403,21 +416,21 @@ En base a las características del proyecto mencionadas (principalmente la proba
 \label{Metodología de desarrollo y coordinación del equipo}
 
 Se considera que, a pesar de haberse optado por la adopción de un método de desarrollo basado en los principios ágiles, no existe un modelo predefinido al cual sea posible adecuarse completamente  (véase capítulo \ref{Modelo de desarrollo del software utilizado}). Por esto, se describe a continuación la metodología de trabajo particular que se implementa en este caso:\\
-\indent Inicialmente se opta por hacer una primera aproximación de la solución mediante reuniones con el cliente donde se definen a grandes rasgos los requerimientos del sistema. Tales requerimientos son plasmados de manera resumida en forma de historias de usuario (\hyperlink{US}{US}, las cuales se muestran en el \hyperlink{apendice_a}{Apéndice A} con sus respectivos refinamientos).\\
+\indent Inicialmente se opta por hacer una primera aproximación de la solución mediante reuniones con el cliente donde se definen a grandes rasgos los requerimientos del sistema. Tales requerimientos son plasmados de manera resumida en forma de historias de usuario (\hyperlink{US}{US}, las cuales, para este caso, se muestran en el \hyperlink{apendice_a}{Apéndice A} junto a sus respectivos refinamientos).\\
 \indent Teniéndose las \hyperlink{US}{US} definidas (pueden no ser la totalidad de las mismas a lo largo del proyecto), los miembros del equipo de desarrollo las refinan de modo de detallarlas en forma de tareas o \textit{<<tasks>>}. A su vez, en la medida en que surgen dudas respecto a aspectos no tratados en las reuniones con el cliente, se genera una lista de preguntas para ser planteadas a este último.\\
-\indent La estimación de esfuerzo (tiempo de trabajo) para las \hyperlink{US}{US} definidas se hace mediante la asignación de \textit{<<points>>} a las mismas, las cuales son relativas entre unas y otras, de modo que mayor cantidad de points serán asignados a la \hyperlink{US}{US} que se crea pueda tener más costo de desarrollo. Las \hyperlink{US}{US} más sencillas se pueden tomar de referencia, y de acuerdo a sus estimaciones y de forma proporcional a las de mayor complejidad, ser utilizadas para estimar el esfuerzo de estas últimas.\\
+\indent La estimación de esfuerzo (tiempo de trabajo) para las \hyperlink{US}{US} definidas se hace mediante la asignación de \textit{<<points>>} a las mismas, las cuales son relativas entre unas y otras, de modo que mayor cantidad de points serán asignados a la \hyperlink{US}{US} que se crea pueda tener más dificultad de desarrollo. Las \hyperlink{US}{US} más sencillas se pueden tomar de referencia, y de acuerdo a sus estimaciones y de forma proporcional a las de mayor complejidad, ser utilizadas para estimar el esfuerzo de estas últimas.\\
 \indent A partir de las asignaciones relativas mencionadas, se define la \textit{<<velocidad>>} de trabajo medida en \textit{tiempo/point}. De este modo, habiendo asignado los points a las \hyperlink{US}{US} definidas y establecida la velocidad, es posible estimar el tiempo real de trabajo para cada \hyperlink{US}{US} de manera individual.\\
 \indent Se debe seleccionar un tamaño de iteración (\textit{Iteration Size}), que no es más que el tiempo que durará cada iteración o \textit{<<Sprint>>}.\\
-\indent Las \hyperlink{US}{US} se identifican en base a la importancia de negocio así como a la prioridad de desarrollo con el fin de poder establecer un orden de implementación acorde (aunque finalmente, como se menciona en la subsección \ref{requerimientos_del_sistema_e_historias_de_usuario}, ya que el proyecto consta de un solo release, se optó por una prioridad basada únicamente en la dependencia de desarrollo de las \hyperlink{US}{US}). En relación a esto se seleccionan las \hyperlink{US}{US} a implementar por iteración, teniéndose siempre presente que no será posible seleccionar más \hyperlink{US}{US} que las que puedan implementarse de acuerdo a la velocidad estimada.\\
+\indent Las \hyperlink{US}{US} se identifican en base a la importancia de negocio así como a la prioridad de desarrollo con el fin de poder establecer un orden de implementación acorde (aunque finalmente, como se menciona en la subsección \ref{requerimientos_del_sistema_e_historias_de_usuario}, ya que el proyecto consta de un solo release, se optó por una prioridad basada únicamente en la interdependencia de desarrollo de las \hyperlink{US}{US}). En relación a esto se seleccionan las \hyperlink{US}{US} a implementar por iteración, teniéndose siempre presente que no será posible seleccionar más \hyperlink{US}{US} que las que puedan implementarse de acuerdo a la velocidad estimada.\\
 \indent Ya que lo que se intenta es que las estimaciones de los points asignados a las \hyperlink{US}{US} guarden una correcta proporción en cuanto a sus complejidades relativas, así como no introducir más errores humanos al añadir otra posible fuente de error debido a otra estimación basada en la subjetividad del equipo de desarrollo, la velocidad de desarrollo del equipo (cantidad de points finalizados/iteración) será tomada en una iteración dada en función de lo evidenciado en la precedente. Es decir, la velocidad del equipo no puede superar a la obtenida en la práctica en la iteración anterior. Esto, claro está, no puede ser aplicado a la iteración I, para lo que no queda alternativa a la de asignar una velocidad inicial basada en la experiencia del equipo de desarrollo.\\
 \indent Luego de planificada la iteración, los miembros del equipo de desarrollo se dividen las \hyperlink{US}{US} (o incluso las tasks) que cada uno desea implementar.\\
-\indent El proceso de estimación de esfuerzo, cálculo de la nueva velocidad de trabajo y consiguiente cálculo de la estimación de tiempo de trabajo, así como la planificación de la iteración y ejecución de lo planificado, deberá repetirse hasta haberse completado la totalidad de \hyperlink{US}{US} que se crean necesarias para cumplir con los objetivos del proyecto\renewcommand*{\thefootnote}{\fnsymbol{footnote}}\footnote[1]{Si bien la estimación dada de manera inicial (véase \hyperlink{apendice_e}{Apéndice E}) había sido de cuatro iteraciones, se verá en el capítulo \ref{Ejecución del proyecto} que finalmente fueron necesarias cinco.}\renewcommand*{\thefootnote}{\arabic{footnote}} (véase \hyperlink{apendice_c}{Apéndice C}).
+\indent El proceso de estimación de esfuerzo, cálculo de la nueva velocidad de trabajo y consiguiente cálculo de la estimación de tiempo de trabajo, así como la planificación de la iteración y ejecución de lo planificado, deberá repetirse hasta haberse completado la totalidad de \hyperlink{US}{US} que se crean necesarias para cumplir con los objetivos del proyecto\renewcommand*{\thefootnote}{\fnsymbol{footnote}}\footnote[1]{Si bien la estimación dada de manera inicial (relativa a lo expuesto en el \hyperlink{apendice_e}{Apéndice E}) había sido de cuatro iteraciones, se verá en el capítulo \ref{Ejecución del proyecto} que finalmente fueron necesarias cinco.}\renewcommand*{\thefootnote}{\arabic{footnote}} (véase \hyperlink{apendice_c}{Apéndice C}).
 
 \section{Descripción general de la solución planteada}
 De acuerdo al problema planteado en el capítulo \ref{Descripción del problema}, se pretende diseñar e implementar un sistema de información destinado al control del inventario así como de la producción de la empresa. Debido a la necesidad de portabilidad requerida para los usuarios de los distintos puestos de trabajo (donde no se cuenta en la mayoría de los casos con PCs), el sistema debe poderse acceder tanto mediante dispositivos móviles como mediante equipos de escritorio.\\
-\indent Imprenta Lux S.A. cuenta actualmente con dos depósitos físicos (correspondientes a cada uno de los establecimientos descritos en la sección \ref{Descripción física de la empresa}), de los cuales se deberán registrar los insumos que en estos se encuentran, así como los ingresos y extracciones hacia y desde los mismos, incluso teniendo en cuenta la transferencia de materiales entre uno y otro, de modo de poder tener esta información disponible para la planificación de nuevos proyectos. De cualquier modo,  ya que la empresa no está limitada a posibles futuras ampliaciones físicas o nuevas disposiciones de gestión, el sistema no deberá estar restringido a los dos depósitos actuales, sino que se deberán poder agregar nuevos e incluso eliminar los existentes.\\
-\indent  Con el fin de no realizar verificaciones periódicas relativas al estado de los inventarios, deberá ser posible establecer valores de alerta para los distintos insumos, por ejemplo, cuando se llegue al valor de su \hyperlink{Pp}{Pp}, de modo tal que los usuarios interesados sean notificados de haberse alcanzado la cantidad mínima tolerable.\\
-\indent En el caso del control de la producción, el sistema debe contar con diagramaciones de proyectos relacionados con bienes genéricos producidos por la empresa (tema tratado en la sección \ref{Descripción de los procesos de producción}), es decir, proyectos cuyas tareas componentes sean genéricas y abarquen en su totalidad las actividades de la empresa. Por ejemplo, para un proyecto de producción de un libro se debe disponer de una diagramación del flujo del proceso cuyas tareas componentes sean genéricas para la producción de este bien y al mismo tiempo esta debe ser suficientemente abarcativa de modo que dicha planificación sea aplicable a todos los proyectos de producción de libros. Del mismo modo en cada caso para los restantes productos fabricados por la empresa (como ha sido mencionado, además de libros: revistas, almanaques, volantes y afiches). En este aspecto, de ser necesarias planificaciones que no se correspondan con las diagramaciones existentes en el sistema, deberá ser posible generar nuevas.\\
+\indent Imprenta Lux S.A. cuenta actualmente con dos depósitos físicos (tal como se ha descrito en la sección \ref{Descripción física de la empresa}), tal que se deberán registrar los insumos que en estos se encuentran, así como los ingresos y extracciones hacia y desde los mismos, incluso teniendo en cuenta la transferencia de materiales entre uno y otro, de modo de poder tener esta información disponible para la planificación de nuevos proyectos. De cualquier modo,  ya que la empresa no está limitada a posibles futuras ampliaciones físicas o nuevas disposiciones de gestión, el sistema no deberá estar restringido a los dos depósitos actuales, sino que se deberán poder agregar nuevos e incluso eliminar los existentes.\\
+\indent  Con el fin de reducir la frecuencia de verificaciones relativas al estado de los inventarios, deberá ser posible establecer valores de alerta para los distintos insumos, por ejemplo, cuando se llegue al valor de su \hyperlink{Pp}{Pp}, de modo tal que los usuarios interesados sean notificados de haberse alcanzado la cantidad mínima tolerable.\\
+\indent En el caso del control de la producción, el sistema debe contar con diagramaciones de proyectos relacionados con bienes genéricos producidos por la empresa (tema tratado en la sección \ref{Descripción de los procesos de producción}), es decir, proyectos cuyas tareas componentes sean genéricas y abarquen en su totalidad las actividades de la empresa. Por ejemplo, para un proyecto de producción de un libro se debe disponer de una diagramación del flujo del proceso cuyas tareas componentes sean genéricas para la producción de este bien y, al mismo tiempo esta debe ser suficientemente abarcativa de modo que dicha planificación sea aplicable a todos los proyectos de producción de libros. Del mismo modo en cada caso para los restantes productos fabricados por la empresa (como ha sido mencionado, además de libros: revistas, almanaques, volantes y afiches). En este aspecto, de ser necesarias planificaciones que no se correspondan con las diagramaciones existentes en el sistema, deberá ser posible generar nuevas.\\
 \indent Es importante mencionar que, así como se debe llevar el recuento de los insumos en los depósitos, también deben <<bloquearse>> en el momento en que estén siendo usados para proyectos de producción y registrarse la devolución del excedente hacia los depósitos, así como debe darse de baja el material que ya fue usado en los proyectos terminados. Asimismo, será necesario diferenciar claramente los insumos propiedad de la empresa de aquellos pertenecientes a clientes, con el fin de evitar su uso indebido en otros proyectos.\\
 \indent Con esto se espera que el acceso a la información concurrente disminuya la posibilidad de errores humanos relacionados a la gestión basada en prácticas de manejo de información habituales, como la toma de apuntes o la posesión de documentos digitalizados no compartidos por todos los interesados (caso inicial). A la vez que se espera resolver los problemas tanto del control de inventarios como de la producción de manera individual (referentes a cuestiones de disponibilidad de insumos y de seguimiento de las tareas de producción), se busca proporcionar una solución que integre de manera conjunta ambos procesos, de modo que sirva como soporte para la gestión de los procesos productivos de la empresa en general. Con esto se pretende reducir las demoras debidas a la utilización de información incorrecta, poco precisa o desactualizada (por ejemplo, por falta de insumos y la espera de la consiguiente reposición del stock para un proyecto particular), lo cual en general puede traducirse en retrasos en las entregas de pedidos. Esto, a su vez, debería permitir una mejor toma de decisiones en cuanto a la estimación de los tiempos de los proyectos a diagramarse, así como reducir la necesidad de constante comunicación directa entre los diversos sectores, al contarse con una base de información centralizada, de la que puedan disponer los distintos usuarios, en mayor o menor medida, en base a su incidencia en las distintas tareas.
 
@@ -551,8 +564,8 @@ Las \hyperlink{US}{US} definidas inicialmente se listan en la tabla \ref{tabla_d
 \end{figure}
 
 
-Cabe aclarar que se intentó expresar las historias de usuario basándose en el criterio \hyperlink{INVEST}{INVEST}\footnote{Bajo este criterio, buenas \hyperlink{US}{US} tienen las características: Independiente, Negociable, Valuable, Estimable, Pequeña. El concepto fue tomado de: Pokharel, Prabhat - Vaidya, Pramesh. \textit{<<A Study of User Story in Practice>>}, Octubre 2020. Págs. 1-2.}, así es que, con dicho fin se dieron por aceptados aspectos como por ejemplo los perfiles previamente definidos o el carácter multiplataforma del sistema. De este modo se evita incurrir al menos en el error de definir en una \hyperlink{US}{US} el alcance de los privilegios del superusuario o la mención de que lo válido en una plataforma lo es en la restante, lo que haría que esas \hyperlink{US}{US} fuesen dependientes de las demás, y a su vez implicando la dificultosa estimación de la cantidad de \textit{<<points>>} necesarios para ser completadas.\\
-\indent Asimismo, se intentó seguir con el criterio de escritura <<usuario, meta, valor>>\footnote{\textit{<<user, goal, value>>}: cada US debe especificar un rol, un objetivo y un valor; El valor solo se consigue cuando el objetivo es alcanzado. Esta estructura estándar de \hyperlink{US}{US} fue tomada de: Pokharel, Prabhat - Vaidya, Pramesh. \textit{<<A Study of User Story in Practice>>}, Octubre 2020. Pág. 1.} en un lenguaje natural semi-formal\footnote{Yanche Ari Kustiawan, Tek Yong Lim. \textit{<<User Stories in Requirements Elicitation: A Systematic Literature Review>>}, Agosto 2023. Pág. 1.}, siempre que no resulte redundante, para homogeneizar la estructura de las \hyperlink{US}{US}.
+Cabe aclarar que se intentó expresar las historias de usuario basándose en el criterio \hyperlink{INVEST}{INVEST}\footnote{Bajo este criterio, buenas \hyperlink{US}{US} tienen las características: Independiente, Negociable, Valuable, Estimable, Pequeña. El concepto fue tomado de: Pokharel, Prabhat - Vaidya, Pramesh. \textit{<<A Study of User Story in Practice>>}, Octubre 2020. Págs. 1-2.}, así es que, con dicho fin se dieron por aceptados aspectos como por ejemplo los perfiles definidos (los cuales se describen en la subsección \ref{descripcion_usuarios_perfiles}) o el carácter multiplataforma del sistema. De este modo se evita incurrir al menos en el error de definir en una \hyperlink{US}{US} el alcance de los privilegios del superusuario o la mención de que lo válido en una plataforma lo es en la restante, lo que haría que esas \hyperlink{US}{US} fuesen dependientes de las demás, y a su vez implicando la dificultosa estimación de la cantidad de \textit{<<points>>} necesarios para ser completadas.\\
+\indent Asimismo, se intentó seguir con el criterio de escritura <<usuario, meta, valor>>\footnote{\textit{<<user, goal, value>>}: cada \hyperlink{US}{US} debe especificar un rol, un objetivo y un valor; El valor solo se consigue cuando el objetivo es alcanzado. Esta estructura estándar de \hyperlink{US}{US} fue tomada de: Pokharel, Prabhat - Vaidya, Pramesh. \textit{<<A Study of User Story in Practice>>}, Octubre 2020. Pág. 1.} en un lenguaje natural semiformal\footnote{Yanche Ari Kustiawan, Tek Yong Lim. \textit{<<User Stories in Requirements Elicitation: A Systematic Literature Review>>}, Agosto 2023. Pág. 1.}, siempre que no resulte redundante, para homogeneizar la estructura de las \hyperlink{US}{US}.
 
 
 \subsection{Estimación de tiempos y riesgos del proyecto}
@@ -560,6 +573,7 @@ En la sección \ref{Metodología de desarrollo y coordinación del equipo} se ha
 \indent El \textit{Plan de gestión de riesgos} se muestra en el \hyperlink{apendice_d}{Apéndice D}.
 
 \subsection{Descripción general de usuario y perfiles}
+\label{descripcion_usuarios_perfiles}
 
 \begin{itemize}
 \item \textbf{Gerente general:} planifica las tareas a realizar así como evalúa fechas estimadas de finalización de los trabajos. Deberá contar con permisos de superusuario.
@@ -571,7 +585,7 @@ responsable de ejecutar tareas asignadas dentro de los proyectos de la empresa. 
 \end{itemize}
 
 \subsection{Uso de plataformas del sistema} Por cuestiones de comodidad, se solicitó que al menos el perfil de gerente general pueda acceder a través de PC al sistema, mientras que el resto de los trabajadores con perfil en el sistema tengan la posibilidad de ingresar de manera móvil de modo de poder registrar sus acciones sin necesidad de recurrir al uso de una PC como en el primer caso.\\
-\indent Sin embargo, debido a la posibilidad de un acceso distinto al mencionado, a pesar de tenerse actualmente perfiles asociados con formas tentativas de uso de las plataformas del sistema, los perfiles no deben tener una restricción en cuanto a método de acceso del usuario. Es decir, el usuario independientemente del perfil debe poder ingresar al sistema tanto mediante una PC como mediante el uso de un dispositivo móvil.
+\indent Sin embargo, debido a la posibilidad de un acceso distinto al mencionado, a pesar de tenerse actualmente perfiles asociados con formas tentativas de uso de las plataformas del sistema, los perfiles no deben tener una restricción en cuanto al método de acceso del usuario. Es decir, el usuario independientemente del perfil debe poder ingresar al sistema tanto mediante una PC como mediante el uso de un dispositivo móvil.
 
 \subsection{Arquitectura del sistema}
 \indent Dado el tamaño y las necesidades operativas de la empresa, se optó por una arquitectura de tipo 2-tier (cliente-servidor), en la cual tanto la aplicación de escritorio como la aplicación móvil contienen la lógica de presentación y de negocio, y acceden directamente a la base de datos ubicada en un servidor remoto contratado. En la figura \ref{diagrama_cliente_servidor} se muestra un diagrama de la arquitectura elegida.
@@ -802,7 +816,7 @@ En base a las dependencias mostradas en la tabla \ref{tabla_dependencias_us_it2}
 	\label{tabla_desarrollo_iter_2}
 \end{table*}
 
-De acuerdo con los datos mostrados en la tabla \ref{tabla_desarrollo_iter_2}, con el valor de velocidad inicial de 6 horas de trabajo individual por \hyperlink{SP}{SP} (obtenida con base en la práctica de acuerdo a los datos ya abordados en la iteración I), se infiere que en esta segunda iteración se han realizado 15 \hyperlink{SP}{SP} (estimación inicial\renewcommand*{\thefootnote}{\fnsymbol{footnote}}\footnote[1]{Teniéndose en cuenta que, a pesar de poderse planificar más \hyperlink{US}{US} dentro de la iteración porque así lo permitiría el tiempo restante de la misma, en la práctica se vio que en general se tendió a subestimar el esfuerzo en este caso. De acuerdo a esto es que solo se pudo cumplir con las 15 \hyperlink{SP}{SP} teóricas informadas.}\renewcommand*{\thefootnote}{\arabic{footnote}}) en 111,54 horas de trabajo individual total real (18,59 \hyperlink{SP}{SP} reales). Se recalcula por lo tanto la velocidad de desarrollo como el cociente entre la cantidad de horas individuales totales trabajadas y la cantidad de \hyperlink{SP}{SP} estimadas, obteniéndose el nuevo valor de \begin{math}\lceil 7,44\rceil\end{math} horas (8 horas) de trabajo individual por \hyperlink{SP}{SP}. Este valor se condice con el propuesto al inicio de la iteración I aún si se lo indicó como una sobreestimación incial, teniéndose en cuenta en ese punto principalmente la falta de experiencia de los miembros del equipo de desarrollo tanto en el uso de las herramientas empleadas en el proyecto como en la realización de estimaciones. De cualquier modo, aún si el valor a utilizar es de 8 horas, en realidad el valor empírico sigue dejando un margen, en este caso de unas 0,56 horas, al valor sobreestimado inicialmente. El valor de 8 horas es utilizado en la iteración III para realizar la planificación de trabajo correspondiente.\\
+De acuerdo con los datos mostrados en la tabla \ref{tabla_desarrollo_iter_2}, con el valor de velocidad inicial de 6 horas de trabajo individual por \hyperlink{SP}{SP} (obtenida con base en la práctica de acuerdo a los datos ya abordados en la iteración I), se infiere que en esta segunda iteración se han realizado 15 \hyperlink{SP}{SP} (estimación inicial\renewcommand*{\thefootnote}{\fnsymbol{footnote}}\footnote[1]{Teniéndose en cuenta que, a pesar de poderse planificar más \hyperlink{US}{US} dentro de la iteración porque así lo permitiría el tiempo restante de la misma, en la práctica se vio que en general se tendió a subestimar el esfuerzo en este caso. De acuerdo a esto es que solo se pudo cumplir con las 15 \hyperlink{SP}{SP} teóricas informadas.}\renewcommand*{\thefootnote}{\arabic{footnote}}) en 111,54 horas de trabajo individual total real (18,59 \hyperlink{SP}{SP} reales). Se recalcula por lo tanto la velocidad de desarrollo como el cociente entre la cantidad de horas individuales totales trabajadas y la cantidad de \hyperlink{SP}{SP} estimadas, obteniéndose el nuevo valor de \begin{math}\lceil 7,44\rceil\end{math} horas (8 horas) de trabajo individual por \hyperlink{SP}{SP}. Este valor se condice con el propuesto al inicio de la iteración I aún si se lo indicó como una sobreestimación inicial, teniéndose en cuenta en ese punto principalmente la falta de experiencia de los miembros del equipo de desarrollo tanto en el uso de las herramientas empleadas en el proyecto como en la realización de estimaciones. De cualquier modo, aún si el valor a utilizar es de 8 horas, en realidad el valor empírico sigue dejando un margen, en este caso de unas 0,56 horas, al valor sobreestimado inicialmente. El valor de 8 horas es utilizado en la iteración III para realizar la planificación de trabajo correspondiente.\\
 \indent En la tabla \ref{tabla_dif_horas_estim_iter_2} se muestran los errores de estimación por \hyperlink{US}{US} desarrollada si es que la velocidad inicial de desarrollo hubiese sido la calculada recientemente (8 horas).
 
 \begin{table*}[h!]
@@ -1260,7 +1274,7 @@ De acuerdo con los datos mostrados en la tabla \ref{tabla_desarrollo_iter_5}, co
 \indent El valor de la velocidad calculada, como ya fuera mencionado, se mantuvo. De hecho, en este caso se obtuvo un valor exacto de 8 horas, dejando a su vez invariante la velocidad práctica, aunque en los anteriores casos se tomara necesariamente el entero superior (techo) del valor calculado. De cualquier modo, no se ha hecho uso en este caso del tiempo total de la iteración, utilizándose solo 64 de las 120 horas disponibles.
 
 \section{Modificaciones finales}
-Luego de concluida la iteración V, es posible obtener un diagrama final de dependencias entre las \hyperlink{US}{US} definidas a lo largo del proyecto. Este puede verse en la figura \ref{diagrama_dependencias_US}, y a su vez contrastarse con el previamente realizado con las \hyperlink{US}{US} definidas antes del inicio de la iteración I, mostrado en la figura \ref{diagrama_dependencias_US_final}.
+Luego de concluida la iteración V, fue posible obtener un diagrama final de dependencias entre las \hyperlink{US}{US} definidas a lo largo del proyecto. Este puede verse en la figura \ref{diagrama_dependencias_US_final}, y a su vez contrastarse con el previamente realizado con las \hyperlink{US}{US} definidas antes del inicio de la iteración I, mostrado en la figura \ref{diagrama_dependencias_US}.
 
 \begin{figure}[h]
 	\begin{center}
@@ -1360,7 +1374,8 @@ Luego de concluida la iteración V, es posible obtener un diagrama final de depe
 	\end{center}
 \end{figure}
 
-Asimismo, se realizaron modificaciones que se creyeron pertinentes, las cuales tuvieron mayormente relación con la homogeneidad del formato esperado en el sistema, así como con aspectos tratados de manera laxa al momento de realizarse las iteraciones.
+Asimismo, se realizaron modificaciones que se creyeron pertinentes, las cuales tuvieron mayormente relación con la homogeneidad del formato esperado en el sistema, así como con aspectos tratados de manera laxa al momento de realizarse las iteraciones.\\
+\indent De un modo general pueden listarse las siguientes clases de modificaciones llevadas a cabo:
 \begin{itemize}
 	\item Verificación del formato de entrada de datos mediante el uso de expresiones regulares.
 	\item Verificación de propiedades deseadas en el ingreso de datos del usuario. Por ejemplo, que en la estructura dada a un tipo de proyecto, los tipos de tarea que la conforman junto con sus interdependencias puedan ser representados en forma de grafo dirigido acíclico (DAG) conexo.
@@ -1374,11 +1389,11 @@ Asimismo, se realizaron modificaciones que se creyeron pertinentes, las cuales t
 \label{Control de calidad}
 Si bien inicialmente, en lo relativo al control de calidad, se había previsto únicamente la realización de pruebas \begin{math}\alpha\end{math} (\textit{Alpha}), lo llevado a la práctica estrictamente no puede considerarse como tal en este caso, ya que las pruebas se asemejaron más a una inspección superficial por parte del usuario, orientada a detectar aspectos a tener en cuenta para las siguientes etapas por parte del equipo de desarrollo.\\
 \indent Por otro lado, si bien en gran medida las pruebas unitarias se esperaba que fueran abarcadas en las iteraciones de desarrollo (por estar intrínsecamente implícitas en el proceso de desarrollo de software), no se tomó en cuenta la carencia de pruebas de integración en ese marco. Más aún, por la dinámica que empíricamente se pudo observar, el equipo de desarrollo tendió a realizar pruebas unitarias muy laxas, por lo que incluso esto debió realizarse con mayor rigurosidad en una etapa posterior a la ejecución de todas las iteraciones tratadas en el presente trabajo.\\
-\indent Durante la actividad mencionada se tomó nota de los distintos errores hallados, de modo de poder clasificarlos de acuerdo a las etapas de desarrollo particulares (iteraciones) y analizar brevemente tales correspondencias. Las descripciones de tales errores se omiten en este capítulo ya que no se cree de relevancia puntualizar en tal aspecto en este caso, pero para mayor detalle fueron listados en el \hyperlink{apendice_h}{Apéndice H}.
+\indent Durante la actividad mencionada se tomó nota de los distintos errores hallados, de modo de poder clasificarlos de acuerdo a las etapas de desarrollo particulares (iteraciones) y analizar brevemente tales correspondencias. Las descripciones de tales errores se omiten en este capítulo ya que no se cree de relevancia puntualizar en tal aspecto en este caso, pero para mayor detalle estas fueron abordadas en el \hyperlink{apendice_h}{Apéndice H}.
 
 \indent En la figura \ref{grafico_errores_iteracion} se muestra un gráfico de barras donde se plasman los resultados de la actividad mencionada con anterioridad, con la cantidad de errores observados durante las pruebas realizadas y atribuibles a cada una de las iteraciones.
 
-\begin{figure}[H]
+\begin{figure}[h]
 	\centering
 	\begin{tikzpicture}
 		\begin{axis}[ 
@@ -1413,7 +1428,7 @@ Si bien inicialmente, en lo relativo al control de calidad, se había previsto �
 
 \indent Al analizar los errores encontrados, es posible notar que en general se debieron a carencias en cuanto a restricciones a cumplir en la lógica del código implementado. Se han tenido problemas de verificaciones (condiciones bajo las cuales es posible realizar una acción) en todas las iteraciones, mientras que los errores de secuencias entre las pantallas solo fueron halladas en las iteraciones II, III y IV, y esto claramente se debe a que las iteraciones I y V corresponden a \hyperlink{US}{US} donde se ejecutan acciones sobre pantallas <<aisladas>> (con poca o nula interacción en su secuencia con otras).\\
 \indent En las iteraciones II, III y IV se observaron la mayor cantidad de errores, lo que puede ser justificado con la complejidad de tales iteraciones. Sin embargo, se mencionó que las iteraciones de mayor criticidad eran las II y III, mientras que la iteración IV fue en la que mayor cantidad de errores fueron encontrados. De cualquier modo, en este caso los errores mencionados no se deben en gran medida a restricciones no tenidas en cuenta, sino a cuestiones de reutilización de funciones previas, como es el caso del lanzamiento de novedades ante determinada condición (relacionada con la \hyperlink{US}{US} 24, desarrollada en la iteración II, \textit{Visualizar novedades}), o cuestiones de acceso vinculadas con los perfiles de usuario, lo que tiene relación con temas de integración (ambos casos dependientes de la comunicación entre los integrantes del equipo de desarrollo, tema que será tratado en la sección \ref{comparacion_metodologia_implementada}).\\
-\indent La búsqueda y corrección de estos errores se realizaron entre el 24/03/2025 y el 25/04/2025, llevando alrededor de 80 horas de trabajo individual aproximadamente. A modo de comparación, teniéndose, de acuerdo a nuestro caso, 120 horas de trabajo individual asignables en una iteración, se puede decir que esto tiene su equivalencia con el tiempo de alrededor de dos tercios de una iteración común.
+\indent La búsqueda y corrección de estos errores se realizaron entre el 24/03/2025 y el 25/04/2025, insumiendo alrededor de 80 horas de trabajo individual aproximadamente. A modo de comparación, teniéndose, de acuerdo a nuestro caso, 120 horas de trabajo individual asignables en una iteración, se puede decir que esto tiene su equivalencia con el tiempo de alrededor de dos tercios de una iteración común.
 
 
 \chapter{Comparación entre teoría y práctica}
@@ -1422,7 +1437,7 @@ Si bien inicialmente, en lo relativo al control de calidad, se había previsto �
 \label{comparacion_metodologia_implementada}
 Se considera que, si bien el análisis presentado en la sección \ref{Caracteristicas_generales_del_proyecto} acerca de las características del proyecto fue correcto, hubieron aspectos que en la práctica tuvieron incidencia en el desarrollo normal de las actividades:
 \begin{itemize}
-	\item La división del las tareas de desarrollo en \hyperlink{US}{US}, si bien facilitó el trabajo del equipo haciendo que cada integrante se enfoque en aspectos específicos, también evidenció la ausencia de una correcta comunicación interna. Esto tuvo principal impacto en la integración, ya que, a grandes rasgos, la especialización hizo perder de vista el desarrollo global así como el flujo de trabajo esperado.
+	\item La división de las tareas de desarrollo en \hyperlink{US}{US}, si bien facilitó el trabajo del equipo haciendo que cada integrante se enfoque en aspectos específicos, también evidenció la ausencia de una correcta comunicación interna. Esto tuvo principal impacto en la integración, ya que, a grandes rasgos, la especialización hizo perder de vista el desarrollo global así como el flujo de trabajo esperado.
 	\item En la sección \ref{Modelo de desarrollo del software utilizado} se mencionó la premisa de \textit{Comunicación constante con el cliente}. En este sentido, si bien en general la disponibilidad del cliente fue buena, hubo en principio un error al no dejar un tiempo entre iteraciones para poder realizar la planificación de acuerdo a la reunión que se tuviera con este, ya que era claro que, en cualquier caso, la reunión sería realizada dentro de los tiempos de ejecución de la iteración siguiente, algo que se debió haber intentado evitar desde el principio.\\
 	Por otro lado, como fuera ya mencionado en el capítulo \ref{Control de calidad}, las reuniones trataron en mayor medida temas superficiales del sistema, por lo que no se pudieron obtener mayores precisiones relativas a nuevos requerimientos para ser tratados en las siguientes iteraciones (no al menos de una manera exhaustiva, como cabría esperar). Esto es resultado a su vez de una falta de comunicación constate con el cliente durante la ejecución de las iteraciones, lo que hubiese facilitado al cliente inmiscuirse en mayor grado en los distintos aspectos relevantes para el desarrollo del sistema. Esto último le hubiese permitido brindar mayores precisiones de acuerdo a los requerimientos esperados.
 	\item Debido a la falta de un sistema de alcance similar al tratado en el presente trabajo, los requisitos no estuvieron completamente definidos desde un inicio. Sin embargo, las modificaciones en cuanto a los requisitos planteados de manera inicial no fueron significativos, y se debieron principalmente a aspectos no tenidos en cuenta al comenzar con el proyecto. En este orden de ideas, y teniendo en cuenta en retrospectiva la libertad que el cliente terminaría brindando, no parece haberse hecho demasiado uso de la posibilidad de modificaciones en los requisitos durante la ejecución del proyecto, posibilidad que se tiene como resultado de la aplicación de una metodología iterativa basada en metodologías ágiles. Es decir, que tal vez la implementación de una metodología clásica, con un análisis más detallado de los requisitos al inicio del proyecto, hubiese sido igualmente (o posiblemente más) adecuada para su ejecución.
@@ -1432,10 +1447,10 @@ Se considera que, si bien el análisis presentado en la sección \ref{Caracteris
 En el \hyperlink{apendice_d}{Apéndice D} se muestra el \textit{Plan de gestión de riesgos}. En particular, como será tratado con mayor detalle en la sección \ref{en_las_estimaciones_de_tiempo}, en la iteración IV se materializó el riesgo 4 (a saber, \textit{Imposibilidad de trabajar la cantidad de horas pactadas}), mientras que en la iteración V fue el riesgo 7 el ocurrido (a saber, \textit{Falta de disponibilidad por parte del cliente}). Ambos casos son los que no pudieron ser correctamente mitigados mediante la implementación del plan de respuesta a riesgos, por lo que a continuación se abordan ambos casos:
 \begin{itemize}
 	\item \underline{Imposibilidad de trabajar la cantidad de horas pactadas:}\\
-	Al momento de realizar el \textit{Plan de gestión de riesgos} no se tuvo en cuenta la posibilidad de que en algún momento ninguno de los integrantes del equipo pudiera hacerse cargo de la iteración ejecutada. Dado que ambos integrantes se encuentran actualmente vinculados con otro proyecto de software cuya atención debió ser prioritaria durante la ejecución de la iteración IV, no pudo hacerse frente de manera adecuada a la ocurrencia del riesgo 4.\\
-	Lo previsto, por estar más acorde con la teoría\footnote{\textit{<<La iteración termina en la fecha especificada, aún si todas las \hyperlink{US}{US} no están hechas>>} (traducción del texto original). Martin, Robert C. \textit{<<Agile Software Development: Principles, Patterns, and Practices>>}.  Pearson Education, 2003. Pág. 21.}, había sido asumir una velocidad de trabajo inferior, de modo que en el tiempo de la iteración se realizaran una menor cantidad de \hyperlink{US}{US}. De cualquier modo, esto hubiese ocasionado un aumento en la cantidad de iteraciones, dando por resultado algo similar a lo finalmente ocurrido. Además, en los plazos de la iteración IV difícilmente se podría haber llevado una correcta coordinación del equipo, ya que la disponibilidad de cada miembro fue variando de manera considerable a lo largo del periodo. De hecho, en sentido estricto, de tender a cero la cantidad de \hyperlink{US}{US} realizadas en alguna iteración, se perdería un poco el análisis de la evolución de la velocidad del equipo a través de las iteraciones con la premisa de un tiempo de trabajo constante (calculado en 120 horas por iteración para el equipo); en este sentido fue que se decidió dejar invariante el tiempo de trabajo en detrimento del tiempo (teóricamente) constante de la iteración.
+	Al elaborar el \textit{Plan de gestión de riesgos} no se tuvo en cuenta la posibilidad de que en algún momento ninguno de los integrantes del equipo pudiera hacerse cargo de la iteración ejecutada. Dado que ambos integrantes se encontraron, durante gran parte del tiempo de ejecución del presente proyecto, involucrados con la realización de otro proyecto de software cuya atención debió ser prioritaria durante la ejecución de la iteración IV, no pudo hacerse frente de manera adecuada a la ocurrencia del riesgo 4.\\
+	Lo previsto, por estar más acorde con la teoría\footnote{\textit{<<La iteración termina en la fecha especificada, aún si todas las \hyperlink{US}{US} no están hechas>>} (traducción del texto original). Martin, Robert C. \textit{<<Agile Software Development: Principles, Patterns, and Practices>>}.  Pearson Education, 2003. Pág. 21.}, habría sido asumir una velocidad de trabajo inferior, de modo que en el tiempo de la iteración se realizaran una menor cantidad de \hyperlink{US}{US}. De cualquier modo, esto hubiese ocasionado un aumento en la cantidad de iteraciones, dando por resultado algo similar a lo finalmente ocurrido. Además, en los plazos de la iteración IV difícilmente se podría haber llevado una correcta coordinación del equipo, ya que la disponibilidad de cada miembro fue variando de manera considerable a lo largo del periodo. De hecho, en sentido estricto, de tender a cero la cantidad de \hyperlink{US}{US} realizadas en alguna iteración, se perdería un poco el análisis de la evolución de la velocidad del equipo a través de las iteraciones con la premisa de un tiempo de trabajo constante (calculado en 120 horas por iteración para el equipo); en este sentido fue que se decidió dejar invariante el tiempo de trabajo en detrimento del tiempo (teóricamente) constante de la iteración.
 	\item \underline{Falta de disponibilidad por parte del cliente:}\\
-	Ya que el miembro de la empresa que principalmente estuvo al tanto del estado del proyecto así como de la definición de los requisitos del mismo fue el gerente general, su ausencia durante el mes de enero ocasionó un retraso en la ejecución de la iteración V. Esto pudo haber sido evitado en mayor medida proponiendo a su vez otro miembro que tuviera conocimiento de lo relativo al proyecto. Sin embargo, ya que el gerente general es el principal interesado en la ejecución del proyecto, y dado que es quien tiene mayor conocimiento de todos los procesos realizados en la empresa, tal acción parece igualmente de difícil ejecución. Esto guarda relación estrecha con la manera en que la información es manejada por el cliente, así como con la manera en que se realizan habitualmente las tareas en la empresa, por lo que no es claro que se pudiera haber hecho una planificación acorde para evitar la incidencia del riesgo en los tiempos del proyecto, aún de haberse tenido en cuenta este caso particular.
+	Ya que el miembro de la empresa que principalmente estuvo al tanto del estado del proyecto así como de la definición de los requisitos del mismo fue el gerente general, su ausencia durante el mes de enero ocasionó un retraso en la ejecución de la iteración V. Esto pudo haber sido evitado en mayor medida proponiendo a su vez otro miembro que tuviera conocimiento de lo relativo al proyecto. Sin embargo, ya que el gerente general es el principal interesado en la ejecución del proyecto, y dado que es quien tiene mayor conocimiento de todos los procesos realizados en la empresa, tal acción parece igualmente de difícil ejecución. Esto guarda relación estrecha con la manera en que la información es manejada por el cliente, así como con la manera en que se realizan habitualmente las tareas en la empresa, por lo que no es claro que se pudiera haber hecho una planificación acorde para evitar la incidencia del riesgo en los tiempos del proyecto, aún de haberse tenido en cuenta esta posibilidad particular.
 \end{itemize}
 
 \section{En las estimaciones de tiempo}
@@ -1473,7 +1488,7 @@ A continuación, se describen las discrepancias surgidas durante la ejecución d
 	\item Fechas teóricas desde el 09/09/2024 al 22/09/2024.
 	\item Fechas reales desde el 15/11/2024 al 28/12/2024.\\\\
 	Desde este punto, la discrepancia entre los tiempos de ejecución teóricos y prácticos de las iteraciones se hace notoria (lo que contribuyó en el desplazamiento del inicio de las iteraciones posteriores en mayor medida incluso que la semana intermedia dejada entre iteraciones). Se debió a que ambos miembros del equipo de desarrollo se encontraban prestando servicio en la misma institución (situación que se mantuvo durante todo el proyecto), donde, a su vez, estaban vinculados con otro proyecto de software que anteriormente había sido dejado en segundo plano con el fin de priorizar el presente. En adición, hacia fines del año 2024 tal proyecto requirió aún más tiempo de trabajo, debido a su nivel de avance.\\
-	Cabe mencionar que, si bien el tiempo de ejecución de la iteración aumentó notablemente, no fue ese a su vez el caso del tiempo de trabajo (que se corresponde con el esfuerzo empleado sobre la iteración y es tratado en la sección \ref{comparacion_estimaciones_de_esfuerzo}), que se mantuvo invariante aún si fue distribuido sobre el tiempo de la iteración de manera inusualmente heterogéneo.\\
+	Cabe mencionar que, si bien el tiempo de ejecución de la iteración aumentó notablemente, no fue ese a su vez el caso del tiempo de trabajo (que se corresponde con el esfuerzo empleado sobre la iteración y es tratado en la sección \ref{comparacion_estimaciones_de_esfuerzo}), que se mantuvo invariante aún si fue distribuido sobre el tiempo de la iteración de manera inusualmente heterogénea.\\
 	Debido a la falta de disponibilidad del gerente general durante el mes de enero, en este caso la reunión no pudo realizarse en una fecha cercana a la de finalización de la iteración. La reunión con el cliente se llevó a cabo el día 13/02/2025.
 \end{itemize}
 \underline{Iteración V:}
@@ -1483,7 +1498,7 @@ A continuación, se describen las discrepancias surgidas durante la ejecución d
 	No se observó algo anormal en la ejecución de la iteración.\\
 	La reunión con el cliente se llevó a cabo el día 06/03/2025.
 \end{itemize}
-\indent En tanto hubieron diferencias entre los tiempos previstos inicialmente y los reales, también hay variaciones entre la diagramación correspondiente a la etapa de planificación inicial y la observada en la práctica. En las figuras \ref{diagrama de gantt 1} y \ref{diagrama de gantt 2} se muestran respectivamente los cronogramas correspondientes a estos dos casos.
+\indent En tanto hubieron diferencias entre los tiempos previstos inicialmente y los reales, también hay variaciones entre la diagramación resultante de la etapa de planificación inicial y la observada en la práctica. En las figuras \ref{diagrama de gantt 1} y \ref{diagrama de gantt 2} se muestran respectivamente los cronogramas correspondientes a estos dos casos.
 
 \begin{figure}[H]
 	\centering
@@ -1567,7 +1582,7 @@ Solo es posible concluir que el proyecto fue de baja calidad. Sin embargo, es im
 \indent En el presente informe se detallaron las actividades llevadas a cabo para el diseño e implementación de un sistema destinado al control del inventario y de la producción para Imprenta Lux S.A.\\
 \indent De modo de abordar la situación problemática a tratar mediante la implementación del sistema de información, en el cual se centra el documento, se hizo una descripción tanto de la estructura física como jerárquica de la empresa. A su vez, para una mayor contextualización, se analizaron los procesos de producción de interés para el proyecto. En base a esto fueron descritos los problemas que tienen lugar en la organización relativos a los sectores implicados. Tales problemas, en mayor medida fueron identificados por tener relación con la falta de centralización de la información, lo que posibilitaría un acceso rápido para la planificación de proyectos de producción. De este modo, se planteó una solución que se basara en dicha centralización, que permitiera al gerente general, encargado de la planificación de los proyectos y distribución de los recursos de la empresa, poder abordar los requerimientos del cliente de manera más eficiente.\\
 \indent Debido a las características del proyecto, se creyó conveniente emplear una metodología con características ágiles, en tanto se priorizó la flexibilidad en el desarrollo debido a probables requerimientos cambiantes, ya que inicialmente estos no estaban absolutamente definidos. Sin embargo, teniendo en cuenta la libertad ofrecida finalmente por el cliente, la posibilidad de realizar modificaciones no fue aprovechada como se esperaba. Por lo tanto, se piensa que una metodología clásica, basada en un análisis inicial más detallado en cuanto a los requisitos, hubiera sido igualmente (si no es que tal vez más) útil.\\
-\indent Cuatro iteraciones teóricas de desarrollo fueron previstas de manera inicial, comenzando el 01/07/2024 y finalizando el 22/09/2024, las cuales de acuerdo a la teoría de las metodologías ágiles podrían variar en número en base a posibles modificaciones en los requerimientos (por adición de \hyperlink{US}{US}). Los tiempos teóricos de desarrollo mostraron ser altamente discordantes con los prácticos, teniendo principal incidencia la subestimación de tiempos necesarios para la comunicación con el cliente, así como el esfuerzo necesario para abordar proyectos profesionales independientes del presente proyecto por parte de los miembros del equipo de desarrollo. En la práctica, el desarrollo tuvo lugar entre el 01/07/2024 y el 01/03/2025, con cinco iteraciones. En un posterior análisis, se obtuvo un valor del 184,76\% de error relativo porcentual para el caso real respecto del tiempo de desarrollo teórico (añadiéndosele a este último una iteración más correspondiente a la no planificada inicialmente), lo cual evidenció una baja calidad del proyecto de acuerdo a las definiciones del PMI\textsuperscript{\tiny\textregistered} (Project Management Institute). A pesar de esto, se considera que las especificaciones de los stakeholders han sido concordantes con las características del producto de software resultante.\\
+\indent Cuatro iteraciones teóricas de desarrollo fueron previstas de manera inicial, comenzando el 01/07/2024 y finalizando el 22/09/2024, las cuales de acuerdo a la teoría de las metodologías ágiles podrían variar en número en base a posibles modificaciones en los requerimientos (por adición de \hyperlink{US}{US}). Los tiempos teóricos de desarrollo mostraron ser altamente discordantes con los prácticos, teniendo principal incidencia la subestimación de tiempos necesarios para la comunicación con el cliente, así como del esfuerzo necesario para abordar proyectos profesionales independientes del presente proyecto por parte de los miembros del equipo de desarrollo. En la práctica, el desarrollo tuvo lugar entre el 01/07/2024 y el 01/03/2025, con cinco iteraciones. En un posterior análisis, se obtuvo un valor del 184,76\% de error relativo porcentual para el caso real respecto del tiempo de desarrollo teórico (añadiéndosele a este último una iteración más correspondiente a la no planificada inicialmente), lo cual evidenció una baja calidad del proyecto de acuerdo a las definiciones del PMI\textsuperscript{\tiny\textregistered} (Project Management Institute). A pesar de esto, se considera que las especificaciones de los stakeholders han sido concordantes con las características del producto de software resultante.\\
 \indent Actualmente (23/05/2025), el cliente no se encuentra utilizando la totalidad del sistema, sino solo la parte destinada a la gestión de proyectos. Los relevamientos iniciales sobre la disponibilidad de insumos en los depósitos constituyen un esfuerzo inicial considerable, al igual que el posterior control regular de inventarios. Sin embargo, ambos procesos resultan fundamentales para aprovechar plenamente las funcionalidades del sistema implementado. En cualquier caso, el aprovechamiento completo del sistema dependerá de cuán relevante considere la empresa la solución que este propone a los problemas detectados para considerar justificado este esfuerzo.\\
 \indent En cuanto al valor aportado por el proyecto al desarrollo profesional de quienes elaboran este documento, se entiende que fue importante, especialmente por el uso de herramientas poco habituales para ambos. Tanto el trabajo con un lenguaje de programación no empleado de forma regular, como el desarrollo de una aplicación móvil además de la de escritorio, y la coordinación del equipo así como la interacción con el cliente, se espera que constituyan una referencia útil para futuros proyectos. Si bien no se preveía que las estimaciones realizadas fueran del todo acertadas debido a la falta de experiencia, sí hubo una buena concordancia si es que solo se toma en cuenta lo trabajado y no los intervalos ociosos dentro y entre iteraciones. A su vez, y a pesar de lo anterior, también parece de relevancia en futuros proyectos no subestimar la importancia de la prueba constante durante el desarrollo, que viene de un intento inconsciente por aumentar la velocidad del equipo (percibir una mayor cantidad de points finalizados por iteración).
 
@@ -1626,8 +1641,8 @@ Los usuarios deben identificarse para acceder al sistema y poder realizar cualqu
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 1.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Administrar usuarios}
@@ -1652,7 +1667,8 @@ Solo el gerente general debe poder agregar nuevos usuarios al sistema. Los usuar
 		\hline
 		\multicolumn{2}{| X |}{El gerente general puede agregar nuevos usuarios al sistema.\newline
 			El gerente general puede editar la informaciín de los usuarios existentes.\newline
-			Al agregar un nuevo usuario se debe indicar la información de acceso del usuario: nombre y contraseña. También se debe indicar el perfil de usuario del que se trata, el cual puede ser: gerente general, encargado de mantenimiento, encargado de reposición, encargado de producción, empleado de producción.}\\
+			Al agregar un nuevo usuario se debe indicar la información de acceso del usuario: nombre y contraseña. También se debe indicar el perfil de usuario del que se trata, el cual puede ser: gerente general, encargado de mantenimiento, encargado de reposición, encargado de producción, empleado de producción.\newline
+			El gerente general puede indicar el nombre y apellido del empleado asociado al usuario.}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -1664,8 +1680,8 @@ Solo el gerente general debe poder agregar nuevos usuarios al sistema. Los usuar
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 2.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Administrar de\smash{p}ósitos}
@@ -1698,7 +1714,7 @@ La empresa no está limitada a posibles futuras ampliaciones físicas o nuevas d
 				\item Descripción: designación larga que puede servir para diferenciar más claramente al depósito y evitar confusiones.
 			\end{itemize}
 			El campo <<Descripción>> es opcional y, por lo tanto, puede ser omitido.\newline
-			Los depósitos deben estar asociados a una y solo una sucursal.}\\
+			Cada depósito está asociado a una y solo una sucursal.}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -1710,9 +1726,8 @@ La empresa no está limitada a posibles futuras ampliaciones físicas o nuevas d
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 6.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Administrar sucursales}
@@ -1754,9 +1769,8 @@ El gerente general debe poder añadir nuevos establecimientos o sucursales de la
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 7.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Administrar clientes}
@@ -1801,9 +1815,8 @@ El gerente general debe poder llevar registro de los clientes de la empresa y su
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 18.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \hypertarget{apendice_a_II}{}
@@ -1859,8 +1872,8 @@ El encargado de mantenimiento debe poder registrar o modificar un insumo de cara
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 3.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Administrar tipo de insumo}
@@ -1889,7 +1902,7 @@ El encargado de mantenimiento debe poder buscar insumos que sean equivalentes o 
 			El tipo de insumo a administrar consta de las características identificativas:
 			\setlist{nolistsep}
 			\begin{itemize}[noitemsep]
-				\item Nombre (designación usual con la cual se conoce al tipo al insumo).
+				\item Nombre (designación usual con la cual se conoce al tipo de insumo).
 				\item Unidad (unidad de medida adoptada para determinar cantidades relacionadas a un tipo de insumo).
 				\item Punto de pedido (es la cantidad mínima de tipo de insumo con que debe contar la empresa para cumplir con sus trabajos regulares hasta reponer stock).
 			\end{itemize}
@@ -1905,8 +1918,8 @@ El encargado de mantenimiento debe poder buscar insumos que sean equivalentes o 
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 4.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Modificar cantidad de insumo}
@@ -1929,10 +1942,10 @@ Se deberá poder llevar registro de los insumos disponibles en cada depósito. E
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{Cada depósito de la empresa deberá tener asociada una cuenta de los insumos que se tiene a disposición en cada uno de ellos.\newline
-			El encargado de mantenimiento y el de reposición podrán modificar la cantidad de los insumos disponibles en los depósitos.\newline
-			El encargado de reposición solo podrá modificar los valores aumentándolos o decrementándolos (solo establecer cantidades relativas a la disponibilidad previa en los inventarios), mientras que el encargado de mantenimiento puede establecer una cantidad absoluta (independiente del valor previo).\newline
-			Al modificarse la cantidad disponible de un insumo se deberá comprobar si se ha alcanzado el PP del insumo o del tipo de insumo. En caso que así sea debe notificarse al encargado de reposición indicando de qué insumo o tipo de insumo se trata.
+		\multicolumn{2}{| X |}{Cada depósito de la empresa tiene asociada una cuenta de los insumos que se tiene a disposición en cada uno de ellos.\newline
+		El encargado de mantenimiento y el de reposición pueden modificar la cantidad de los insumos disponibles en los depósitos.\newline
+		El encargado de reposición solo puede modificar los valores aumentándolos o decrementándolos (solo establecer cantidades relativas a la disponibilidad previa en los inventarios), mientras que el encargado de mantenimiento puede establecer una cantidad absoluta (independiente del valor previo).\newline
+		Al modificarse la cantidad disponible de un insumo se comprueba si se ha alcanzado el PP del insumo o del tipo de insumo. En caso que así sea se notifica al encargado de reposición indicando de qué insumo o tipo de insumo se trata.
 		}\\
 		
 		\hline
@@ -1945,8 +1958,8 @@ Se deberá poder llevar registro de los insumos disponibles en cada depósito. E
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 5.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Administrar tipo de tarea}
@@ -1987,9 +2000,8 @@ El encargado de producción debe poder agregar otros tipos de tareas que no sean
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 23.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Visualizar novedades}
@@ -2013,9 +2025,9 @@ Los usuarios deberán poder recibir y visualizar novedades del sistema tras la o
 		
 		\hline
 		\multicolumn{2}{| X |}{
-			Cada usuario debe poder listar las novedades que lo tengan como destinatario.\newline
-			Una novedad debe tener un único destinatario.\newline
-			Las novedades no visualizadas previamente deben mostrarse primero y deben señalizarse de manera distinta a aquellas que el sistema ya haya mostrado.\newline
+			Cada usuario puede listar las novedades que lo tengan como destinatario.\newline
+			Cada novedad tiene un único destinatario.\newline
+			Las novedades no visualizadas previamente se muestran primero y se señalan de manera distinta a aquellas que el sistema ya haya mostrado.\newline
 			Cada novedad consta de las siguientes características:
 			\setlist{nolistsep}
 			\begin{itemize}[noitemsep]
@@ -2024,7 +2036,7 @@ Los usuarios deberán poder recibir y visualizar novedades del sistema tras la o
 				\item Una fecha de creación (que indique el momento en que se generó la novedad).
 			\end{itemize}
 			Si el destinatario de una novedad está conectado al sistema en el momento en que esta se genere se le debe notificar al usuario correspondiente que tiene una nueva novedad en un plazo no mayor a 10 minutos desde que se generó dicha novedad.\newline
-			Al ingresar al sistema se le debe mostrar al usuario la cantidad de novedades que lo tienen como destinatario y que no ha visualizado previamente.
+			Al ingresar al sistema se le muestra al usuario la cantidad de novedades que lo tienen como destinatario y que no ha visualizado previamente.
 		}\\
 		
 		\hline
@@ -2037,9 +2049,8 @@ Los usuarios deberán poder recibir y visualizar novedades del sistema tras la o
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 24.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\
+
+
 \pagebreak
 
 \hypertarget{apendice_a_III}{}
@@ -2081,8 +2092,8 @@ El encargado de producción debe poder registrar nuevos proyectos, así como tam
 				\item Fecha de finalización: es la fecha en la cual se da por finalizado el proyecto.
 				\item Estado del proyecto: indica el estado en que se encuentra el proyecto, el cual puede ser iniciado, pendiente, parado, finalizado o cancelado.
 			\end{itemize}
-			El proyecto debe estar relacionado con un y solo un cliente.\newline
-			Los proyectos estarán relacionados a un conjunto de tareas predefinidas en un orden específico de acuerdo al tipo de proyecto del que se trate cada uno.\newline
+			Cada proyecto está relacionado con un y solo un cliente.\newline
+			Los proyectos se relacionan a un conjunto de tareas predefinidas en un orden específico de acuerdo al tipo de proyecto del que se trate cada uno.\newline
 			Al agregar o modificar un proyecto el encargado de producción puede especificar para cada tarea los valores de sus propiedades (pueden no especificarse). Cada una de estas propiedades puede tener asociado un conjunto de valores recomendados para facilitar la elección al usuario.
 		}\\
 		
@@ -2096,8 +2107,8 @@ El encargado de producción debe poder registrar nuevos proyectos, así como tam
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 8.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Administrar tipos de proyectos}
@@ -2145,8 +2156,8 @@ El encargado de producción debe poder agregar nuevos tipos de proyecto e indica
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 10.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Asignar tarea a empleado}
@@ -2185,10 +2196,8 @@ El encargado de producción debe poder designar a los empleados que se encargar�
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 12.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\
-\\
+
+
 \pagebreak
 
 \subsection*{Buscar proyecto}
@@ -2223,10 +2232,8 @@ El encargado de producción debe poder buscar los proyectos tanto por título, e
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 16.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\\\
-\\
+
+
 \pagebreak
 
 \subsection*{Visualizar tareas asignadas}
@@ -2250,8 +2257,8 @@ Los empleados de producción deben poder visualizar la lista de tareas que se le
 		
 		\hline
 		\multicolumn{2}{| X |}{
-			Los empleados de producción deben poder listar las tareas que le han sido asignadas.\newline
-			Los empleados de producción deben poder ver un mayor detalle de las tareas que se le han asignado. Para una tarea se debe mostrar:
+			Los empleados de producción pueden listar las tareas que les han sido asignadas.\newline
+			Los empleados de producción pueden ver un mayor detalle de las tareas que se les han asignado. Para una tarea se muestra:
 			\setlist{nolistsep}
 			\begin{itemize}[noitemsep]
 				\item El nombre del proyecto al que pertenece.
@@ -2270,9 +2277,8 @@ Los empleados de producción deben poder visualizar la lista de tareas que se le
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 17.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \hypertarget{apendice_a_IV}{}
@@ -2302,8 +2308,8 @@ Con fines de planeación y gestión de proyectos, el encargado de producción de
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{El encargado de producción busca un insumo de entre los registrados previamente. Se debe tener en cuenta no solo la pertenencia actual de los insumos respecto de los depósitos sino también de los clientes (o la misma empresa Imprenta Lux S.A., de ser el caso).\newline
-		Se debe mostrar las cantidades del insumo seleccionado disponible en los distintos depósitos.\newline
+		\multicolumn{2}{| X |}{El encargado de producción busca un insumo de entre los registrados previamente. Se tiene en cuenta no solo la pertenencia actual de los insumos respecto de los depósitos sino también de los clientes (o la misma empresa Imprenta Lux S.A., de ser el caso).\newline
+		Se muestran las cantidades del insumo seleccionado disponible en los distintos depósitos.\newline
 		Al seleccionarse una determinada cantidad del insumo para ser reservado para usarse en el proyecto, la cantidad seleccionada debe descontarse de la registrada en los depósitos. No es posible seleccionar una cantidad de insumo superior a la disponible en los depósitos de la empresa.\newline
 		Si se alcanza el PP de algún insumo o tipo de insumo debe notificarse al encargado de reposición indicando de qué insumo o tipo de insumo se trata.\newline
 		No es posible realizar la reserva de un insumo no perteneciente al cliente relacionado con el proyecto, o, alternativamente, a la empresa Imprenta Lux S.A. (en este último caso la reserva puede realizarse con independencia del cliente).}\\
@@ -2318,8 +2324,8 @@ Con fines de planeación y gestión de proyectos, el encargado de producción de
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 9.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Editar tarea}
@@ -2347,7 +2353,7 @@ El encargado de producción debe poder editar las propiedades de cada tarea pert
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{El encargado de producción debe poder listar las propiedades de las tareas de un proyecto dado. Debe existir la posibilidad de modificar los valores en cada caso de acuerdo a los valores sugeridos desde la base de datos, o incluso modificarlos de manera arbitraria (ingresar un nuevo valor inexistente hasta el momento en la base de datos).}\\
+		\multicolumn{2}{| X |}{El encargado de producción puede listar las propiedades de las tareas de un proyecto dado. También puede de modificar los valores en cada caso de acuerdo a los valores sugeridos desde la base de datos, o incluso modificarlos de manera arbitraria (ingresar un nuevo valor inexistente hasta el momento en la base de datos).}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -2359,10 +2365,8 @@ El encargado de producción debe poder editar las propiedades de cada tarea pert
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 11.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\
+
+
 \pagebreak
 
 \subsection*{Agregar comentario a tarea}
@@ -2406,9 +2410,8 @@ Los empleados de producción deben poder dejar comentarios en las tareas que les
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 13.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Modificar estado de tarea}
@@ -2445,10 +2448,10 @@ El encargado de producción y los empleados de producción deben poder modificar
 			\item Parada: son las tareas que se han detenido por algún motivo no especificado.
 			\item Finalizada: indica que se han terminado las actividades correspondientes a la tarea en cuestión.
 			\end{itemize}
-			Si se modifica el estado de una tarea, se debe notificar al encargado de producción.\newline
-			Si un usuario modifica el estado de una tarea finalizada, las tareas dependientes de esta última deben quedar en estado \textit{pendiente}.\newline
-			Si un usuario modifica el estado de una tarea finalizada, y el proyecto al que pertenece se encuentra en estado \textit{finalizado}, el proyecto deberá modificarse a \textit{iniciado}.\newline
-			Si un usuario modifica el estado de una tarea a \textit{iniciado}, y el proyecto se encontraba en un estado distinto al de \textit{iniciado}, el nuevo estado del proyecto debería ser el de \textit{iniciado}.
+			Si se modifica el estado de una tarea, se notifica al encargado de producción.\newline
+			Si un usuario modifica el estado de una tarea finalizada, las tareas dependientes de esta última cambian al estado \textit{pendiente}.\newline
+			Si un usuario modifica el estado de una tarea finalizada, y el proyecto al que pertenece se encuentra en estado \textit{finalizado}, el proyecto cambia al estado \textit{iniciado}.\newline
+			Si un usuario modifica el estado de una tarea a \textit{iniciado}, y el proyecto se encontraba en un estado distinto al de \textit{iniciado}, el nuevo estado del proyecto también pasa al estado \textit{iniciado}.
 		}\\
 		
 		\hline
@@ -2461,9 +2464,8 @@ El encargado de producción y los empleados de producción deben poder modificar
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 14.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\
+
+
 \pagebreak
 
 \subsection*{Finalizar proyecto}
@@ -2493,7 +2495,7 @@ El encargado de producción debe poder marcar un proyecto como finalizado e indi
 		\hline
 		\multicolumn{2}{| X |}{El encargado de producción puede marcar un proyecto como finalizado.\newline
 		No es posible cambiar el estado de un proyecto a \textit{finalizado} si al menos una de sus tareas no ha sido finalizada. Si un usuario intenta cambiar el estado de un proyecto a \textit{finalizado} sin que todas sus tareas asociadas hayan sido finalizadas, el sistema pedirá confirmación para marcar las tareas restantes como finalizadas. En caso de negarse, el proyecto no se marca como finalizado.\newline
-		No es posible cambiar el estado de un proyecto a \textit{finalizado} si existen insumos asignados a este. Si un usuario intenta cambiar el estado de un proyecto a \textit{finalizado} sin que todos sus insumos asociadas hayan sido reubicados en los depósitos disponibles o marcados como utilizados, el sistema instará al usuario a tomar tales decisiones. En caso de no realizarse tales acciones para la totalidad de los insumos asignados al proyecto, este no se marca como finalizado. La reubicación por defecto de los insumos debe ser la inicial (los insumos reservados para el proyecto, por defecto deben poder reubicarse en sus depósitos de origen en cada caso).}\\
+		No es posible cambiar el estado de un proyecto a \textit{finalizado} si existen insumos asignados a este. Si un usuario intenta cambiar el estado de un proyecto a \textit{finalizado} sin que todos sus insumos asociados hayan sido reubicados en los depósitos disponibles o marcados como utilizados, el sistema instará al usuario a tomar tales decisiones. En caso de no realizarse tales acciones para la totalidad de los insumos asignados al proyecto, este no se marca como finalizado. La reubicación por defecto de los insumos debe ser la inicial (los insumos reservados para el proyecto, por defecto deben poder reubicarse en sus depósitos de origen en cada caso).}\\
 		
 		\hline
 		\multicolumn{2}{| X |}
@@ -2505,9 +2507,8 @@ El encargado de producción debe poder marcar un proyecto como finalizado e indi
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 15.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\
+
+
 \pagebreak
 
 \subsection*{Visualizar proyecto}
@@ -2535,7 +2536,7 @@ El encargado de producción y los empleados de producción deben poder visualiza
 		\multicolumn{2}{| X |}{\textbf{Descripción:} }\\
 		
 		\hline
-		\multicolumn{2}{| X |}{El encargado de producción tanto como los empleados de producción que tengan al menos una tarea asignada de un proyecto, deben poder visualizar tanto las tareas como el estado de las mismas, así como el estado del proyecto.\newline
+		\multicolumn{2}{| X |}{El encargado de producción tanto como los empleados de producción que tengan al menos una tarea asignada de un proyecto, pueden visualizar tanto las tareas como el estado de las mismas, así como el estado del proyecto.\newline
 		Las tareas se mostrarán de acuerdo a la dependencia que guardan, no pudiéndose tener un estado distinto de \textit{pendiente} si es que la/s tarea/s de la/s que dependen no ha/n sido finalizada/s aún.\newline
 		El encargado de producción puede modificar el estado del proyecto mostrado. En caso de modificarse el estado del proyecto a \textit{finalizado}, todas las tareas que pertenecen a este, deben a su vez pasar al estado \textit{finalizado}.}\\
 		
@@ -2549,9 +2550,8 @@ El encargado de producción y los empleados de producción deben poder visualiza
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 25.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \hypertarget{apendice_a_V}{}
@@ -2601,9 +2601,8 @@ El gerente general debe poder eliminar usuarios del sistema.
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 19.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Eliminar depósito}
@@ -2648,9 +2647,8 @@ El encargado de mantenimiento debe poder eliminar depósitos.
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 20.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Eliminar sucursal}
@@ -2696,9 +2694,8 @@ El encargado de mantenimiento debe poder eliminar sucursales.
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 21.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Eliminar cliente}
@@ -2743,9 +2740,8 @@ El gerente general debe poder eliminar clientes registrados en el sistema.
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 22.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Eliminar insumo}
@@ -2790,9 +2786,8 @@ El encargado de mantenimiento debe poder eliminar insumos.
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 26.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Eliminar tipo de insumo}
@@ -2838,9 +2833,8 @@ El encargado de mantenimiento debe poder eliminar tipos de insumos.
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 27.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Eliminar tipo de tarea}
@@ -2884,10 +2878,8 @@ El encargado de producción debe poder eliminar los tipos de tareas registrados.
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 28.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\
+
+
 \pagebreak
 
 \subsection*{Eliminar proyecto}
@@ -2931,10 +2923,8 @@ El encargado de producción debe poder eliminar proyectos.
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 29.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\
+
+
 \pagebreak
 
 \subsection*{Eliminar tipo de proyecto}
@@ -2976,10 +2966,8 @@ El encargado de producción debe poder eliminar tipos de proyecto.
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 30.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\
+
+
 \pagebreak
 
 \subsection*{Generar reporte de insumos disponibles en cada depósito}
@@ -3024,9 +3012,8 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 	\addcontentsline{lot}{table}{A.\arabic{counter_tbl_A}. Refinamiento de US 31.}\stepcounter{counter_tbl_A}
 \end{table*}
 %%%%%%%%%%%%%%%
-\indent
-\\\\\\\\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\\\\
+
+
 \pagebreak
 
 
@@ -3051,7 +3038,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.5]{pantallas/us01_mockup.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 1.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 1.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 1.}
 	\stepcounter{counter_img_B}
 	\label{us01_mockup}
 \end{figure}
@@ -3070,7 +3057,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 1.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 1.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 1.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3085,7 +3072,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us02_mockup_new.png}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 2 (nuevo usuario).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 2 (nuevo usuario).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 2 (nuevo usuario).}
 	\stepcounter{counter_img_B}
 	\label{us02_mockup}
 \end{figure}
@@ -3104,7 +3091,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 2 (nuevo usuario).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 2 (nuevo usuario).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 2 (nuevo usuario).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3116,7 +3103,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us02_mockup_edit.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 2 (editar usuario).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 2 (editar usuario).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 2 (editar usuario).}
 	\stepcounter{counter_img_B}
 	\label{us02_mockup_edit}
 \end{figure}
@@ -3135,7 +3122,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 2  (editar usuario).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 2 (editar usuario).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 2 (editar usuario).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3150,7 +3137,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us06_mockup_new.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 6 (nuevo depósito).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 6 (nuevo depósito).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 6 (nuevo depósito).}
 	\stepcounter{counter_img_B}
 	\label{us06_mockup}
 \end{figure}
@@ -3169,7 +3156,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 6  (nuevo depósito).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 6 (nuevo depósito).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 6 (nuevo depósito).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3181,7 +3168,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us06_mockup_edit.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 6 (editar depósito).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 6 (editar depósito).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 6 (editar depósito).}
 	\stepcounter{counter_img_B}
 	\label{us06_mockup_edit}
 \end{figure}
@@ -3200,7 +3187,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 6  (editar depósito).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 6 (editar depósito).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 6 (editar depósito).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3215,7 +3202,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us07_mockup_new.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 7 (nueva sucursal).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 7 (nueva sucursal).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 7 (nueva sucursal).}
 	\stepcounter{counter_img_B}
 	\label{us07_mockup}
 \end{figure}
@@ -3234,7 +3221,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 7  (nueva sucursal).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 7  (nueva sucursal).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 7  (nueva sucursal).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3246,7 +3233,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us07_mockup_edit.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 7 (editar sucursal).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 7 (editar sucursal).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 7 (editar sucursal).}
 	\stepcounter{counter_img_B}
 	\label{us07_mockup_edit}
 \end{figure}
@@ -3265,7 +3252,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 7  (editar sucursal).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 7  (editar sucursal).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 7  (editar sucursal).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3280,7 +3267,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us18_mockup_new.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 18 (nuevo cliente).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 18 (nuevo cliente).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 18 (nuevo cliente).}
 	\stepcounter{counter_img_B}
 	\label{us18_mockup}
 \end{figure}
@@ -3299,7 +3286,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 18  (nuevo cliente).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 18  (nuevo cliente).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 18  (nuevo cliente).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3311,7 +3298,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us18_mockup_edit.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 18 (editar cliente).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 18 (editar cliente).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 18 (editar cliente).}
 	\stepcounter{counter_img_B}
 	\label{us18_mockup_edit}
 \end{figure}
@@ -3330,7 +3317,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 18  (editar cliente).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 18  (editar cliente).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 18  (editar cliente).}
 	\stepcounter{counter_img_B}
 \end{figure}
 \pagebreak
@@ -3347,7 +3334,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.4]{pantallas/us03_mockup_new.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 3 (nuevo insumo).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 3 (nuevo insumo).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 3 (nuevo insumo).}
 	\stepcounter{counter_img_B}
 	\label{us01_mockup_new}
 \end{figure}
@@ -3367,7 +3354,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 3 (nuevo insumo).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 3 (nuevo insumo).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 3 (nuevo insumo).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3379,7 +3366,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.5]{pantallas/us03_mockup_edit.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 3 (editar insumo).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 3 (editar insumo).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 3 (editar insumo).}
 	\stepcounter{counter_img_B}
 	\label{us01_mockup}
 \end{figure}
@@ -3398,7 +3385,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 3 (editar insumo).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 3 (editar insumo).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 3 (editar insumo).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3413,7 +3400,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.43]{pantallas/us04_mockup_new.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 4 (nuevo tipo de insumo).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 4 (nuevo tipo de insumo).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 4 (nuevo tipo de insumo).}
 	\stepcounter{counter_img_B}
 	\label{us04_mockup}
 \end{figure}
@@ -3432,7 +3419,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 4  (nuevo tipo de insumo).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 4  (nuevo tipo de insumo).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 4  (nuevo tipo de insumo).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3444,7 +3431,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us04_mockup_edit.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 4 (editar tipo de insumo).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 4 (editar tipo de insumo).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 4 (editar tipo de insumo).}
 	\stepcounter{counter_img_B}
 	\label{us04_mockup_edit}
 \end{figure}
@@ -3463,7 +3450,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 4  (editar tipo de insumo).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 4  (editar tipo de insumo).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 4  (editar tipo de insumo).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3478,7 +3465,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.45]{pantallas/us05_mockup_new.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 5 (nuevo insumo en depósito).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 5 (nuevo insumo en depósito).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 5 (nuevo insumo en depósito).}
 	\stepcounter{counter_img_B}
 	\label{us05_mockup}
 \end{figure}
@@ -3497,7 +3484,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 5  (nuevo insumo en depósito).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 5  (nuevo insumo en depósito).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 5  (nuevo insumo en depósito).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3509,7 +3496,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us05_mockup_edit.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 5 (editar cantidad de insumo en depósito).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 5 (editar cantidad de insumo en depósito).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 5 (editar cantidad de insumo en depósito).}
 	\stepcounter{counter_img_B}
 	\label{us05_mockup_edit}
 \end{figure}
@@ -3519,7 +3506,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 	{\includegraphics[scale = 0.65]{pantallas/us05_desktop_edit.jpg}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a \hyperlink{US}{US} 5  (editar cantidad de insumo en depósito).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a US 5  (editar cantidad de insumo en depósito).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión de escritorio de pantalla correspondiente a US 5  (editar cantidad de insumo en depósito).}
 	\stepcounter{counter_img_B}
 	\label{us23_mockup_new}
 \end{figure}
@@ -3535,7 +3522,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.45]{pantallas/us23_mockup_new.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 23 (nuevo tipo de tarea).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 23 (nuevo tipo de tarea).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 23 (nuevo tipo de tarea).}
 	\stepcounter{counter_img_B}
 	\label{us23_mockup_new}
 \end{figure}
@@ -3545,7 +3532,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 	{\includegraphics[scale = 0.60]{pantallas/us23_desktop_new.jpg}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a \hyperlink{US}{US} 23  (nuevo tipo de tarea).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a US 23  (nuevo tipo de tarea).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión de escritorio de pantalla correspondiente a US 23  (nuevo tipo de tarea).}
 	\stepcounter{counter_img_B}
 	\label{us23_mockup}
 \end{figure}
@@ -3558,7 +3545,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us23_mockup_list.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 23 (lista de tipos de tarea).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 23 (lista de tipos de tarea).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 23 (lista de tipos de tarea).}
 	\stepcounter{counter_img_B}
 	\label{us23_mockup}
 \end{figure}
@@ -3577,7 +3564,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 23  (lista de tipos de tarea).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 23  (lista de tipos de tarea).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 23  (lista de tipos de tarea).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3597,7 +3584,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión móvil de pantalla correspondiente a \hyperlink{US}{US} 23  (editar tipo de tarea).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión móvil de pantalla correspondiente a US 23  (editar tipo de tarea).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión móvil de pantalla correspondiente a US 23  (editar tipo de tarea).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3611,7 +3598,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.47]{pantallas/us24_mockup_list.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 24.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 24.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 24.}
 	\stepcounter{counter_img_B}
 	\label{us24_mockup}
 \end{figure}
@@ -3630,7 +3617,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 24.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 24.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 24.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3656,7 +3643,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-ups correspondientes a \hyperlink{US}{US} 8 (nuevo proyecto).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-ups correspondientes a US 8 (nuevo proyecto).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-ups correspondientes a US 8 (nuevo proyecto).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3673,7 +3660,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión de escritorio de pantallas correspondientes a \hyperlink{US}{US} 8 (nuevo proyecto).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión de escritorio de pantallas correspondientes a US 8 (nuevo proyecto).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión de escritorio de pantallas correspondientes a US 8 (nuevo proyecto).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3690,7 +3677,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 			\label{fig:b}%
 	}}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión móvil de pantallas correspondientes a \hyperlink{US}{US} 8 (nuevo proyecto).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión móvil de pantallas correspondientes a US 8 (nuevo proyecto).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión móvil de pantallas correspondientes a US 8 (nuevo proyecto).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3705,7 +3692,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.45]{pantallas/us10_mockup_new.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 10 (nuevo tipo de proyecto).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 10 (nuevo tipo de proyecto).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 10 (nuevo tipo de proyecto).}
 	\stepcounter{counter_img_B}
 	\label{us10_mockup_new}
 \end{figure}
@@ -3715,7 +3702,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 	{\includegraphics[scale = 0.60]{pantallas/us10_desktop_new.jpg}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a \hyperlink{US}{US} 10 (nuevo tipo de proyecto).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a US 10 (nuevo tipo de proyecto).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión de escritorio de pantalla correspondiente a US 10 (nuevo tipo de proyecto).}
 	\stepcounter{counter_img_B}
 	\label{us01_mockup}
 \end{figure}
@@ -3728,7 +3715,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.5]{pantallas/us10_mockup_list.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 10 (lista de tipos de proyecto).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 10 (lista de tipos de proyecto).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 10 (lista de tipos de proyecto).}
 	\stepcounter{counter_img_B}
 	\label{us01_mockup}
 \end{figure}
@@ -3738,7 +3725,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 	{\includegraphics[scale = 0.6]{pantallas/us10_desktop_list.jpg}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a \hyperlink{US}{US} 10 (lista de tipos de proyecto).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a US 10 (lista de tipos de proyecto).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión de escritorio de pantalla correspondiente a US 10 (lista de tipos de proyecto).}
 	\stepcounter{counter_img_B}
 	\label{us10_desktop_list}
 \end{figure}
@@ -3754,7 +3741,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.5]{pantallas/us12_mockup_list.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 12.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 12.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 12.}
 	\stepcounter{counter_img_B}
 	\label{us10_mockup_new}
 \end{figure}
@@ -3773,7 +3760,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 12.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 12.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 12.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3788,7 +3775,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.45]{pantallas/us16_mockup.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 16.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 16.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 16.}
 	\stepcounter{counter_img_B}
 	\label{us16_mockup_new}
 \end{figure}
@@ -3814,7 +3801,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantallas correspondientes a \hyperlink{US}{US} 16.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantallas correspondientes a US 16.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantallas correspondientes a US 16.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3828,7 +3815,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.45]{pantallas/us17_mockup_list.jpg}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 17 (lista de tareas asignadas).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 17 (lista de tareas asignadas).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 17 (lista de tareas asignadas).}
 	\stepcounter{counter_img_B}
 	\label{us17_mockup_list}
 \end{figure}
@@ -3847,7 +3834,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 17 (lista de tareas asignadas).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 17 (lista de tareas asignadas).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 17 (lista de tareas asignadas).}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3859,7 +3846,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.5]{pantallas/us17_mockup_detail.png}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 17 (detalle de tarea asignada).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 17 (detalle de tarea asignada).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 17 (detalle de tarea asignada).}
 	\stepcounter{counter_img_B}
 	\label{us17_mockup_detail}
 \end{figure}
@@ -3878,7 +3865,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 17 (detalle de tarea asignada).}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 17 (detalle de tarea asignada).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 17 (detalle de tarea asignada).}
 	\stepcounter{counter_img_B}
 \end{figure}
 \pagebreak
@@ -3896,7 +3883,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.45]{pantallas/us09. Agregar insumo a proyecto.png}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 9.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 9 (agregar insumo a proyecto).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 9 (agregar insumo a proyecto).}
 	\stepcounter{counter_img_B}
 	\label{us09_mockup}
 \end{figure}
@@ -3906,7 +3893,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 	{\includegraphics[scale = 0.55]{pantallas/us9_desktop.png}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a \hyperlink{US}{US} 9.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión de escritorio de pantalla correspondiente a US 9.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión de escritorio de pantalla correspondiente a US 9.}
 	\stepcounter{counter_img_B}
 	\label{us09_desktop}
 \end{figure}
@@ -3934,7 +3921,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:c}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión móvil de pantallas correspondientes a \hyperlink{US}{US} 9.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión móvil de pantallas correspondientes a US 9.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión móvil de pantallas correspondientes a US 9.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3949,7 +3936,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\fbox{\includegraphics[scale = 0.45]{pantallas/us11. Editar tarea.png}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 11.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 11 (editar tarea).}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 11 (editar tarea).}
 	\stepcounter{counter_img_B}
 	\label{us11_mockup}
 \end{figure}
@@ -3968,7 +3955,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 11.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 11.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 11.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -3997,7 +3984,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 	
 	% Usamos la variable auxiliar en el caption
 	\caption*{Figura B.\imgBnumAux: Mock-ups correspondientes a \hyperlink{US}{US} 13.}
-	\addcontentsline{lof}{figure}{B.\imgBnumAux: Mock-ups correspondientes a US 13.}
+	\addcontentsline{lof}{figure}{B.\imgBnumAux. Mock-ups correspondientes a US 13.}
 	
 	% Incrementamos después
 	\stepcounter{counter_img_B}
@@ -4021,7 +4008,7 @@ El encargado de mantenimiento debe poder generar y guardar una copia de la lista
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a \hyperlink{US}{US} 13.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versiones de escritorio y móvil de pantalla correspondiente a US 13.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versiones de escritorio y móvil de pantalla correspondiente a US 13.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -4045,7 +4032,7 @@ Los mock-ups correspondientes a la \hyperlink{US}{US} 14 son los mismos que los 
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión de escritorio de pantallas correspondientes a \hyperlink{US}{US} 14.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión de escritorio de pantallas correspondientes a US 14.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión de escritorio de pantallas correspondientes a US 14.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -4062,7 +4049,7 @@ Los mock-ups correspondientes a la \hyperlink{US}{US} 14 son los mismos que los 
 			\label{fig:b}%
 	}}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión móvil de pantallas correspondientes a \hyperlink{US}{US} 14.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión móvil de pantallas correspondientes a US 14.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión móvil de pantallas correspondientes a US 14.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -4077,7 +4064,7 @@ Los mock-ups correspondientes a la \hyperlink{US}{US} 14 son los mismos que los 
 		\fbox{\includegraphics[scale = 0.45]{pantallas/us15-us25. Visualizar proyecto.png}}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Mock-up \hyperlink{US}{US} 15 y 25.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Mock-up US 15 y 25.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Mock-up US 15 y 25.}
 	\stepcounter{counter_img_B}
 	\label{us15_mockup}
 \end{figure}
@@ -4095,7 +4082,7 @@ Los mock-ups correspondientes a la \hyperlink{US}{US} 14 son los mismos que los 
 		\label{fig:b}%
 	}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión de escritorio de pantallas correspondientes a \hyperlink{US}{US} 15 y 25.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión de escritorio de pantallas correspondientes a US 15 y 25.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión de escritorio de pantallas correspondientes a US 15 y 25.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -4112,7 +4099,7 @@ Los mock-ups correspondientes a la \hyperlink{US}{US} 14 son los mismos que los 
 			\label{fig:b}%
 	}}%
 	\caption*{Figura B.\arabic{counter_img_B}: Versión móvil de pantallas correspondientes a \hyperlink{US}{US} 15 y 25.}
-	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}: Versión móvil de pantallas correspondientes a US 15 y 25.}
+	\addcontentsline{lof}{figure}{B.\arabic{counter_img_B}. Versión móvil de pantallas correspondientes a US 15 y 25.}
 	\stepcounter{counter_img_B}
 \end{figure}
 
@@ -4172,7 +4159,7 @@ De esto se obtiene que la variable central, al relacionarse con las restantes de
 		\fbox{\includegraphics[scale = 0.5]{Relaciones de variables del proyecto.png}}%
 	}%
 	\caption*{Figura D.\arabic{counter_img_D}: Relación entre las variables costo, calidad y alcance con la variable tiempo.}
-	\addcontentsline{lof}{figure}{D.\arabic{counter_img_D}: Relación entre las variables costo, calidad y alcance con la variable tiempo.}
+	\addcontentsline{lof}{figure}{D.\arabic{counter_img_D}. Relación entre las variables costo, calidad y alcance con la variable tiempo.}
 	\stepcounter{counter_img_D}
 	\label{relacion variables del proyecto}
 \end{figure}
@@ -4214,7 +4201,7 @@ Las tres categorías se definieron de manera relativa a la distribución de valo
 		\hline
 	\end{tabular}
 	\caption*{Tabla D.\arabic{counter_tbl_D}: Matriz de Probabilidad e Impacto.}
-	\addcontentsline{lot}{table}{D.\arabic{counter_tbl_D}. Matriz de Probabilidad e Impacto.}\stepcounter{counter_tbl_C}
+	\addcontentsline{lot}{table}{D.\arabic{counter_tbl_D}. Matriz de Probabilidad e Impacto.}\stepcounter{counter_tbl_D}
 	\label{tabla_matriz_prob_impacto}
 \end{table*}
 
@@ -4280,7 +4267,7 @@ Las tres categorías se definieron de manera relativa a la distribución de valo
 	- La probabilidad de hacer malas estimaciones por parte del equipo es alta ya que la experiencia es escasa. Aún así no es inexistente y en el caso previo se tuvieron resultados aceptables.\\
 	- El impacto es alto debido a la incidencia directa en los tiempos del proyecto. Los tiempos discordantes respecto a los estimados para las distintas \hyperlink{US}{US} pueden incluso acumularse dentro tanto como entre distintas iteraciones de no actuarse de manera adecuada.
 	\item \underline{\smash{\Paste{riesgo_2}}:}\\
-	- De seguirse con el criterio \hyperlink{INVEST}{INVEST}\footnote{Bajo este criterio, buenas \hyperlink{US}{US} tienen las características: Independiente, Negociable, Valuable, Estimable, Pequeña. El concepto fue tomado de: Pokharel, Prabhat - Vaidya, Pramesh. \textit{<<A Study of User Story in Practice>>}, Octubre 2020. Págs. 1-2.} este riesgo debería tener una probabilidad baja de ocurrencia.\\
+	- De seguirse con el criterio \hyperlink{INVEST}{INVEST}\setcounter{footnote}{0}\footnote{Bajo este criterio, buenas \hyperlink{US}{US} tienen las características: Independiente, Negociable, Valuable, Estimable, Pequeña. El concepto fue tomado de: Pokharel, Prabhat - Vaidya, Pramesh. \textit{<<A Study of User Story in Practice>>}, Octubre 2020. Págs. 1-2.} este riesgo debería tener una probabilidad baja de ocurrencia.\\
 	- El argumento en el caso del impacto es similar que en el riesgo 1 (véase \hyperlink{explicacion_estimacion_riesgo_uno}{explicación de estimaciones de riesgo 1}), ya que el problema se traduce en una mala estimación de los tiempos de las iteraciones.
 	\item \underline{\smash{\Paste{riesgo_3}}:}\\
 	- Es muy probable que se tenga desconocimiento por parte de los miembros del equipo en el manejo de las tecnologías de desarrollo debido a que no son las que habitualmente se utilizan por parte de estos.\\
@@ -4364,7 +4351,7 @@ A continuación se listan las \hyperlink{US}{US} definidas en la planificación 
 	\textit{Story Points estimados:} \textbf{5}
 	\item \underline{\smash{Administrar tipos de proyectos}:} el encargado de producción debe poder agregar nuevos tipos de proyecto e indicar una secuencia de tareas distinta de la secuencia de los tipos de proyectos genéricos (almanaque, libro, revista o volante/afiche).\\
 	\textit{Story Points estimados:} \textbf{5}
-	\item \underline{Editar tarea:} el jefe de producción debe poder editar las características de las tareas del proceso de producción, o sea los trabajos que los empleados de producción deberán realizar para cumplir con los pedidos de los clientes. Las tareas pueden ser de preimpresión, impresión, corte, plegado, encuadernado, prensado o embalado. Además se debe poder dar seguimiento al avance de cada proyecto, de manera de saber qué tareas se realizaron y cuáles están pendientes para finalizarlo.\\
+	\item \underline{Editar tarea:} el jefe de producción debe poder editar las características de las tareas del proceso de producción, o sea los trabajos que los empleados de producción deberán realizar para cumplir con los pedidos de los clientes. Las tareas pueden ser de preprensa, impresión, corte, plegado, encuadernado, prensado o embalado. Además se debe poder dar seguimiento al avance de cada proyecto, de manera de saber qué tareas se realizaron y cuáles están pendientes para finalizarlo.\\
 	\textit{Story Points estimados:} \textbf{2}
 	\item \underline{\smash{Asignar tarea a empleado}:} el jefe de producción debe poder designar a los empleados que se encargarán de realizar las distintas tareas del proceso de producción.\\
 	\textit{Story Points estimados:} \textbf{1}
@@ -4390,7 +4377,7 @@ A continuación se listan las \hyperlink{US}{US} definidas en la planificación 
 \sectionmark{Apéndice F - Ambiente de desarrollo de software, tecnologías y plataformas}
 \addcontentsline{toc}{chapter}{F. Ambiente de desarrollo de software, tecnologías y plataformas}
 
-\indent Las tecnologías y plataformas empleadas en el proyecto fueron seleccionadas teniendo en cuenta que el sistema debe utilizarse tanto en dispositivos de escritorio como móviles. El sistema es compatible con los sistemas operativos Windows 7 (y superiores) para la versión de escritorio y Android 7 (y superiores) para la versión móvil. Esta elección se realizó teniendo en cuenta que todas las PCs actualmente disponibles en la empresa cuentan con el sistema operativo Windows 7/10. Por su parte, se optó por desarrollar la versión móvil para el sistema Android ya que todos los empleados de la empresa cuentan con dispositivos móviles con dicho sistema operativo. En particular, se consideró que el sistema debe ser compatible con la versión 7 de Android y posteriores teniendo en cuenta que en la actualidad alrededor del 97\% de los dispositivos Android activos en el mundo tienen instalada la versión 7 de Android o posteriores\footnote{Esto fue obtenido de:\\
+\indent Las tecnologías y plataformas empleadas en el proyecto fueron seleccionadas teniendo en cuenta que el sistema debe utilizarse tanto en dispositivos de escritorio como móviles. El sistema es compatible con los sistemas operativos Windows 7 (y superiores) para la versión de escritorio y Android 7 (y superiores) para la versión móvil. Esta elección se realizó teniendo en cuenta que todas las PCs actualmente disponibles en la empresa cuentan con el sistema operativo Windows 7/10. Por su parte, se optó por desarrollar la versión móvil para el sistema Android ya que todos los empleados de la empresa cuentan con dispositivos móviles con dicho sistema operativo. En particular, se consideró que el sistema debe ser compatible con la versión 7 de Android y posteriores teniendo en cuenta que en la actualidad alrededor del 97\% de los dispositivos Android activos en el mundo tienen instalada la versión 7 de Android o posteriores\setcounter{footnote}{0}\footnote{Esto fue obtenido de:\\
 	<<\textit{Android API Levels}>> de API Levels, \url{https://apilevels.com/}. Consultado el 03/05/2024;\\
 	en base a: <<\textit{Mobile} \& \textit{Tablet Android Version Market Share Worldwide}>> de Statcounter Global Stats,\\ \url{https://gs.statcounter.com/android-version-market-share/mobile-tablet/worldwide}}.\\
 \indent El siguiente factor que se ha tenido en cuenta fue la experiencia inicial de los miembros del equipo de desarrollo con las distintas tecnologías, de manera de reducir lo máximo posible el tiempo de aprendizaje de las tecnologías a utilizar. Además, se consideró de importancia la disponibilidad de documentación en línea y la probabilidad de que las tecnologías no pierdan soporte oficial en un futuro cercano, de manera de evitar, en la medida de lo posible, que el sistema quede obsoleto en un periodo relativamente corto por problemas de soporte/compatibilidad.\\
@@ -4442,11 +4429,7 @@ Las versiones utilizadas para cada caso son las mencionadas a continuación:
 
 \begin{figure}[H]
 	\centering
-	{%
-		\setlength{\fboxsep}{0pt}%
-		\setlength{\fboxrule}{0.5pt}%
-		\fbox{\includegraphics[scale = 0.17]{Diagrama de Clases.png}}%
-	}%
+	\includegraphics[scale=0.17]{Diagrama de Clases.png}
 	\caption{Diagrama de clases del sistema.}
 	\label{diagrama_de_clases}
 \end{figure}
