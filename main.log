@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.4.8)  28 AUG 2025 19:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.4.8)  16 SEP 2025 02:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2077,11 +2077,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1497--1500
 
  []
 
-<Diagrama_Gantt_1.png, id=1177, 755.07094pt x 370.38374pt>
+<Diagrama_Gantt_1.png, id=1177, 755.07094pt x 338.01282pt>
 File: Diagrama_Gantt_1.png Graphic file (type png)
 <use Diagrama_Gantt_1.png>
 Package pdftex.def Info: Diagrama_Gantt_1.png  used on input line 1508.
-(pdftex.def)             Requested size: 453.04605pt x 222.23195pt.
+(pdftex.def)             Requested size: 453.04605pt x 202.80925pt.
 
 
 LaTeX Info: Redefining \. on input line 1513.
@@ -4079,7 +4079,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  41145 strings out of 473535
  931989 string characters out of 5713968
- 1425571 words of memory out of 5000000
+ 1425570 words of memory out of 5000000
  63248 multiletter control sequences out of 15000+600000
  572810 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4103,7 +4103,7 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/L
 uciano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 <C:/Users/Luciano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/lat
 xfont/lasy10.pfb>
-Output written on main.pdf (151 pages, 12962910 bytes).
+Output written on main.pdf (151 pages, 12961081 bytes).
 PDF statistics:
  2440 PDF objects out of 2487 (max. 8388607)
  498 named destinations out of 1000 (max. 500000)
